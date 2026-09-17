@@ -4,16 +4,16 @@
   "medium": "book",
   "previous_edition_id": null,
   "parent_edition_id": null,
-  "built_at": "2026-09-17T09:56:28.332Z",
+  "built_at": "2026-09-17T17:02:48.925Z",
   "publication_status": "draft",
   "projection": {
     "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/projections/book-2026-09-17-anniversaire.yml",
-    "sha256": "e5957314fa92befcb4d113fe8daf27b360cbc943b122e0c8939715ba16edfdca",
+    "sha256": "3ff76d8e1989e3f30d2f8aaab3543d306e18091a79e37a90f3f37c0a92e32fd7",
     "schema": "suicide-corse.projection.book.v0",
     "contract": {
       "schema": "suicide-corse.projection.book.v0",
       "id": "suicide-corse-edition-2026-09-17-anniversaire",
-      "status": "frozen-manuscript",
+      "status": "preview-open",
       "language": "fr",
       "title": "Suicide Corse",
       "subtitle": "ou comment réaliser l'impossible",
@@ -38,17 +38,17 @@
         "../manuscript/13-proverbes-epigraphes.md",
         "../manuscript/14-le-dieu-de-leau-texte-integral.md",
         "../manuscript/15-la-parole-de-marie-louise.md",
-        "../manuscript/16-continuations.md"
+        "../manuscript/16-continuations.md",
+        "../manuscript/17-appel-a-temoignages.md"
       ],
       "outputs": {
         "required": [
           "html",
-          "pdf"
-        ],
-        "optional": [
+          "pdf",
           "epub"
         ],
-        "status_note": "Rendu HTML/PDF produit le 17 septembre 2026 via JeanHuguesRobert/ubikia (fix b774bfe : rendu de tous les formats en une seule invocation Quarto), exécuté sur fracta2 (Quarto 1.10.18 + TinyTeX). Artefacts publiés sur https://suicidecorse.baronsmariani.org/editions/2026-09-17/."
+        "optional": [],
+        "status_note": "Préversion publique évolutive. Rendu HTML/PDF/EPUB produit le 17 septembre 2026 via JeanHuguesRobert/ubikia (fix b774bfe : rendu de tous les formats en une seule invocation Quarto ; fix 687d673 : support epub). Exécuté sur fracta2 (Quarto 1.10.18 + TinyTeX ; l'epub ne requiert que Pandoc, inclus dans Quarto). Les artefacts sont publiés sur https://suicidecorse.baronsmariani.org/editions/2026-09-17/ et peuvent être remplacés par de nouveaux rendus traçables jusqu'au gel explicite de l'édition."
       },
       "render_contract": {
         "canonical_source_format": "markdown",
@@ -57,6 +57,7 @@
         "preserve_epistemic_distinctions": true,
         "frozen_release_mutable": false
       },
+      "freeze_condition": "Décision éditoriale explicite de clôture de la preview ; après gel, toute correction substantielle produit une nouvelle édition ou un erratum traçable.",
       "provenance_manifest": {
         "build_date": "2026-09-17",
         "source_commit": "76c76a245506797a1d3ca8b8a8134536117abd3a",
@@ -75,7 +76,8 @@
         "Final page format and print geometry.",
         "Cover asset and rights metadata.",
         "Citation/bibliography rendering convention.",
-        "License treatment for mixed-rights external assets."
+        "License treatment for mixed-rights external assets.",
+        "Modalités publiques de réception et de qualification des témoignages."
       ],
       "implementation_dependency": {
         "repository": "JeanHuguesRobert/ubikia",
@@ -92,256 +94,262 @@
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/architecture.md",
       "sha256": "a1f331048597fbf7e5ff62e16f31301365c6c29cf3f3f2604f5d980eee27c796",
       "role": "project-architecture",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/carte.md",
       "sha256": "805cf0f0a720330eca74c27aad1ba1a57d9856564e09c95da3b230495f6331e9",
       "role": "documentary-map",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/README.md",
       "sha256": "4a5a230edef28bd172f811b990ea9420620bfa23c50a695d4660d44f064b056f",
       "role": "source-index",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/elections-2024-complaints.md",
       "sha256": "5b4a04c47f0aca5573f7f04c2dc9247f346a4789feffa1023b6b2d21de99e76c",
       "role": "source-note",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/elections/README.md",
       "sha256": "b14c67832b3a9fdd4fbc864aaa3b72ee79e131de1cd30dcb278177a5eb4a2f7a",
       "role": "source-index",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/README.md",
-      "sha256": "7ddb40b53b1f629845713f95906a9bd7d66a823d86a23e9fdf094e339548aeb3",
+      "sha256": "6adbdc75ab9f7d166f03907878197e8b03f6279327572a6c81b0e264c0f5578c",
       "role": "source-index",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/le_dieu_de_leau_2008.md",
       "sha256": "fa8f3296be74eeaa3a436a52aa4a0cee0d2869583e289915bc8ef57932639b34",
       "role": "source-note",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/sources/le_dieu_de_leau_2008_verbatim.txt",
       "sha256": "e8ec8023f1ea52c58206c3fe16a36625ca7cd4fb23d97e37127515d968a2bd6e",
       "role": "primary-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/sources/2008-12-03_jouyeux-Noel-de-lilou_original.eml",
       "sha256": "a11d0daf1d0a621854d07531649607cf21ef19ca9df1ca201a1a8ec722723ea5",
       "role": "primary-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/frontieres_stop_motion_2016.md",
       "sha256": "c40cbd0953e5cc6c6bb3d046ad9842dfcee18421125cdbc7e11d4f1c81915aef",
       "role": "source-note",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/l_alterite_en_soi_2016.md",
       "sha256": "2c5be61c4e71c53e0d79e71184e94034a9c29a2adf8b49ed45d516ca2217634b",
       "role": "source-note",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/photoroman_julie_2017.md",
       "sha256": "d8f7350897f5d440d118388a15d27423f5b65d035497109d1a1ae35adc2e7a09",
       "role": "source-note",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/formation/parcours_artistique_2016_2022.md",
       "sha256": "2e8fe64036b0298a26f2c99ab64f35d45911e02a1db9088eee6e4be55a2746b3",
       "role": "source-note",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/possible_matrix.md",
       "sha256": "d3d81adea12d77f2789a809d047842dbe56e419336e55199e4a4eb7526f17c87",
       "role": "research-matrix",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/possible_matrix.yaml",
       "sha256": "f62d0cc0c541f7de89aeabbb602e53d274c42f82862b0bdfc469ac90b88180ae",
       "role": "machine-readable-projection",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/2024_portes_et_controles_epistemiques.md",
       "sha256": "1a2a8563b81bbeded827710baa58e25c4cfa4e49d59db68731faa4f38e8f5e10",
       "role": "research-matrix",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/triangulation_du_reel.md",
       "sha256": "91374d9682e30688444984ce331447bb0446cd0f11dd989b06d205f28f73ff2c",
       "role": "methodological-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/protection_responsable.md",
       "sha256": "967c824a6a3d36823f1147231033dd7500bae9f8eaa9c5013c5379f7e3195bb8",
       "role": "research-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/second_method.md",
       "sha256": "f22b5fbc48d30a1f4f1bc4a53095cdf2c7ba18f9f853a85ab72d550829390027",
       "role": "methodological-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/potentics.md",
       "sha256": "a58e03da18ef3ac9ac40e7a9ff15d3c31beac9331301c42fa5e93334a8c4eb92",
       "role": "methodological-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/noyau_doctrinal_rendre_capable.md",
       "sha256": "86055147ee208311457adf182680ce2d010d14852aeca2dbff8b783aaec9be9b",
       "role": "doctrinal-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/rational_odysseys_the_possible.md",
       "sha256": "00185fef7293347c3be31363c41c31566bf7757d575bdf0e4a1f84a8c627e672",
       "role": "conceptual-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/autonomia/grammaire_autonomie_de_capacite.md",
       "sha256": "1c6b0bf9036914f06a3a586ac94e27c3eba0f0d2c9fb439767ae101419b69127",
       "role": "political-method-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/autonomia/potentique_territoriale.md",
       "sha256": "3a2fbde0f3cbe7d9d15ba2fe09cbd4dc0fafa07aec1489871163d73e91e838e4",
       "role": "research-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/research/autonomia/corse_laboratoire.md",
       "sha256": "82492bcd32fbddc65dc61381d82fb1cc2b79bc7028d422eed30d5562d75ca385",
       "role": "research-source",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/00-ouverture.md",
       "sha256": "d311404b5e7450a765e6359d963eb72b2706e17d5169a62475dfbaa3b77aa714",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/01-marie-louise.md",
       "sha256": "eddc8f38ab7c9fc046b7c82125e48465ece17225557b71482511d348cbc7bc23",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/02-fermeture-des-possibles.md",
       "sha256": "bf675e62a3b80ad54ccf8c23ba02f876dbce776c2063d12d461e109593d215e7",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/03-machine-a-empecher.md",
       "sha256": "a9fc5f45e18076541e7dabc5d7c5b3566a35f22f51053bd4f77cdd5362cd0295",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/04-realiser-impossible.md",
       "sha256": "11694c92e88c1786bc43c4e09455f9fa12707c55b2bce581063c9b9bce5800de",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/05-machine-a-rendre-capable-de-vivre.md",
       "sha256": "541e8d296e5d5ca17898b43716ce184acbaf26de071e940cc0a537da11322669",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/06-vivre-transmettre.md",
       "sha256": "b9236bc69ec0e8e6f99a9bba07e1961e2eb3f4da10fb6731e14dfa6b5efd2ef6",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/07-corse-capacite-dormante.md",
       "sha256": "c69ae1181c76264f327c201b9705e9cbc9ffa854bcaed4d5d61ed11f5d69094c",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/08-hypotheses-non-resolues.md",
       "sha256": "ffb1a8bc54531a42f93bc59e4ea7205fc3ca4cacbb0aadfe2d018f6a54889acb",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
       "sha256": "504e7007ef167051c1179a6c6b988b9c7d5bf81fb40aa159c9c1cae8829364e5",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
       "sha256": "ec9312986c5696a547de2823f712b683756f7a74a29f8cab2f7a27d038664a9e",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/11-impunite-par-obscurite.md",
       "sha256": "4ea83c9b052d3ed5970259769122b7f7c09043de82bcaf4ed1d1fb6bf1d70fd9",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/12-carnet-de-serendipite.md",
       "sha256": "9b04f5ea73cab7aa733ea62f82070b8a64ff6f89a163b65ee3da8560739c23e8",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/13-proverbes-epigraphes.md",
       "sha256": "f4ed479ddf1219aeaefc12b8a3adffd40c0287c348bf471005fa42e704ba695a",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/14-le-dieu-de-leau-texte-integral.md",
       "sha256": "8b0c019333fe4408e6e12dc6b86a078171afb556a6cc812220bab409b11c230a",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
       "sha256": "ce53e53a1538b67454ba2c1acc149a43918b3972ea3914384f06400c479e9920",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     },
     {
       "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/16-continuations.md",
-      "sha256": "74bdf7bb9d7277abc31893be77da0521174a08cd54586ed478e154d2f74676c6",
+      "sha256": "f87064749eb4116ae794e48694893861aa0d4b70659a0c8c1c64071b40d19267",
       "role": "chapter",
-      "git_commit": "17ed8aa4907233e005c840842fc8da95645e066b"
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+      "sha256": "4f351da767c21ec6d89983e176dba7e546e7abd7ed1d55be6623ff6d3088bacd",
+      "role": "chapter",
+      "git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477"
     }
   ],
-  "source_git_commit": "17ed8aa4907233e005c840842fc8da95645e066b",
+  "source_git_commit": "b7e907949d1502ecee9052b5a56d119ae7340477",
   "source_git_dirty": false,
   "chapters": [
     {
@@ -1004,6 +1012,44 @@
         "classification_confidence": "strong",
         "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
       }
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+      "frontmatter": {
+        "title": "L'enquête commence maintenant — appel à témoignages",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-17",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "conversation",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-17",
+          "derived_from": [
+            "projects/suicide-corse/manuscript/00-ouverture.md",
+            "projects/suicide-corse/manuscript/16-continuations.md",
+            "projects/suicide-corse/architecture.md",
+            "memory/marie-louise/carte.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
     }
   ],
   "missing_optional_sources": [],
@@ -1018,7 +1064,7 @@
   "generated": [
     {
       "path": "_quarto.yml",
-      "sha256": "dda240a95d733a08421a1ab9a10aba0758736e26cc7f05c7d48a6cef7e4801ab"
+      "sha256": "2e3032b86d6798f6e5012da1c7ec9abe7ae9b499318753332a6139376aace1f3"
     },
     {
       "path": "index.qmd",
@@ -1086,93 +1132,106 @@
     },
     {
       "path": "chapter-016.qmd",
-      "sha256": "da681e88c2e448f4dc93030f4ed4fddfb2faf23d032f77cd4be1c5ecedd369ed"
+      "sha256": "a8c0d4b699c1bbcc3873700d161c6277c90dec9f63c6a58d6bfdc109fb4b992d"
+    },
+    {
+      "path": "chapter-017.qmd",
+      "sha256": "c058e2a0bf017029e646b1bebe7ab6ba23a9db1ed5ce5d53ac788464d9dc7146"
     }
   ],
   "outputs": [
     {
       "format": "html",
       "path": "_book/index.html",
-      "sha256": "c205437ef957306e8301809c1728bd07e066c7125baeed9f619ec3e11a48bad9"
+      "sha256": "41ec94a5aa6ba456579000b4049fe69f31373b107bf09b6e18853eb6903d26f7"
     },
     {
       "format": "pdf",
       "path": "_book/suicide-corse-edition-2026-09-17-anniversaire.pdf",
-      "sha256": "30fc73abfd5e2addd6a07de9ec6ef82d9fdc5fdb84bca6fe3591160c5cacb294"
+      "sha256": "821c3245be810ed9a8d2b3ee0fbd040eebd4cdddffd01e4c689bdb729d6b80ca"
+    },
+    {
+      "format": "epub",
+      "path": "_book/suicide-corse-edition-2026-09-17-anniversaire.epub",
+      "sha256": "df64e97aee8138ad34ee42d72036d9e12170ae2ffea0d4865e955785776d40e7"
     }
   ],
   "artifacts": [
     {
       "path": "_book/chapter-001.html",
-      "sha256": "76789aaa22928fa4c1c7a8713c23bac5f63495985ed8203f1f017526982ed956"
+      "sha256": "60a1dafdf4c7a026cf4e70b09acecd173201b70ded76260057740fda46633342"
     },
     {
       "path": "_book/chapter-002.html",
-      "sha256": "0d5462d1575220a7c3a622ff758f81564da5702458efcec124895464a7de9fde"
+      "sha256": "1aa6e20e31e21e3f765e8c55214122db2c825063ccb1b2c5a7eef6495c475edd"
     },
     {
       "path": "_book/chapter-003.html",
-      "sha256": "716981db3cdf4e8e27528c43ba4febd9181ca9b436cb2f36796e1d948106af61"
+      "sha256": "a25886e2559cbf0f56aca067c536b582d725b65bf1e8f2b87dced742ff448b4a"
     },
     {
       "path": "_book/chapter-004.html",
-      "sha256": "2f052617c8b9a4707e13f42ea3ff9e905ad9afaf3ed528e3013fc635d100071e"
+      "sha256": "aefc3caca6b3166e36ac03a293ce1897e44629050f888a1cca4d172531c19502"
     },
     {
       "path": "_book/chapter-005.html",
-      "sha256": "4149f27b8bb0c752aa049890fc13d8addbd587500105df1dc8842c5f73fa3249"
+      "sha256": "f1aa5bd966a930da5030a61a2ff36bc9bfb9643e35c7305ddfc4ce7715ee8ae6"
     },
     {
       "path": "_book/chapter-006.html",
-      "sha256": "7285fa9d6b00fbac7ecd042666333edb4045b6b6449995ef7d1d1baced10af87"
+      "sha256": "abfbfafc96fdbaa8dc7b9e897287c7810e301708f83220b29a27ea8b7f85a36f"
     },
     {
       "path": "_book/chapter-007.html",
-      "sha256": "98e6686f35561ced8977e747cb056e25bd93a978f29438a76f6a899d82effd32"
+      "sha256": "a243d6373a999112edb627b03fa202a32bc2b248976139fe1724971619aa563b"
     },
     {
       "path": "_book/chapter-008.html",
-      "sha256": "aea803b5615a85095281e27a6176c0e6cae052ce090df7882d4bb9cba3b113e0"
+      "sha256": "ea8aa9bae48309034387adf0a6d768b668614066b36b10731d7e79b2ad87fa1a"
     },
     {
       "path": "_book/chapter-009.html",
-      "sha256": "bdaf8cdbee0a122482720b02f3608b5598f5a301e0dbee050b7c2d08ecb3cdb9"
+      "sha256": "65b099b32ab77f076bf1d3cb6b5b8238830a61762a7dceb19a8c9e208ae72914"
     },
     {
       "path": "_book/chapter-010.html",
-      "sha256": "e4967366a59ee145267294b0907dc892c4609c2b2d9d23b03d344f9dc03d7848"
+      "sha256": "74897b78e6ade5a6f453b656463b7555658225ee949fc03fa794a35ddb32bda7"
     },
     {
       "path": "_book/chapter-011.html",
-      "sha256": "b4c6237e939ddebee6cd4b22bbff03d6461f5e7b917d8d1f47d5668651972518"
+      "sha256": "07568237b3887f337785866e338cc9f0333d7788420e39f16a635915ebb6c3d0"
     },
     {
       "path": "_book/chapter-012.html",
-      "sha256": "88154646eec0ab22c3255f6756307ebd3cdd1847daf3d551e2e11dc2805a2d1e"
+      "sha256": "3946f568bb05edb0a9d2c684303c1816dcdc9816bf675918f5237753a010370d"
     },
     {
       "path": "_book/chapter-013.html",
-      "sha256": "3886bf7e0e8d39b34e4d74ca18112b10f4fb18ed7b929927cca40a9b0e491757"
+      "sha256": "7a408888515558a5ea19c7504f87f5193df107f79c6702a4eb5ec662d78571ce"
     },
     {
       "path": "_book/chapter-014.html",
-      "sha256": "a3b993f3c20030d98018e80539f6bdb505bc36dceb9bd33508b06c894c86afaf"
+      "sha256": "9b1f787aba3b5944380684446ed243bd60e0098b712b6b252e914076b3ce1b2e"
     },
     {
       "path": "_book/chapter-015.html",
-      "sha256": "e8aab585491b9e5f1c20671ba133a805ef86def764b6c75720c0768244ec7fc5"
+      "sha256": "e97f30d94fbc6c13542862510c76bac52bf73950122a6e83bb16a95c9f54a67d"
     },
     {
       "path": "_book/chapter-016.html",
-      "sha256": "e98916ebe945bc655a533af0ee1c3437fbe40374e71614d91d1a5ac6592c447f"
+      "sha256": "0886dabdd135f3ed53e6599ec1484116251f19ca344a36b761fef82a8b08d817"
+    },
+    {
+      "path": "_book/chapter-017.html",
+      "sha256": "1b8486c2f3a7d8cbd2afb250d864396a84824ad1ee96dcb6185f6ec054c5a788"
     },
     {
       "path": "_book/index.html",
-      "sha256": "c205437ef957306e8301809c1728bd07e066c7125baeed9f619ec3e11a48bad9"
+      "sha256": "41ec94a5aa6ba456579000b4049fe69f31373b107bf09b6e18853eb6903d26f7"
     },
     {
       "path": "_book/search.json",
-      "sha256": "0040ddcb9a2c112c6248f05f05039751f2fbb0d33481dd98364a71bf189c3e33"
+      "sha256": "3ec9ef515f8b925bf1a1b0feaa72e4dc5b35a309099448873b326d473f782495"
     },
     {
       "path": "_book/site_libs/bootstrap/bootstrap-b35e3a6fcfb459ecd5b05c8a009cc594.min.css",
@@ -1243,8 +1302,12 @@
       "sha256": "1a23221f499b3993dc66ca5c8913e4e6602dfa4652337e9fbf75139ded5ece68"
     },
     {
+      "path": "_book/suicide-corse-edition-2026-09-17-anniversaire.epub",
+      "sha256": "df64e97aee8138ad34ee42d72036d9e12170ae2ffea0d4865e955785776d40e7"
+    },
+    {
       "path": "_book/suicide-corse-edition-2026-09-17-anniversaire.pdf",
-      "sha256": "30fc73abfd5e2addd6a07de9ec6ef82d9fdc5fdb84bca6fe3591160c5cacb294"
+      "sha256": "821c3245be810ed9a8d2b3ee0fbd040eebd4cdddffd01e4c689bdb729d6b80ca"
     }
   ]
 }

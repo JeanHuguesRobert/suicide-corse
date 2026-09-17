@@ -910,11 +910,21 @@
     ]
   },
   {
+    "objectID": "chapter-016.html#appel-à-témoignages-et-collecte-structurée",
+    "href": "chapter-016.html#appel-à-témoignages-et-collecte-structurée",
+    "title": "17  Continuations — chantiers ouverts de l’édition du 17 septembre 2026",
+    "section": "17.2 Appel à témoignages et collecte structurée",
+    "text": "17.2 Appel à témoignages et collecte structurée\n\nOuvrir publiquement l’appel à témoignages. Le chapitre 17 matérialise cet appel dans l’édition anniversaire. Condition de clôture : appel publié sur le site, canal de réponse explicite et utilisable, et possibilité de contribution sans procédure disproportionnée.\nConstituer l’annuaire des témoins potentiels. Maintenir un ensemble incrémental et révisable de personnes physiques et morales susceptibles de détenir une information, avec provenance de l’identification, relation éventuelle avec Marie-Louise, période, sujets possibles et moyens de contact connus ou à rechercher. Cet annuaire n’est ni une liste d’accusés ni une liste de faits établis.\nQualifier chaque contribution dès l’entrée. Distinguer au minimum trace, voix directe, trace tierce, témoignage, fait suffisamment documenté, interprétation, hypothèse et inconnu, sans promotion automatique d’un niveau à l’autre.\nSéparer réception, conservation, exploitation et publication. Le fait qu’une personne transmette une information n’emporte pas automatiquement consentement à sa publication. Les régimes de confidentialité, de citation, d’anonymisation et de publication doivent rester distincts et traçables.\nRaccorder les témoignages aux objets documentaires existants. Une contribution peut concerner simultanément une personne, un événement, une œuvre, un lieu, une institution, une relation, une capacité, une fermeture ou un UNKNOWN. Le système de collecte doit permettre ces liens sans imposer un document monolithique.\nFaire contribuer la collecte aux deux jumeaux numériques. Les nouvelles traces relatives à Marie-Louise alimentent son Twin documentaire ; les traces relatives aux institutions, dispositifs, territoires et mécanismes corses alimentent le Twin territorial. Les deux graphes peuvent être reliés sans jamais être confondus.\nPréserver l’agilité et l’Optimistic Locking. Le dispositif doit permettre des enrichissements atomiques, révisables et traçables, sans attendre une modélisation SQL complète. Une base structurée pourra être introduite lorsque le volume ou les usages le justifieront.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuations — chantiers ouverts de l'édition du 17 septembre 2026</span>"
+    ]
+  },
+  {
     "objectID": "chapter-016.html#sur-la-corse",
     "href": "chapter-016.html#sur-la-corse",
     "title": "17  Continuations — chantiers ouverts de l’édition du 17 septembre 2026",
-    "section": "17.2 Sur la Corse",
-    "text": "17.2 Sur la Corse\n\nRésilience de canal territoriale. Le chapitre 9 laisse délibérément vide la case du test d’invariance correspondant à la résilience de canal individuelle documentée en juillet 2024 : aucun cas territorial comparable n’est encore identifié.\nProverbes réservés. Trois proverbes sur la mort, classés à haute sensibilité par l’issue #75 elle-même, restent non employés faute de revue éditoriale explicite (chapitre 13).\nTest d’invariance élargi. Étendre le test capacitaire au-delà des deux cas actuellement appariés (chapitre 9), notamment vers d’autres cas territoriaux contemporains documentés dans research/autonomia/.",
+    "section": "17.3 Sur la Corse",
+    "text": "17.3 Sur la Corse\n\nRésilience de canal territoriale. Le chapitre 9 laisse délibérément vide la case du test d’invariance correspondant à la résilience de canal individuelle documentée en juillet 2024 : aucun cas territorial comparable n’est encore identifié.\nProverbes réservés. Trois proverbes sur la mort, classés à haute sensibilité par l’issue #75 elle-même, restent non employés faute de revue éditoriale explicite (chapitre 13).\nTest d’invariance élargi. Étendre le test capacitaire au-delà des deux cas actuellement appariés (chapitre 9), notamment vers d’autres cas territoriaux contemporains documentés dans research/autonomia/.",
     "crumbs": [
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuations — chantiers ouverts de l'édition du 17 septembre 2026</span>"
     ]
@@ -923,8 +933,8 @@
     "objectID": "chapter-016.html#sur-la-méthode-et-lédition-elle-même",
     "href": "chapter-016.html#sur-la-méthode-et-lédition-elle-même",
     "title": "17  Continuations — chantiers ouverts de l’édition du 17 septembre 2026",
-    "section": "17.3 Sur la méthode et l’édition elle-même",
-    "text": "17.3 Sur la méthode et l’édition elle-même\n\nRevue contradictoire complète par un tiers. La revue effectuée avant cette édition était une auto-revue ; une lecture contradictoire indépendante reste à mener, comme le prévoyait le contrat minimal de l’édition anniversaire (issue #75).\nRythme hebdomadaire. Établir la première édition « magazine » du lundi suivant ce numéro spécial, avec son propre changelog et son lien depuis le Journal de campagne.\nEntrée dans editions/index.md et manifeste de provenance. À produire au moment de la clôture effective de cette édition datée.\nChantier de recherche élargi (issue #76). Continuer d’y verser ce qui n’est pas encore suffisamment stabilisé pour entrer dans une édition datée.",
+    "section": "17.4 Sur la méthode et l’édition elle-même",
+    "text": "17.4 Sur la méthode et l’édition elle-même\n\nRevue contradictoire complète par un tiers. La revue effectuée avant cette édition était une auto-revue ; une lecture contradictoire indépendante reste à mener, comme le prévoyait le contrat minimal de l’édition anniversaire (issue #75).\nClôture de la preview anniversaire. L’édition du 17 septembre reste une préversion publique évolutive jusqu’à décision explicite de gel. Condition de clôture : dernière revue effectuée, ajouts de dernière minute intégrés ou explicitement différés, projection rendue une dernière fois, manifeste mis à jour, puis passage explicite à un statut figé.\nRythme hebdomadaire. Établir la première édition « magazine » du lundi suivant ce numéro spécial, avec son propre changelog et son lien depuis le Journal de campagne.\nEntrée dans editions/index.md et manifeste de provenance. Mettre à jour l’entrée au moment de la clôture effective de cette édition datée et conserver la distinction entre rendus de preview et édition finalement gelée.\nChantier de recherche élargi (issue #76). Continuer d’y verser ce qui n’est pas encore suffisamment stabilisé pour entrer dans une édition datée.",
     "crumbs": [
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuations — chantiers ouverts de l'édition du 17 septembre 2026</span>"
     ]
@@ -933,10 +943,80 @@
     "objectID": "chapter-016.html#ce-que-ce-chapitre-garantit",
     "href": "chapter-016.html#ce-que-ce-chapitre-garantit",
     "title": "17  Continuations — chantiers ouverts de l’édition du 17 septembre 2026",
-    "section": "17.4 Ce que ce chapitre garantit",
-    "text": "17.4 Ce que ce chapitre garantit\nChaque Continuation listée ici porte sa propre condition de clôture, explicitement formulée, plutôt qu’un vague « à approfondir ». Une édition future qui se contenterait de répéter cette liste sans avancer sur au moins une condition de clôture n’aurait pas rempli sa fonction de Continuation au sens où ce Corpus l’entend : une exécution différée, pas une intention suspendue indéfiniment.",
+    "section": "17.5 Ce que ce chapitre garantit",
+    "text": "17.5 Ce que ce chapitre garantit\nChaque Continuation listée ici porte sa propre condition de clôture, explicitement formulée, plutôt qu’un vague « à approfondir ». Une édition future qui se contenterait de répéter cette liste sans avancer sur au moins une condition de clôture n’aurait pas rempli sa fonction de Continuation au sens où ce Corpus l’entend : une exécution différée, pas une intention suspendue indéfiniment.",
     "crumbs": [
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Continuations — chantiers ouverts de l'édition du 17 septembre 2026</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-017.html",
+    "href": "chapter-017.html",
+    "title": "18  L’enquête commence maintenant",
+    "section": "",
+    "text": "18.1 Appel à témoignages\nLe 17 septembre 2024, Marie-Louise est morte.\nÀ l’occasion du deuxième anniversaire de sa mort, cette édition de Suicide Corse rend publique une enquête qui reste ouverte : sur les circonstances de sa mort, sur son parcours, et sur les enseignements que nous pouvons collectivement en tirer.\nCette publication est donc aussi un appel à témoignages.\nJe souhaite recueillir les témoignages de toutes celles et ceux qui, de près ou de loin, ont connu Marie-Louise, l’ont rencontrée, ont échangé avec elle, ont travaillé, étudié, créé, milité ou vécu à ses côtés — mais également de celles et ceux qui détiennent simplement une information, un document, une photographie, un message, un souvenir ou une observation susceptible d’éclairer une partie de son parcours.\nIl n’existe pas de « petit » témoignage. Une information apparemment insignifiante peut prendre son sens lorsqu’elle est rapprochée de nombreuses autres.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>L'enquête commence maintenant</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-017.html#pourquoi-maintenant",
+    "href": "chapter-017.html#pourquoi-maintenant",
+    "title": "18  L’enquête commence maintenant",
+    "section": "18.2 Pourquoi maintenant ?",
+    "text": "18.2 Pourquoi maintenant ?\nAprès le choc de sa mort, puis le stress et les difficultés rencontrées pour parvenir simplement à lui organiser des obsèques dignes, j’ai commencé une enquête personnelle, parallèle à celle menée par la gendarmerie.\nJ’ai rapidement rencontré une accumulation d’obstacles administratifs, juridiques, institutionnels et informationnels. Le recours aux services d’un juriste n’a pas suffi à les franchir.\nUne période d’abattement a suivi.\nPuis j’ai repris autrement.\nInformaticien de formation, j’ai entrepris des travaux autour de l’intelligence artificielle, de la mémoire numérique et de la construction de jumeaux numériques : non pas de simples archives, mais des représentations documentées, évolutives, interrogeables et corrigibles de personnes, d’organisations ou de territoires.\nCes travaux ont progressivement changé l’échelle de ce qu’il m’était possible d’explorer.\nSuicide Corse repose désormais sur la construction de deux jumeaux numériques complémentaires : celui de Marie-Louise et celui de la Corse.\nLe premier vise à restituer aussi fidèlement que possible une personne : son parcours, son œuvre, ses relations, ses difficultés, ses choix, ses capacités et ce qui lui est arrivé.\nLe second vise à comprendre le territoire dans lequel cette vie s’est déroulée : ses institutions, ses dispositifs d’aide, ses solidarités, ses contraintes, ses mécanismes d’empêchement éventuels et ses capacités encore disponibles.\nIl ne s’agit donc pas seulement de demander :\n\nPourquoi Marie-Louise est-elle morte ?\n\nIl s’agit aussi de chercher :\n\nQue pouvons-nous comprendre de ce qui lui est arrivé, et que pouvons-nous transformer pour rendre d’autres trajectoires possibles ?",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>L'enquête commence maintenant</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-017.html#de-la-machine-à-empêcher-à-la-machine-à-explorer",
+    "href": "chapter-017.html#de-la-machine-à-empêcher-à-la-machine-à-explorer",
+    "title": "18  L’enquête commence maintenant",
+    "section": "18.3 De la Machine à Empêcher à la Machine à Explorer",
+    "text": "18.3 De la Machine à Empêcher à la Machine à Explorer\nAu cours de ce travail, j’ai progressivement identifié ce que ce Corpus appelle une Machine à Empêcher.\nLe terme ne désigne ni un complot, ni une organisation secrète, ni nécessairement des personnes mal intentionnées. Une Machine à Empêcher peut résulter de l’interaction distribuée de règles, procédures, décisions, silences, délais, erreurs, cloisonnements et renvois de responsabilité qui, pris séparément, paraissent parfois mineurs ou même localement défendables, mais dont l’accumulation finit par diminuer des capacités effectives.\nPour comprendre une telle machine, il faut retrouver les traces, les rapprocher, formuler des hypothèses, chercher ce qui pourrait les réfuter, corriger les erreurs et recommencer.\nC’est précisément le rôle de la Machine à Explorer progressivement mise en place.\nSon but n’est pas seulement de comprendre ce qui empêche. Il est de permettre la construction de Machines à Rendre Capable : des outils, méthodes et organisations augmentant réellement la capacité d’une personne ou d’une collectivité à comprendre sa situation, à agir et à préserver ses possibles.\nL’enquête sur Marie-Louise constitue désormais l’un des Reality Cases centraux de cette démarche.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>L'enquête commence maintenant</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-017.html#ce-que-je-recherche",
+    "href": "chapter-017.html#ce-que-je-recherche",
+    "title": "18  L’enquête commence maintenant",
+    "section": "18.4 Ce que je recherche",
+    "text": "18.4 Ce que je recherche\nJe recherche toute trace susceptible de contribuer à cette enquête : témoignages directs ou indirects, souvenirs, correspondances, photographies, œuvres, publications, démarches administratives connues, épisodes de vie, rencontres, difficultés rencontrées, aides reçues ou recherchées, projets, engagements, déplacements, lieux fréquentés ou personnes rencontrées.\nVous pouvez avoir connu Marie-Louise pendant dix ans ou dix minutes.\nVous pouvez aussi ne l’avoir jamais rencontrée personnellement mais disposer d’une information concernant un événement, une institution, une procédure ou un contexte ayant compté dans son parcours.\nDans le doute, transmettez.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>L'enquête commence maintenant</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-017.html#ce-quune-contribution-devient-et-ne-devient-pas",
+    "href": "chapter-017.html#ce-quune-contribution-devient-et-ne-devient-pas",
+    "title": "18  L’enquête commence maintenant",
+    "section": "18.5 Ce qu’une contribution devient — et ne devient pas",
+    "text": "18.5 Ce qu’une contribution devient — et ne devient pas\nUne contribution n’est pas automatiquement tenue pour un fait établi.\nElle entre dans l’enquête avec sa provenance et son statut : trace, voix directe, témoignage tiers, interprétation, hypothèse ou inconnu. Elle peut confirmer une piste, la contredire, ouvrir une bifurcation ou simplement signaler qu’une question reste ouverte.\nLa réception d’une contribution, sa conservation, son utilisation dans l’enquête et sa publication sont quatre opérations distinctes.\nTransmettre une information n’emporte donc pas automatiquement consentement à sa publication. Une contribution peut être examinée sans être rendue publique. Toute éventuelle publication doit être décidée séparément, avec le régime de confidentialité approprié.\nCette séparation est essentielle : l’objectif n’est pas d’accumuler des récits publics, mais de produire une connaissance plus exacte.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>L'enquête commence maintenant</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-017.html#un-travail-de-mémoire-et-de-recherche",
+    "href": "chapter-017.html#un-travail-de-mémoire-et-de-recherche",
+    "title": "18  L’enquête commence maintenant",
+    "section": "18.6 Un travail de mémoire et de recherche",
+    "text": "18.6 Un travail de mémoire et de recherche\nCe travail est conduit dans le cadre de l’Institut Mariani, organe de recherche et développement de l’association C.O.R.S.I.C.A., dont je suis le président fondateur.\nL’Institut accueille plusieurs projets liés entre eux : recherche sur les jumeaux numériques, outils d’intelligence collective, préservation des mémoires et des œuvres, autonomie individuelle et collective, ainsi que le Musée Mariani des Possibles.\nDeux futurs fonds de dotation prolongent cette démarche.\nLes Amis de Malou aura vocation à faire vivre la mémoire de Marie-Louise, à préserver et transmettre son œuvre et à contribuer à la prévention du suicide.\nLe fonds Barons Mariani aura notamment vocation à transmettre ce qui a été possible dans le passé afin d’aider à explorer ce qui pourrait redevenir possible demain sous des formes nouvelles.\nSuicide Corse se situe au croisement de ces démarches : conserver une mémoire, comprendre une trajectoire, produire de la connaissance et transformer cette connaissance en capacité d’agir.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>L'enquête commence maintenant</span>"
+    ]
+  },
+  {
+    "objectID": "chapter-017.html#votre-témoignage-peut-compter",
+    "href": "chapter-017.html#votre-témoignage-peut-compter",
+    "title": "18  L’enquête commence maintenant",
+    "section": "18.7 Votre témoignage peut compter",
+    "text": "18.7 Votre témoignage peut compter\nSi vous disposez d’une information concernant Marie-Louise ou son environnement, même de quelques mots, transmettez-la.\nUn souvenir imprécis peut être utile s’il est présenté comme tel. Une date, un nom, un lieu, une photographie ou quelques mots peuvent suffire à ouvrir une piste.\nAucune contribution sincère ne sera considérée comme négligeable.\nLa première exigence de cette enquête est de ne pas savoir à l’avance ce qu’elle doit découvrir.\nElle cherchera les faits avant les conclusions.\nEt ce que le Réel répondra à cet appel pourra corriger cette édition elle-même, puis les suivantes.\nD’avance, merci pour vos contributions, grandes et petites.\nPour Marie-Louise,\nson père,\nJean Hugues Noël Robert\nbaron Mariani",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>L'enquête commence maintenant</span>"
     ]
   }
 ]
