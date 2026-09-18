@@ -22,3 +22,23 @@ editions/
 index.html              # Landing page
 CNAME                   # suicidecorse.baronsmariani.org
 ```
+
+## Ce dépôt N'EST PAS ce qui sert le site public
+
+**Important pour quiconque déboguerait pourquoi le site public ne reflète pas un push récent :** ce dépôt possède un fichier `CNAME` et une configuration GitHub Pages historiques, mais **GitHub Pages ne sert plus `suicidecorse.baronsmariani.org` depuis le 17 septembre 2026**. Le DNS a été intentionnellement repointé de `jeanhuguesrobert.github.io` vers l'infrastructure Fracta (confirmé par l'auteur).
+
+Le site public est en réalité servi par :
+
+```text
+suicidecorse.baronsmariani.org
+  → Caddy sur fracta (reverse_proxy vers fracta2 via Tailscale)
+  → Caddy sur fracta2 (root fixe /srv/www/suicidecorse/current, file_server)
+  → symlink current -> releases/<date>-<commit-court>
+```
+
+Une mise à jour de ce dépôt (push sur `main`) **ne se propage donc pas automatiquement** au site public. La propagation exige une promotion explicite :
+
+1. rendu via `Ubikia/scripts/publish-suicide-corse-preview.sh --apply --commit --push`, exécuté sur `fracta2` (clone local de ce dépôt sous `/home/ubuntu/suicide-corse`) ;
+2. promotion atomique du répertoire d'édition vers une nouvelle release sous `/srv/www/suicidecorse/releases/` et bascule du symlink `current`, selon la procédure documentée dans [`JeanHuguesRobert/operium/docs/fracta2-github-static-release.md`](https://github.com/JeanHuguesRobert/operium/blob/main/docs/fracta2-github-static-release.md).
+
+Le `CNAME` et l'historique GitHub Pages de ce dépôt sont conservés tels quels (ils ne gênent rien), mais ne doivent pas être pris comme preuve de ce qui sert réellement le trafic public. Pour vérifier ce qui sert réellement une URL donnée, inspecter les en-têtes de réponse (`Server: Caddy`, pas les en-têtes GitHub Pages) plutôt que de supposer la topologie à partir des fichiers du dépôt.
