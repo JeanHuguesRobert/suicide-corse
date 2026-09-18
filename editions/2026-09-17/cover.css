@@ -1,0 +1,4 @@
+.cover-page { text-align: center; break-after: page; page-break-after: always; }
+.cover-page figure { margin: 2rem auto; }
+.cover-page img { max-width: 80%; height: auto; }
+.cover-page .cover-author { margin-top: 2rem; }
