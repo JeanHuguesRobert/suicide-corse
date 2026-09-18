@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Suicide Corse — ou comment réaliser l'impossible</title>
-<meta name="description" content="Suicide Corse — enquête sur le destin de Marie-Louise et celui de la Corse, appel à témoignages et publication réactive.">
+<title>Suicide Corse — éditions</title>
+<meta name="description" content="Suicide Corse — éditions gelées et travaux en rédaction, enquête sur le destin de Marie-Louise et celui de la Corse.">
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -42,6 +42,17 @@
     margin: 1.5rem 0;
   }
   .edition h2 { margin-top: 0; font-size: 1.2rem; }
+  .edition .state {
+    display: inline-block;
+    margin: -0.2rem 0 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    font: 700 0.78rem/1.2 system-ui, sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .edition--frozen .state { background: #d9ead7; color: #264b27; }
+  .edition--draft .state { background: #f5e6bf; color: #604600; }
   .edition .meta { color: #666; font-size: 0.9rem; margin-bottom: 0.8rem; }
   .edition .links a {
     display: inline-block;
@@ -56,6 +67,8 @@
     body { color: #eee; background: #14141a; }
     .status-note { background: rgba(255,255,255,0.05); border-left-color: #666; }
     .edition, .call { border-color: #444; }
+    .edition--frozen .state { background: #244226; color: #d9ead7; }
+    .edition--draft .state { background: #5d4617; color: #f5e6bf; }
   }
 </style>
 </head>
@@ -76,20 +89,26 @@
 
 <p>
   <em>Suicide Corse</em> est une enquête à deux échelles — sur le destin de Marie-Louise, et sur celui de la Corse.
-  C'est une exploration documentée et réactive : une carte provisoire, corrigée par de nouvelles traces et par ce que le Réel répond à sa publication.
+  Les éditions gelées restent consultables telles qu'elles ont été scellées ;
+  les travaux en rédaction restent distincts jusqu'à leur propre publication.
 </p>
 
 <div class="status-note">
-  Le numéro spécial du 17 septembre 2026 est actuellement en <strong>préversion publique évolutive</strong> : des ajouts de dernière minute peuvent encore être intégrés avant son gel explicite. Chaque rendu conserve sa provenance. Après gel, toute correction substantielle produira une nouvelle édition ou un erratum traçable, jamais une réécriture silencieuse. Le manuscrit source et la doctrine éditoriale vivent dans le Corpus public :
+  Chaque numéro porte son statut propre. Une édition gelée n'est jamais
+  réécrite silencieusement ; toute correction substantielle produit un erratum
+  traçable ou une nouvelle édition. Le manuscrit source et la doctrine
+  éditoriale vivent dans le Corpus public :
   <a href="https://github.com/JeanHuguesRobert/barons-Mariani/tree/main/projects/suicide-corse">barons-Mariani/projects/suicide-corse</a>.
 </div>
 
 <section id="editions">
-  <div class="edition">
-    <h2>Numéro spécial — 17 septembre 2026</h2>
+  <div class="edition edition--frozen" data-edition-status="frozen">
+    <h2>Numéro 1 — édition anniversaire</h2>
+    <p class="state">Édition gelée</p>
     <p class="meta">
-      Édition anniversaire, deux ans jour pour jour après la mort de Marie-Louise. Préversion en cours d'enrichissement avant gel.
-      Rendu via <a href="https://github.com/JeanHuguesRobert/ubikia">Ubikia</a> + Quarto.
+      17 septembre 2026. Snapshot source <code>5ffa320</code>, rendu HTML/PDF/EPUB
+      et manifeste de provenance scellés. Rendu via
+      <a href="https://github.com/JeanHuguesRobert/ubikia">Ubikia</a> + Quarto.
     </p>
     <div class="links">
       <a href="editions/2026-09-17/index.html">Lire en ligne (HTML)</a>
@@ -98,10 +117,24 @@
       <a href="editions/2026-09-17/manifest.json">Manifeste de provenance</a>
     </div>
   </div>
+  <div class="edition edition--draft" data-edition-status="draft">
+    <h2>Numéro 2 — en rédaction</h2>
+    <p class="state">Travail en cours</p>
+    <p class="meta">
+      Le second numéro est en préparation. Son contenu, son titre, sa date et
+      ses formats de diffusion ne sont pas encore arrêtés ; aucun PDF ni EPUB
+      ne doit être interprété comme une édition publiée avant son rendu
+      traçable.
+    </p>
+    <div class="links">
+      <a href="https://github.com/JeanHuguesRobert/barons-Mariani/tree/main/projects/suicide-corse">Suivre le Corpus</a>
+      <a href="temoigner.html">Contribuer à l'enquête</a>
+    </div>
+  </div>
 </section>
 
 <p>
-  Une édition hebdomadaire prendra ensuite le relais de ce numéro spécial. Le journal de campagne qui accompagne chaque édition est publié dans le Corpus :
+  Le journal de campagne et les sources qui accompagnent les numéros sont publiés dans le Corpus :
   <a href="https://github.com/JeanHuguesRobert/barons-Mariani/tree/main/projects/suicide-corse/journals">journaux de campagne</a>.
 </p>
 

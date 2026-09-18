@@ -14,12 +14,12 @@ Ce dépôt ne contient jamais de source éditoriale originale — seulement des 
 
 ```
 editions/
-  2026-09-17/          # Numéro spécial anniversaire
+  2026-09-17/          # Numéro 1, édition gelée
     index.html
     chapter-XXX.html
     *.pdf
     manifest.json
-index.html              # Landing page
+index.html              # Landing page and edition-status navigation
 CNAME                   # suicidecorse.baronsmariani.org
 ```
 
@@ -39,6 +39,9 @@ suicidecorse.baronsmariani.org
 Une mise à jour de ce dépôt (push sur `main`) **ne se propage donc pas automatiquement** au site public. La propagation exige une promotion explicite :
 
 1. rendu via `Ubikia/scripts/publish-suicide-corse-preview.sh --apply --commit --push`, exécuté sur `fracta2` (clone local de ce dépôt sous `/home/ubuntu/suicide-corse`) ;
-2. promotion atomique du répertoire d'édition vers une nouvelle release sous `/srv/www/suicidecorse/releases/` et bascule du symlink `current`, selon la procédure documentée dans [`JeanHuguesRobert/operium/docs/fracta2-github-static-release.md`](https://github.com/JeanHuguesRobert/operium/blob/main/docs/fracta2-github-static-release.md).
+2. promotion atomique de la racine complète du dépôt d'artefacts vers une
+   nouvelle release sous `/srv/www/suicidecorse/releases/` et bascule du
+   symlink `current`, selon la procédure documentée dans
+   [`JeanHuguesRobert/operium/docs/fracta2-github-static-release.md`](https://github.com/JeanHuguesRobert/operium/blob/main/docs/fracta2-github-static-release.md). Cette racine contient la landing page et les sous-répertoires d'éditions ; elle permet donc de rendre plusieurs numéros accessibles sans écraser une édition gelée.
 
 Le `CNAME` et l'historique GitHub Pages de ce dépôt sont conservés tels quels (ils ne gênent rien), mais ne doivent pas être pris comme preuve de ce qui sert réellement le trafic public. Pour vérifier ce qui sert réellement une URL donnée, inspecter les en-têtes de réponse (`Server: Caddy`, pas les en-têtes GitHub Pages) plutôt que de supposer la topologie à partir des fichiers du dépôt.
