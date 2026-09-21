@@ -13,6 +13,13 @@
 - [Questions ouvertes](https://suicidecorse.baronsmariani.org/questions-ouvertes.html): points de l'enquête non résolus, sur lesquels un témoignage ou une correction peut faire progresser le travail.
 - [Mentions légales](https://suicidecorse.baronsmariani.org/mentions-legales.html): éditeur, hébergement, propriété intellectuelle, droit de réponse, protection des données personnelles.
 
+## Suivre en temps réel
+
+- [Journal de campagne](https://github.com/JeanHuguesRobert/barons-Mariani/tree/main/projects/suicide-corse/journals): delta intelligible du Corpus entre deux repères (entrées, apprentissages, corrections, `UNKNOWN`, différés).
+- [Commits en direct sur le manuscrit et les sources](https://github.com/JeanHuguesRobert/barons-Mariani/commits/main/projects/suicide-corse) ([flux Atom](https://github.com/JeanHuguesRobert/barons-Mariani/commits/main/projects/suicide-corse.atom)).
+- [Chantiers ouverts, y compris la préparation d'un futur numéro 3](https://github.com/JeanHuguesRobert/barons-Mariani/issues?q=is%3Aissue+suicide-corse+in%3Atitle): aucun numéro 3 n'existe à ce jour ; cette recherche remonte les issues au fur et à mesure de leur création.
+- [Continuations](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/16-continuations.md): chantiers ouverts avec condition de clôture explicite.
+
 ## Source canonique et provenance
 
 Ce site publie des projections rendues d'un Corpus source public et versionné. Il n'est jamais la source de vérité canonique.
