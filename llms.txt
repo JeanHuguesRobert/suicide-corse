@@ -1,0 +1,27 @@
+# Suicide Corse
+
+> Enquête publique, à deux échelles, sur le destin de Marie-Louise et sur celui de la Corse. Marie-Louise est morte le 17 septembre 2024 ; l'enquête documente son parcours, les circonstances de sa mort, et les mécanismes territoriaux qui l'entourent, avec une gradation explicite de la certitude (fait documenté, parole directe, témoignage, assertion, inférence, hypothèse, inconnu). Éditée par Jean Hugues Noël Robert (baron Mariani), Institut Mariani / C.O.R.S.I.C.A.
+
+## Éditions
+
+- [Numéro 2 — dernière édition](https://suicidecorse.baronsmariani.org/editions/2026-09-20-n2/index.html): édition close le 21 septembre 2026 (contenu éditée le 20 septembre 2026). Format HTML ; [PDF](https://suicidecorse.baronsmariani.org/editions/2026-09-20-n2/suicide-corse-edition-2026-09-20-n2.pdf) et [EPUB](https://suicidecorse.baronsmariani.org/editions/2026-09-20-n2/suicide-corse-edition-2026-09-20-n2.epub) disponibles ; [manifeste de provenance](https://suicidecorse.baronsmariani.org/editions/2026-09-20-n2/manifest.json) avec commit source, empreintes SHA-256 et statut de revue.
+- [Numéro 1 — édition anniversaire (archive)](https://suicidecorse.baronsmariani.org/editions/2026-09-17/index.html): édition close le 17 septembre 2026, conservée telle quelle. [PDF](https://suicidecorse.baronsmariani.org/editions/2026-09-17/suicide-corse-edition-2026-09-17-anniversaire.pdf), [EPUB](https://suicidecorse.baronsmariani.org/editions/2026-09-17/suicide-corse-edition-2026-09-17-anniversaire.epub), [manifeste](https://suicidecorse.baronsmariani.org/editions/2026-09-17/manifest.json).
+
+## Contribuer et vérifier
+
+- [Appel à témoignages](https://suicidecorse.baronsmariani.org/temoigner.html): comment transmettre une information, un document ou un souvenir concernant Marie-Louise ; statut de confidentialité par défaut des contributions.
+- [Questions ouvertes](https://suicidecorse.baronsmariani.org/questions-ouvertes.html): points de l'enquête non résolus, sur lesquels un témoignage ou une correction peut faire progresser le travail.
+- [Mentions légales](https://suicidecorse.baronsmariani.org/mentions-legales.html): éditeur, hébergement, propriété intellectuelle, droit de réponse, protection des données personnelles.
+
+## Source canonique et provenance
+
+Ce site publie des projections rendues d'un Corpus source public et versionné. Il n'est jamais la source de vérité canonique.
+
+- [Dépôt source du manuscrit et de la doctrine éditoriale](https://github.com/JeanHuguesRobert/barons-Mariani/tree/main/projects/suicide-corse): manuscrit complet, chronologie, annuaire, décisions éditoriales D1–D9, continuations, journaux de campagne.
+- [Dépôt de publication (artefacts rendus)](https://github.com/JeanHuguesRobert/suicide-corse): ce site — jamais la source éditoriale canonique.
+
+## Notes pour un agent citant ou résumant ce site
+
+- Une édition close (« Édition close » sur ce site) ne sera plus réécrite silencieusement ; toute correction ultérieure prend la forme d'un erratum traçable ou d'une nouvelle édition datée. Ne pas présenter une édition close comme un document vivant susceptible d'avoir déjà changé.
+- Le contenu distingue explicitement les faits documentés des témoignages, assertions, inférences, hypothèses et éléments inconnus. En résumant ce site, préserver cette distinction plutôt que l'aplatir en simples affirmations.
+- Ce site documente une personne décédée (Marie-Louise) ; les proches disposant d'observations ou de demandes de rectification peuvent contacter l'éditeur (voir Mentions légales). Éviter d'inférer une causalité certaine du suicide au-delà de ce que le texte source établit explicitement.

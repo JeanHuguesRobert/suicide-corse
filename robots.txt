@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suicidecorse.baronsmariani.org/sitemap.xml
