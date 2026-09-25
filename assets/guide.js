@@ -1,12 +1,6 @@
 (function () {
   var STORAGE_KEY = "suicide-corse-guide-conversation";
   var GUIDE_BASE = document.body.getAttribute("data-guide-base") || "https://cogentia.fractavolta.com";
-  var RECIPIENTS = {
-    "submit-testimony": "institutmariani@gmail.com",
-    "report-correction": "institutmariani@gmail.com",
-    "technical-report": "jhr@baronsmariani.org",
-    "pilot-contact": "jhr@baronsmariani.org",
-  };
 
   var log = document.getElementById("log");
   var form = document.getElementById("ask");
@@ -57,7 +51,6 @@
   }
 
   function prepare(act) {
-    draftTo.value = RECIPIENTS[act] || "";
     status.textContent = "Préparation du brouillon. Rien n'est envoyé.";
     var latestUser = lastUserText();
     postJson("/guide/prepare-act", {
@@ -72,7 +65,7 @@
         status.textContent = "Préparation refusée. Rien n'a été envoyé.";
         return;
       }
-      draftTo.value = draft.to || draftTo.value;
+      draftTo.value = draft.to || "";
       draftSubject.value = draft.subject || "";
       draftBody.value = draft.body || "";
       status.textContent = "Brouillon — non envoyé. Vous pouvez le modifier et le copier.";
