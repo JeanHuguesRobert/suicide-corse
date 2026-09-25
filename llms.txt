@@ -10,6 +10,7 @@
 ## Contribuer et vérifier
 
 - [Appel à témoignages](https://suicidecorse.baronsmariani.org/temoigner.html): comment transmettre une information, un document ou un souvenir concernant Marie-Louise ; statut de confidentialité par défaut des contributions.
+- [Guide public](https://suicidecorse.baronsmariani.org/guide.html): surface de réponse et préparateur de brouillon. Une conversation avec le Guide n'est pas un témoignage, une preuve ou une soumission ; le Guide n'envoie pas le brouillon.
 - [Questions ouvertes](https://suicidecorse.baronsmariani.org/questions-ouvertes.html): points de l'enquête non résolus, sur lesquels un témoignage ou une correction peut faire progresser le travail.
 - [Mentions légales](https://suicidecorse.baronsmariani.org/mentions-legales.html): éditeur, hébergement, propriété intellectuelle, droit de réponse, protection des données personnelles.
 

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide public — Suicide Corse</title>
+<meta name="description" content="Le Guide public de Suicide Corse répond à partir du corpus public et peut préparer un brouillon. Il n'envoie rien.">
+<link rel="canonical" href="https://suicidecorse.baronsmariani.org/guide.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/site/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/site/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/site/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="assets/guide.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Suicide Corse">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://suicidecorse.baronsmariani.org/guide.html">
+<meta property="og:title" content="Guide public — Suicide Corse">
+<meta property="og:description" content="Le Guide public répond à partir du corpus public et peut préparer un brouillon. Il n'envoie rien.">
+<meta property="og:image" content="https://suicidecorse.baronsmariani.org/assets/site/marie-louise-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Portrait de Marie-Louise, tête légèrement penchée.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Guide public — Suicide Corse">
+<meta name="twitter:description" content="Le Guide public répond à partir du corpus public et peut préparer un brouillon. Il n'envoie rien.">
+<meta name="twitter:image" content="https://suicidecorse.baronsmariani.org/assets/site/marie-louise-og.jpg">
+</head>
+<body data-guide-base="https://cogentia.fractavolta.com">
+<header>
+  <h1>Guide public</h1>
+  <p class="subtitle">Suicide Corse — une conversation n'est pas un témoignage</p>
+</header>
+
+<p>Ce Guide répond à partir du corpus public de <em>Suicide Corse</em>. Il peut préparer un brouillon de message. <strong>Il n'envoie rien, n'enregistre rien, et ne parle pas à la place de Marie-Louise.</strong></p>
+
+<div id="log" class="log" aria-live="polite"></div>
+
+<form id="ask">
+  <label for="question">Question</label>
+  <textarea id="question" name="question" rows="3" maxlength="1200" required></textarea>
+  <button type="submit">Demander au Guide</button>
+</form>
+
+<section class="draft" aria-labelledby="draft-title">
+  <h2 id="draft-title">Brouillon — non envoyé</h2>
+  <p>Le texte ci-dessous n'est pas un témoignage reçu. Vous pouvez le modifier, le copier, puis l'envoyer vous-même si vous le décidez.</p>
+  <div class="acts">
+    <button type="button" id="prepare-testimony" data-act="submit-testimony">Préparer un témoignage</button>
+    <button type="button" id="prepare-correction" data-act="report-correction">Préparer une correction</button>
+  </div>
+  <label for="draft-to">Destinataire</label>
+  <input id="draft-to" name="to" type="text" readonly value="institutmariani@gmail.com">
+  <label for="draft-subject">Objet</label>
+  <input id="draft-subject" name="subject" type="text" value="">
+  <label for="draft-body">Message</label>
+  <textarea id="draft-body" name="body" rows="12"></textarea>
+  <button type="button" id="copy-draft">Copier le brouillon</button>
+  <p id="draft-status" class="status" role="status"></p>
+</section>
+
+<footer>
+  <p><a href="./">Retour à Suicide Corse</a> — <a href="temoigner.html">Appel à témoignages</a> — <a href="questions-ouvertes.html">Questions ouvertes</a> — <a href="mentions-legales.html">Mentions légales</a>.</p>
+</footer>
+<script src="assets/guide.js" defer></script>
+</body>
+</html>
