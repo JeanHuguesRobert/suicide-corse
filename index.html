@@ -53,14 +53,41 @@
   h1 { font-size: 1.9rem; margin-bottom: 0.2rem; }
   .subtitle { font-style: italic; color: #555; margin-top: 0; }
   .byline { color: #555; margin-top: 0.5rem; }
+  .calls-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+  }
   .call {
     border: 1px solid #bbb;
     border-radius: 6px;
     padding: 1.2rem 1.4rem;
-    margin: 1.5rem 0 2rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
   }
   .call h2 { margin-top: 0; font-size: 1.3rem; }
   .call a { font-weight: bold; }
+  .call .call-kicker {
+    font: 700 0.78rem/1.2 system-ui, sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #666;
+    margin: 0 0 0.45rem;
+  }
+  .call .call-cta {
+    margin-top: auto;
+    padding-top: 0.6rem;
+  }
+  .call .call-cta a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  .call .call-cta a:hover { text-decoration: underline; }
+  @media (max-width: 44rem) {
+    .calls-grid { grid-template-columns: 1fr; }
+  }
   .status-note {
     border-left: 3px solid #999;
     padding: 0.6rem 1rem;
@@ -114,20 +141,30 @@
   <p class="byline">Jean Hugues Noël Robert — Institut Mariani / C.O.R.S.I.C.A.</p>
 </header>
 
-<section class="call" id="temoigner">
-  <h2>Appel à témoignages personnels</h2>
-  <p>Le 17 septembre 2024, Marie-Louise est morte. Deux ans plus tard, <em>Suicide Corse</em> ouvre publiquement une nouvelle phase de l'enquête sur les circonstances de sa mort, sur son parcours et sur les enseignements que nous pouvons collectivement en tirer.</p>
-  <p>Si vous avez connu Marie-Louise, même brièvement, ou si vous détenez une information, un document, une photographie, un message ou un souvenir susceptible d'éclairer son parcours, <strong>votre contribution peut compter</strong>.</p>
-  <p>Il n'existe pas de « petit » témoignage. Quelques mots, une date, un lieu ou un nom peuvent suffire à ouvrir une piste.</p>
-  <p><a href="temoigner.html">Lire l'appel à témoignages et contribuer</a> — <a href="questions-ouvertes.html">Voir les questions ouvertes de l'enquête</a> — <a href="guide.html">Préparer un brouillon avec le Guide (non envoyé)</a></p>
-</section>
+<div class="calls-grid" aria-label="Participer à l'enquête">
+  <section class="call" id="temoigner">
+    <p class="call-kicker">Vous avez une trace ou un souvenir</p>
+    <h2>Appel à témoignages</h2>
+    <p>Vous avez connu Marie-Louise, même brièvement, ou vous détenez une information, un document, une photographie, un message ou un souvenir susceptible d'éclairer son parcours.</p>
+    <p>Il n'existe pas de « petit » témoignage. Quelques mots, une date, un lieu ou un nom peuvent suffire à ouvrir une piste. <strong>Votre témoignage peut compter.</strong></p>
+    <p>Une transmission peut rester confidentielle : recevoir, conserver, exploiter et publier sont quatre opérations distinctes.</p>
+    <p class="call-cta"><a href="temoigner.html">Témoigner ou transmettre une trace &rarr;</a></p>
+  </section>
 
-<section class="call" id="contribuer">
-  <h2>Appel ouvert à contribution et compétences</h2>
-  <p><strong>« Cette enquête n'appelle plus seulement des témoins. Elle appelle des compétences. »</strong></p>
-  <p>Pour approfondir les analyses institutionnelles (contentieux constitutionnel électoral, liberté de candidature, aménagement du handicap, modélisation de la continuité de protection et analyse statistique), nous ouvrons l'enquête aux savoirs spécialisés sans exiger de proximité préalable avec Marie-Louise ou la Corse.</p>
-  <p><a href="contribuer.html">Découvrir les domaines recherchés et contribuer (GitHub / courriel) &rarr;</a></p>
-</section>
+  <section class="call" id="contribuer">
+    <p class="call-kicker">Vous avez une compétence utile</p>
+    <h2>Appel à contributions</h2>
+    <p>Vous n'avez pas besoin d'avoir connu Marie-Louise, ni même de connaître la Corse. Juristes, chercheurs, statisticiens, historiens, archivistes, développeurs et lecteurs critiques peuvent aider l'enquête.</p>
+    <p>Une contribution peut apporter une analyse, une source, une méthode, du code, une vérification ou une contradiction utile. <strong>Votre compétence peut compter.</strong></p>
+    <p>Deux voies sont ouvertes : GitHub pour le travail public et traçable, courriel pour les échanges privés ou sensibles.</p>
+    <p class="call-cta"><a href="contribuer.html">Contribuer par une compétence &rarr;</a></p>
+  </section>
+</div>
+
+<p style="margin-top: -1rem; font-size: 0.95rem;">
+  <a href="questions-ouvertes.html">Voir les questions ouvertes de l'enquête</a> —
+  <a href="guide.html">Préparer un brouillon avec le Guide (non envoyé)</a>
+</p>
 
 
 <p>
