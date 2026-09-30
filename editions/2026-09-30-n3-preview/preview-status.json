@@ -1,0 +1,36 @@
+{
+  "schema": "suicide-corse.preview-status.v1",
+  "edition": "Suicide Corse n°3 — Spécial sénatoriales — 30 septembre 2026",
+  "status": "verification-preview",
+  "frozen": false,
+  "phase_a_result": "PARTIAL",
+  "source_repository": "JeanHuguesRobert/barons-Mariani",
+  "source_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7",
+  "renderer_repository": "JeanHuguesRobert/ubikia",
+  "renderer_commit": "361ec325096f0fa421d313ccbfed6c0ad0346ece",
+  "issue": "https://github.com/JeanHuguesRobert/barons-Mariani/issues/91",
+  "render_manifest": "manifest.json",
+  "cover": {
+    "source_image_sha256": "1ae63f73b2929081356f26b8e108beab72060b88f0611b6a11d90924244e090f",
+    "composed_preview_jpeg": "../../assets/cover/suicide-corse-n3-cover-preview.jpg",
+    "composed_preview_jpeg_sha256": "e657b96fc8c662ce408171a54f5acd9771a15c6a71651973383a0ea4402a2745",
+    "composed_cover_pdf": "../../assets/cover/suicide-corse-n3-cover-composition.pdf",
+    "composed_cover_pdf_sha256": "39734108fe653291bddb87fc5a95b7aa8cb102f1209f94f1da145312b27cc7c9"
+  },
+  "verification": {
+    "chapters": 32,
+    "html_files": 33,
+    "local_html_references_checked": 1845,
+    "missing_local_references": 0,
+    "pdf_pages": 137,
+    "pdf_blank_pages": 0,
+    "pdf_text_out_of_bounds_pages": 0,
+    "epub_zip_valid": true,
+    "pivot_1863_2026_in_html_pdf_epub": true,
+    "pdf_email_addresses": ["institutmariani@gmail.com"]
+  },
+  "pending_before_freeze": [
+    "The validated composed cover is displayed on the landing page but is not yet the first page of the complete book PDF. Quarto currently emits a separate title page and interior cover chapter.",
+    "A fresh Phase A PASS and the explicit human freeze instruction in issue #91 are still required."
+  ]
+}
