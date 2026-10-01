@@ -1,0 +1,2769 @@
+{
+  "schema": "ubikia.reactive-build.v0",
+  "edition_id": "suicide-corse-edition-2026-09-30-n3",
+  "medium": "book",
+  "previous_edition_id": null,
+  "parent_edition_id": null,
+  "cover": {
+    "title": "Suicide Corse",
+    "subtitle": "ou comment réaliser l'impossible",
+    "issue": "N° 3",
+    "edition": "Spécial sénatoriales — 30 septembre 2026",
+    "author": "Jean Hugues Noël Robert",
+    "author_title": "baron Mariani",
+    "print_pdf": {
+      "source": {
+        "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/assets/cover/suicide-corse-n3-cover-composition.pdf",
+        "sha256": "39734108fe653291bddb87fc5a95b7aa8cb102f1209f94f1da145312b27cc7c9"
+      },
+      "output_path": "cover/suicide-corse-n3-cover-composition.pdf"
+    },
+    "image_role": "élément graphique central",
+    "preserve_source_image": true,
+    "source": {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/assets/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+      "sha256": "1ae63f73b2929081356f26b8e108beab72060b88f0611b6a11d90924244e090f"
+    },
+    "output_path": "cover/bulletin_senatoriales_2026_baron_mariani_retenu.png"
+  },
+  "built_at": "2026-10-01T10:57:37.082Z",
+  "publication_status": "draft",
+  "projection": {
+    "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/projections/book-n3-working.yml",
+    "sha256": "4d99b85d85c70d0c772dd2b553d96c8f4ffc865958e12718b71e8c2ac45d8d37",
+    "schema": "suicide-corse.projection.book.v0",
+    "contract": {
+      "schema": "suicide-corse.projection.book.v0",
+      "id": "suicide-corse-edition-2026-09-30-n3",
+      "status": "freeze-render-candidate",
+      "render_ready": true,
+      "language": "fr",
+      "title": "Suicide Corse",
+      "subtitle": "ou comment réaliser l'impossible",
+      "author": "Jean Hugues Noël Robert",
+      "edition_label": "Numéro 3 — Spécial sénatoriales — 30 septembre 2026",
+      "cover": {
+        "title": "Suicide Corse",
+        "subtitle": "ou comment réaliser l'impossible",
+        "issue": "N° 3",
+        "edition": "Spécial sénatoriales — 30 septembre 2026",
+        "author": "Jean Hugues Noël Robert",
+        "author_title": "baron Mariani",
+        "image": "../assets/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+        "print_pdf": "../assets/cover/suicide-corse-n3-cover-composition.pdf",
+        "image_role": "élément graphique central",
+        "preserve_source_image": true
+      },
+      "source_manifest": "../corpus.yml",
+      "related_issue": 84,
+      "freeze_issue": 91,
+      "editorial_architecture": "./n3-editorial-architecture.md",
+      "reader_audit": "../audits/2026-09-28-reader-audit-n3.md",
+      "final_content_sweep": "../audits/2026-09-28-final-content-sweep-n3.md",
+      "late_close_audit": "../audits/2026-09-29-special-senatoriales-late-close.md",
+      "editorial_date_audit": "../audits/2026-09-30-special-senatoriales-editorial-date.md",
+      "content_close_audit": "../audits/2026-09-30-special-senatoriales-content-close.md",
+      "edition": {
+        "number": 3,
+        "editorial_date": "2026-09-30",
+        "publication_date": null,
+        "date_is_intentionally_unset": false,
+        "close_target": "2026-09-30 Wednesday editorial date Europe/Paris",
+        "close_time_exact": null,
+        "cadence_note": "The normal Monday close was first extended to Tuesday 29 September. On 30 September 2026 the principal set the current editorial date to Wednesday 30 September 2026. This does not freeze the edition and does not change the ordinary Monday cadence."
+      },
+      "construction": {
+        "state": "content_closed_freeze_authorized",
+        "final_content_sweep_applied": true,
+        "final_content_sweep_date": "2026-09-28",
+        "final_content_sweep_note": "28 Sep sweep and 29 Sep late-close remain historical checkpoints. The 30 Sep content-close includes the prefecture access reply and accepted 1 Oct appointment as the final fact; a fresh Phase A render from current main is required before freeze.",
+        "human_decision": "Le numéro 2 est totalement bouclé ; le numéro 3 est désormais en construction.",
+        "decided_by": "Jean Hugues Noël Robert",
+        "decided_at": "2026-09-23T21:47+02:00",
+        "previous_frozen_edition": {
+          "id": "suicide-corse-edition-2026-09-20-n2",
+          "projection": "book-2026-09-20-n2.yml",
+          "source_commit": "f061abb2484dc5ee973d81865db5c9d3b5854d58",
+          "rule": "Never inject later observations silently into frozen n2."
+        },
+        "inherited_rule": "Freeze the edition, never the next projection."
+      },
+      "delta_window": {
+        "baseline_commit": "f061abb2484dc5ee973d81865db5c9d3b5854d58",
+        "start": "after frozen n2",
+        "end": "2026-09-30 content boundary for n3",
+        "role": "Collect evidence, corrections, Reality responses and candidate material without prescribing composition."
+      },
+      "editorial_date_2026_09_30": {
+        "label": "Spécial sénatoriales",
+        "editorial_date": "2026-09-30",
+        "decided_by": "Jean Hugues Noël Robert",
+        "prior_close_target": "Tuesday 29 September 2026",
+        "audit": "../audits/2026-09-30-special-senatoriales-editorial-date.md",
+        "freeze": "authorized separately in issue #91 after Phase A PASS",
+        "rule": "The editorial date is Wednesday 30 September 2026; the later technical freeze is traced separately."
+      },
+      "content_close_2026_09_30": {
+        "status": "human content boundary fixed; technical freeze pending",
+        "decided_by": "Jean Hugues Noël Robert",
+        "decided_on": "2026-09-30",
+        "audit": "../audits/2026-09-30-special-senatoriales-content-close.md",
+        "last_included_fact": "Prefecture access confirmed; 1 Oct 14:00 consultation accepted; request narrowed to existing digital documents and targeted invalid-ballot check.",
+        "excluded_future_fact": "Outcome of the 1 Oct prefecture consultation belongs to n4.",
+        "closing_line": "La suite dans le prochain numéro.",
+        "phase_a_required": true,
+        "phase_a_result": "PASS; see issue #91",
+        "freeze_snapshot_record": "../editions/2026-09-30-n3-freeze.md"
+      },
+      "special_senatoriales_close_2026_09_29": {
+        "label": "Spécial sénatoriales",
+        "reason": "The decisive event occurred Sunday 27 September; Monday reactions materially improved the electoral-impact analysis, so freeze moved one bounded day to Tuesday.",
+        "normal_cadence": "Monday",
+        "exceptional_close": "Tuesday 29 September 2026",
+        "late_close_audit": "../audits/2026-09-29-special-senatoriales-late-close.md",
+        "bounded_counterfactual": "../../../research/senatoriales-2026/investigation/borne_contrefactuelle_offre_troisieme_candidature_2026-09-29.md",
+        "constrained_third_candidate_uchronia": "../../../research/senatoriales-2026/investigation/uchronie_troisieme_candidat_2026-09-29.md",
+        "rule": "Wait long enough for the Real to answer, not long enough to make the edition indefinitely movable.",
+        "source_selection": "Track current main until explicit freeze; do not pin the final source commit in advance.",
+        "freeze_snapshot_rule": "At the final freeze decision, refresh/reconcile current main, run the final verification, then record that exact commit as the immutable edition source."
+      },
+      "counterfactual_policy": {
+        "status": "inherited_and_active",
+        "doctrine": [
+          "Non observable does not mean unknowable.",
+          "Uncertain does not mean all hypotheses are equally plausible.",
+          "Strongly constrained counterfactuals should be graded rather than flattened into UNKNOWN.",
+          "Confidence decreases with causal distance."
+        ],
+        "canonical_method": {
+          "fr": "JeanHuguesRobert/cogentia/research/interroger_le_reel.md",
+          "en": "JeanHuguesRobert/cogentia/research/interrogating_reality.md",
+          "propagation": "JeanHuguesRobert/cogentia/research/propagation_register.md — PR-2026-010"
+        },
+        "dogfood_case": "Marie-Louise / Villa Arson 2024"
+      },
+      "observed_post_n2_delta": {
+        "witness_campaign": {
+          "source": "../../../memory/marie-louise/witnesses/campaign-01.md",
+          "coverage": "../../../memory/marie-louise/witnesses/coverage-matrix.md",
+          "sent_on": "2026-09-21",
+          "probes_sent": 6,
+          "substantive_responses_received": 3,
+          "routing_responses_received": 1,
+          "follow_up_promises_received": 3,
+          "substantive_respondents": [
+            "Maëva Guillery",
+            "Maéva Lecoq",
+            "Jean-Joseph Albertini"
+          ],
+          "routing_result": [
+            "Sylvain Lizon: automatic direction/contact update; no substantive testimony yet"
+          ],
+          "follow_up_promises": [
+            "Camille Gérard: substantive reply announced; offers to relay to other former friends",
+            "Damien Ruvet: substantive contribution announced",
+            "Valérie Roy / Thierry Parmentelat: memories and photographs to be searched"
+          ],
+          "additional_trace_holders": [
+            "Louis-Marie Charreteur: four family photographs transmitted; existence and provenance only in public Corpus"
+          ],
+          "contact_constraints": [
+            "At least one addressee explicitly requested no further messages on this subject; maintain a do-not-contact state without reproducing the private message."
+          ],
+          "contradictory_material": [
+            "A private adverse account challenging the author's interpretation was received; preserve as testimony/opinion in the contradictory register, not as established fact and not as automatic publication material."
+          ],
+          "pending_without_identified_substantive_response_as_of_2026_09_28": [
+            "Villa Arson",
+            "Céline Christmann"
+          ],
+          "publication_rule": "A private response is a trace, not automatic permission to publish its content."
+        },
+        "additional_post_publication_responses": [
+          {
+            "respondent": "Jean-Joseph Albertini",
+            "received_on": "2026-09-23",
+            "source": "Gmail:1a0cce1f2e6dfdc1",
+            "kind": "substantive direct testimony + 3 photographic traces",
+            "summary": "2016–2017 arts workshop; Marie-Louise remembered as involved/focused/interested when present; plastic proposal under teacher theme « Étape par étape ».",
+            "unresolved": [
+              "exact date",
+              "exact institutional relationship to CPES Sartène",
+              "nature and fate of the plastic proposal",
+              "publication rights for the photographs"
+            ],
+            "publication_rule": "Record existence and provenance; do not publish private email or images without separate authorization."
+          },
+          {
+            "respondent": "Éléonore Bozzi / DRAC",
+            "received_on": "2026-09-23",
+            "source": "Gmail:1a0cdfa48c09042e",
+            "kind": "institutional factual update",
+            "summary": "DRAC states that the Minesteggio protection order has been made and signed.",
+            "unresolved": [
+              "copy of signed order",
+              "exact signature date",
+              "notification",
+              "publication"
+            ],
+            "direct_witness_to_marie_louise": false
+          }
+        ],
+        "marie_louise": [
+          "../../../memory/marie-louise/possible_matrix.md",
+          "../../../memory/marie-louise/2024_portes_et_controles_epistemiques.md",
+          "../../../memory/marie-louise/witnesses/README.md"
+        ],
+        "collective_candidates": [
+          "../../../research/autonomia/note_campagne_statut_resident_effectivite.md",
+          "../../../research/autonomia/amendement_effectivite_article_72-5.md",
+          "../../../research/autonomia/1755.md",
+          "../../../research/autonomia/projet_1755.md",
+          "../../../research/autonomia/societe_historique_de_corte.md"
+        ],
+        "collective_candidates_status": "delta candidates only; not editorially selected yet",
+        "senatoriales_2026_post_judgment": {
+          "status": "selected in n3 Magazine Reality Case; content closed pending verification",
+          "case_root": "../../../research/senatoriales-2026/README.md",
+          "chronology": "../../../research/senatoriales-2026/investigation/chronology.md",
+          "knowledge_matrix": "../../../research/senatoriales-2026/investigation/knowledge-matrix.md",
+          "source_index": "../../../research/senatoriales-2026/investigation/sources.md",
+          "probe_map": "../../../research/senatoriales-2026/investigation/probe-map.md",
+          "probe_batch": "../../../research/senatoriales-2026/investigation/probe-batch-2026-09-25.md",
+          "passive_probe_run": "../../../research/senatoriales-2026/investigation/passive-probes-2026-09-25.md",
+          "post_scrutin_trigger": "../../../research/senatoriales-2026/investigation/post-scrutin-trigger-2026-09-27.md",
+          "bounded_third_candidacy_counterfactual": "../../../research/senatoriales-2026/investigation/borne_contrefactuelle_offre_troisieme_candidature_2026-09-29.md",
+          "observed_on": "2026-09-26",
+          "established": [
+            "The paper judgment was effectively received and read on 25 September; postal traces establish postmark on 15 September, first presentation on 16 September, and delivery on 25 September.",
+            "The judgment fixes registration of the note en délibéré at 15:49.",
+            "After reading the judgment, a targeted follow-up was sent to the TA registry at 16:50:46 in the existing thread.",
+            "A formal documentary/data access request was sent to the Haute-Corse prefecture at 16:59:13, including preservation of still-existing technical mail logs.",
+            "Passive probe execution recovered an explicit prefecture email of 10 September at 20:05 requesting originals for the next day's deposit; the remaining question is whether the judgment's plural reference covers additional requests.",
+            "Candidate-side reconstruction now separates the electronic bundle from the physical deposit bundle: the former is largely reconstructed; the latter is only partly reconstructed.",
+            "A frozen 12 September trace states that one paper document related to the financial agent was physically presented, while the candidate/replacement CERFA forms were not physically produced on paper."
+          ],
+          "unresolved": [
+            "server-side receipt time of the 17:57:55 email before the 18:00 deadline",
+            "whether the email/link/video was transmitted to the TA before judgment",
+            "identity and registration time of the Sagace 'Réception d'une lettre'",
+            "exact time the judgment was rendered or made available",
+            "complete inventory of prefecture submissions, including later transmissions",
+            "whether the judgment's phrase 'en dépit des demandes des services préfectoraux' refers only to the documented 10 September request for originals or also to additional requests",
+            "exact physical bundle shown, handed over, retained or returned during the 11 September deposit, including recovery of the primary provisional receipt if still available",
+            "existence of a separate hearing trace, confirmation of the hearing clerk, and access rules for the signed minute"
+          ],
+          "cross_scale_candidate_2026_09_26": {
+            "status": "candidate analogy; not an identity claim",
+            "source_journal": "../journals/2026-09-23-n3-construction.md",
+            "individual_scale": [
+              "Laurence Vernerey: public senatorial dossier documents a recognized disability situation; do not publish medical details.",
+              "Marie-Louise: protection-responsable source documents disability and a late administrative request; do not infer unrecorded recognition or diagnosis."
+            ],
+            "collective_scale": [
+              "French institutional discourse has repeatedly used the expression 'handicap(s) de l'insularité' for Corsican structural constraints."
+            ],
+            "candidate_invariant": "Formal possibility does not by itself create effective capability when access conditions, accommodations, means, or institutional conversions are missing.",
+            "anti_overreach": [
+              "Cross-scale recurrence is not identity.",
+              "Do not anthropomorphize Corsica.",
+              "Do not equate individual disability law with territorial constitutional law.",
+              "Treat the lexical parallel as a prompt for a structural test, not as proof."
+            ],
+            "editorial_use": [
+              "Magazine candidate for n3.",
+              "Quasi-real-time journal note already recorded on 26 September."
+            ],
+            "privacy_rule": "Minimize third-party health data; no medical documents, diagnoses, or non-public details."
+          },
+          "editorial_interest": [
+            "A live example of the gap between procedural movement and actual uncertainty reduction.",
+            "A contemporary cross-scale Reality Case for traceability, effective capacity, and the distinction between formal rights and usable access paths.",
+            "A test of diplomatic escalation: make external review paths visible without turning a factual access request into an accusation.",
+            "A live demonstration of generative probe yield: passive source reconstruction produced a new distinction between the electronic bundle and the physical deposit bundle, and generated RP-SEN-18."
+          ],
+          "privacy_rule": "Do not reproduce raw postal photos, signatures, addresses, technical logs, or non-public personal data; project only the facts they establish after minimization."
+        }
+      },
+      "procedural_reactivation_register": {
+        "source": "../../../memory/marie-louise/procedures_2024_2026_reactivation_register.md",
+        "editorial_role": "Map which 2024–2026 acts are still open, reactivable, merely probative, or require legal qualification; keep compensation analysis separate from factual reconstruction.",
+        "n3_candidate_angles": [
+          "Une procédure fermée peut rester une preuve ; une voie expirée peut conduire à une nouvelle demande distincte.",
+          "Le principe d'effectivité se teste aussi dans la capacité à retrouver, transmettre et réactiver les traces.",
+          "Réparer ne signifie pas additionner les griefs : il faut identifier chaque titulaire, préjudice, causalité, prescription et juridiction."
+        ],
+        "ddd_probe": "Open DDD-01 minimally under the explicit theme 'principe d'effectivité', then enrich by documented continuity."
+      },
+      "weekend_magazine_2026_09_26": {
+        "status": "historical late-close window — closed",
+        "editorial_role": "high-intensity late-week delta, not a license to lower evidentiary standards",
+        "longitudinal_axis": {
+          "electoral": {
+            "range": "2017–2026",
+            "source": "../../../memory/marie-louise/elections/README.md",
+            "note": "Treat successive candidacies, substitutions and remedies as a continuity-of-capacity series, not as evidence of one political intention."
+          },
+          "protection": {
+            "range": "pre-2017 → 2024",
+            "source": "../../../research/protection_responsable.md",
+            "note": "Includes the earlier judicial/educational protection history; exact chronology remains source-driven and must not be filled narratively."
+          }
+        },
+        "central_question": "How do formal rights, protections and possible actions become usable capabilities across institutional hand-offs, and where do those conversions fail?",
+        "electoral_capability_2022": {
+          "status": "documented post-n2 consolidation; candidate for n3",
+          "source": "../../../memory/marie-louise/elections/2022-legislatives.md",
+          "catalogue_source": "../../../memory/marie-louise/works/catalogue/entries-gmail-2026-09-17.yml",
+          "established": [
+            "1 May: JHR publicly announces himself as titular candidate; 6 May he still forwards that state to Martine Brillais.",
+            "9 May: operational Trello trace records Marie-Louise as candidate and JHR as replacement; the exact 6–9 May decision remains unknown.",
+            "19 May: provisional prefecture receipt records Mme BARONNE ML MARIANI as candidate and M. BARON JHN MARIANI as replacement.",
+            "24 May: Marie-Louise personally forwards CHORUS material and then transmits two successive collector PDFs from her two accounts.",
+            "Technical inspection ties the two collector PDFs to the same Adobe Photoshop CC 2018 (Macintosh) document created 24 May at 15:18:45 +02:00; the observable revision is essentially the addition of the yanug.",
+            "Damien Ruvet's returned collector version is dated/sent on 25 May, after the two states transmitted by Marie-Louise."
+          ],
+          "third_party": [
+            "16 May: Martine Brillais writes that Marie-Louise 'a pris l'initiative de se présenter'; retain as THIRD-PARTY, not VOICE."
+          ],
+          "unknown": [
+            "exact origin and decision process of the 6–9 May role reversal",
+            "identity of the person physically operating Photoshop",
+            "authorship of the portrait/autoportrait and exact initial composition"
+          ],
+          "interpretation_boundary": [
+            "Document increasing/exercised electoral capacity, not a reconstructed political psychology.",
+            "Direct material/versioning participation does not equal sole graphic authorship.",
+            "The documented 2019 purchase of a MacBook Pro is contextual provenance only; it does not identify the 2022 device."
+          ],
+          "editorial_interest": [
+            "A concrete bridge from 2017 substitute status to 2022 titular acts and 2024 direct political VOICE.",
+            "A small-scale example of capability becoming observable through acts, documents and production rather than through retrospective motive attribution."
+          ],
+          "editorial_figure": {
+            "source": "./n3-figure-capacite-electorale-2017-2024.md",
+            "title": "Quand une possibilité devient une capacité exercée",
+            "geometry": "horizontal timeline; local 2020 closure reconnecting to 2022; no ascending scale",
+            "sequence": "2017 OPEN/EXERCISE → 2020 OPEN/EXERCISE/CLOSE-local → 2022 REOPEN/EXPAND/EXERCISE → 2024 MAINTAIN/EXERCISE + direct VOICE",
+            "key_boundary": "2024 VOICE changes the nature of available evidence; it is not a score or a claim of greater subjective commitment."
+          }
+        },
+        "bounded_loss_of_chance": {
+          "status": "editorial and legal-research candidate",
+          "rule": "Map real contemporaneous possibilities, conversion conditions and closure points; do not infer the final outcome from one lost branch.",
+          "contemporary_anchor": "../../../memory/marie-louise/elections-2024-complaints.md"
+        },
+        "procedural_routes_as_probes": [
+          "Conseil constitutionnel / electoral petition",
+          "possible QPC, only after exact statutory target and constitutional grievance are identified",
+          "Défenseur des droits as a candidate continuity / cross-institution probe",
+          "possible ECHR route, subject to admissibility and exhaustion requirements",
+          "civil or administrative compensation routes, including bounded loss-of-chance analysis"
+        ],
+        "n3_editorial_candidates": [
+          "From formal protection to effective capability: a longitudinal map rather than a single-case narrative.",
+          "2017–2026 electoral continuity as an observable series of openings, frictions, remedies and closures.",
+          "2024 complaints as contemporaneous pre-death traces, kept distinct from later causal inference.",
+          "2026 senatorial case as a live probe of transmission, deadlines, evidence access and correctability.",
+          "Continuity of protection: when each institution has a segment but no actor owns the transition.",
+          "Magazine close: what the Real answered during the final weekend before freeze."
+        ],
+        "anti_overreach": [
+          "No single institutional episode is promoted to a complete explanation of Marie-Louise's death.",
+          "No absence of response is treated as evidence of hostile intent.",
+          "No cross-scale recurrence is treated as identity of mechanism.",
+          "Legal routes remain separate until jurisdiction, standing, deadlines and admissibility are verified."
+        ]
+      },
+      "mail_consolidation_2026_09_28": {
+        "status": "integrated at Corpus level; private bodies and images withheld",
+        "sources": [
+          "Gmail post-n2 responses received 21–27 September 2026",
+          "../../../memory/marie-louise/witnesses/README.md",
+          "../../../memory/marie-louise/procedures_2024_2026_reactivation_register.md",
+          "../../../research/senatoriales-2026/investigation/chronology.md"
+        ],
+        "marie_louise_editorial_effect": [
+          "Rebalance the book layer toward Marie-Louise acting, creating, transmitting and relating, not only institutions acting upon her.",
+          "Record newly surfaced works, photographs and holders as trace leads; publication rights remain separate.",
+          "Preserve refus, adverse accounts and contradictions as methodological evidence against confirmation bias."
+        ],
+        "procedure_effect": [
+          "TJ Grasse supplied a parquet reference for PV 03632/2024 and identified the Bureau d'ordre as the handling service; transmission to the competent magistrate is conditional on identity verification."
+        ],
+        "senatorial_effect": [
+          "The Interior Ministry data-protection service reported that the requested published candidate data had been removed after cancellation of the candidacy, so the rectification request could no longer be performed on that publication.",
+          "36 blank and 40 invalid ballots are observed facts; their motives and counterfactual allocation under a different candidate set remain UNKNOWN."
+        ],
+        "privacy_rule": "Register existence, provenance, status and documentary consequences; do not reproduce private email bodies, images or sensitive details without a separate publication decision."
+      },
+      "magazine_recurring_rubrics": {
+        "status": "candidate recurring structure from n3 onward",
+        "rubrics": [
+          {
+            "id": "le-reel-repond",
+            "function": "External answers, institutional replies and observable consequences since the previous issue."
+          },
+          {
+            "id": "nouvelles-traces",
+            "function": "New archives, testimonies, works, photographs and holders, with provenance and publication status."
+          },
+          {
+            "id": "point-enquete",
+            "function": "What changed between FACT / TESTIMONY / HYPOTHESIS / UNKNOWN."
+          },
+          {
+            "id": "reality-case",
+            "function": "One bounded case examined deeply without absorbing the whole issue."
+          },
+          {
+            "id": "contrepoints",
+            "function": "Contradictions, adverse evidence and observations that resist the current interpretation."
+          },
+          {
+            "id": "continuations",
+            "function": "Open packets, next probes and explicit closure conditions."
+          }
+        ],
+        "composition_rule": "The main body narrates; annexes and Corpus records carry exhaustive proof and detail."
+      },
+      "candidate_questions": {
+        "individual": [
+          "What did sparse P0 recall reveal that the inquiry had not prompted?",
+          "Which works, objects, photographs and memories are still held by Marie-Louise's friends?",
+          "Can the Villa Arson rejection be recovered as a primary institutional decision?",
+          "What can new witnesses actually date or constrain about the under-documented periods?",
+          "What exact institutional setting connected Marie-Louise to Jean-Joseph Albertini’s 2016–2017 arts workshop, and what do the three photographs establish?"
+        ],
+        "method": [
+          "How much knowledge can be recovered by asking sparsely rather than supplying the investigator's categories?",
+          "How should strongly constrained counterfactuals be used without either free fiction or defensive agnosticism?"
+        ],
+        "collective": [
+          "Does an autonomy proposal create effective capacity or merely formal permission?",
+          "How far does the handicap / insularity parallel survive an invariance test before it becomes only metaphor?",
+          "What do the first #1755 Reality Tests reveal about access to historians, archives and local institutional memory?",
+          "When a procedural record remains incomplete, which access path actually reduces the uncertainty: direct answer, document access, data access, or later judicial production?",
+          "Can a request make possible escalation routes explicit while preserving cooperation and avoiding premature attribution of intent?"
+        ]
+      },
+      "editorial_freedom": {
+        "inherit_n2_plan": false,
+        "fixed_table_of_contents": false,
+        "fixed_date": false,
+        "fixed_length": false,
+        "human_editorial_decisions_override_agent_defaults": true,
+        "rule": "The current delta constrains attention, not form."
+      },
+      "privacy_and_disclosure": {
+        "raw_private_email_is_not_publication_material_by_default": true,
+        "sensitive_third_party_material_requires_separate_review": true,
+        "testimony_may_be_registered_without_reproducing_private_content": true
+      },
+      "next_observations": [
+        "Watch for the announced follow-up contributions from Camille Gérard, Damien Ruvet and Valérie Roy / Thierry Parmentelat, while preserving do-not-contact constraints.",
+        "Route Sylvain Lizon follow-up through the newly observed professional channel if a follow-up is authorized.",
+        "Seek the primary Villa Arson decision: date, wording and grounds.",
+        "Qualify the two received testimonies before any public quotation.",
+        "Recover the signed Minesteggio protection order and record its exact date, notification and publication status.",
+        "Watch the 25 September TA follow-up for answers to the six remaining material questions.",
+        "Watch the 25 September prefecture CRPA/GDPR request for documentary and mail-system evidence; preserve response/non-response timing without inferring motive.",
+        "If new material arrives, update the senatorial knowledge matrix before any n3 editorial projection.",
+        "Continue accumulating post-n2 Corpus delta without freezing n3 composition.",
+        "Prepare the Monday 28 September morning freeze while preserving a weekend magazine window for high-value late observations.",
+        "Build a longitudinal capability map linking the documented 2017–2024 electoral series, the 2026 live case, and the older protection/assistance-educative line without collapsing their causal status.",
+        "Treat QPC, Défenseur des droits, ECHR and indemnity routes as probes to qualify, not as established remedies or outcomes."
+      ],
+      "constitutional_effectivity_projection_2026_09_26": {
+        "status": "public external Reality Case; candidate contextual source for n3",
+        "source": "../../../research/autonomia/amendement_effectivite_article_72-5.md",
+        "version": "0.4-rc4",
+        "published_on": "2026-09-26",
+        "role": "Cross-scale test of the conversion from formal possibility to effective capability: implementation conditions, use/non-use, periodic evaluation, observable effects and correction.",
+        "invariant_candidate": "A formally open right or faculty is not by itself an effectively usable capability.",
+        "anti_overreach": [
+          "Do not treat territorial constitutional law and individual protection law as identical mechanisms.",
+          "Do not infer causation in Marie-Louise's case from the constitutional analogy.",
+          "Do not describe the amendment as filed, supported or adopted unless a later trace establishes that fact."
+        ],
+        "editorial_use": [
+          "Possible sidebar or methodological bridge for n3.",
+          "Useful for the longitudinal effectivity axis only if it clarifies the individual case rather than displacing it."
+        ]
+      },
+      "capable_public_announcement_2026_09_27": {
+        "status": "observed public delta; candidate contextual source for n3",
+        "occurred_at": "2026-09-27T12:01+02:00",
+        "source_url": "https://x.com/BaronsMariani/status/2104149309168169078",
+        "corpus_source": "../../../projects/capable/README.md",
+        "responsibility_effectivity_source": "../../../research/responsabilite_effectivite.md",
+        "established": [
+          "Capable is publicly announced as a movement.",
+          "The announcement explicitly links Capable to the Principe d'effectivite.",
+          "It states Liberté, Égalité, Fraternité effectives as a goal.",
+          "It links the movement to Autonomie de Capacité and #Suvranu."
+        ],
+        "does_not_establish": [
+          "an announced presidential candidacy",
+          "a retroactive Capable label for earlier candidacies",
+          "a legally constituted political party",
+          "institutional adoption of the doctrine",
+          "any political continuity attributable to Marie-Louise after her death"
+        ],
+        "inquiry_role": [
+          "Public Reality Test of a doctrine leaving the Corpus and entering the political world.",
+          "Future effects, objections and corrections may feed back into the Corpus."
+        ],
+        "editorial_use": [
+          "Late-delta candidate for n3; useful as a short methodological bridge rather than a programmatic manifesto.",
+          "Can document the sequence doctrine -> public projection -> future response of the Real."
+        ],
+        "anti_overreach": [
+          "Suicide Corse is not a Capable manifesto.",
+          "Do not rewrite source-locked historical chapters to make them foreshadow the movement.",
+          "Do not project Capable retroactively onto Marie-Louise's political history."
+        ]
+      },
+      "responsibility_effectivity_projection_2026_09_27": {
+        "status": "methodological delta",
+        "source": "../../../research/responsabilite_effectivite.md",
+        "role": "Adds a temporal and institutional test to longitudinal closure/protection cases.",
+        "test": [
+          "When did the effect become detectable?",
+          "When was it known or reasonably knowable?",
+          "Which authority had real corrective capacity?",
+          "Was the corrective window still open?",
+          "What reaction followed within a reasonable time?"
+        ],
+        "guardrail": "Informed persistence is a candidate qualification, never automatic proof of individual or institutional fault."
+      },
+      "pre_freeze_coherence_audit_2026_09_27": {
+        "status": "active pre-freeze control",
+        "source": "../audits/2026-09-27-pre-freeze-n3.md",
+        "checks": [
+          "Marie-Louise is not projected as a posthumous supporter or source of Capable.",
+          "The 2026 senatorial candidacy is not retroactively relabeled Capable.",
+          "Effectivity doctrine remains distinct from positive law and from political projection.",
+          "Capable is treated as a new public Reality Test, not as proof that the doctrine is correct.",
+          "Source-locked historical chapters remain unchanged.",
+          "The X wording faut is preserved as the public trace; vaut remains the canonical Corpus formulation."
+        ]
+      },
+      "editorial_plan": {
+        "principle": "Le corps principal raconte ; le Magazine actualise ; les annexes démontrent.",
+        "target_audience": "grand public capable d'aller vers les annexes sans devoir les lire pour comprendre le corps principal",
+        "book": {
+          "target_words": "9100-11800",
+          "sequence": [
+            {
+              "id": "L1",
+              "title": "Ouverture — une personne et une absence",
+              "source": "../manuscript/00-ouverture.md",
+              "action": "resserrer"
+            },
+            {
+              "id": "L2",
+              "title": "Marie-Louise — une vie en mouvement",
+              "source": "../manuscript/01-marie-louise.md",
+              "action": "développer fortement à partir des traces publiables"
+            },
+            {
+              "id": "L3",
+              "title": "La parole de Marie-Louise",
+              "source": "../manuscript/15-la-parole-de-marie-louise.md",
+              "action": "conserver dans le corps"
+            },
+            {
+              "id": "L4",
+              "title": "Quand les possibles se ferment",
+              "source": "../manuscript/02-fermeture-des-possibles.md",
+              "action": "conserver ; déplacer les démonstrations inter-échelles détaillées"
+            },
+            {
+              "id": "L5",
+              "title": "La Machine à Empêcher",
+              "source": "../manuscript/03-machine-a-empecher.md",
+              "action": "conserver et simplifier"
+            },
+            {
+              "id": "L6",
+              "title": "De l'empêchement à la capacité",
+              "sources": [
+                "../manuscript/04-realiser-impossible.md",
+                "../manuscript/05-machine-a-rendre-capable-de-vivre.md",
+                "../manuscript/10-stabilisateur-et-capacite-distribuee.md"
+              ],
+              "action": "fusion éditoriale"
+            },
+            {
+              "id": "L7",
+              "title": "Changer d'échelle : la Corse",
+              "sources": [
+                "../manuscript/06-vivre-transmettre.md",
+                "../manuscript/07-corse-capacite-dormante.md"
+              ],
+              "action": "fusion partielle et resserrement"
+            },
+            {
+              "id": "L8",
+              "title": "Réaliser l'impossible",
+              "source": "../manuscript/conclusion-realiser-impossible.md",
+              "action": "conclusion reader-first créée le 28 septembre"
+            }
+          ]
+        },
+        "magazine": {
+          "target_words": "reader-first; first modular pass ~1050 words, enrich only where needed",
+          "period": "2026-09-21/2026-09-28",
+          "rubrics": [
+            {
+              "title": "Le Réel répond",
+              "source": "../manuscript/magazine-n3/01-le-reel-repond.md"
+            },
+            {
+              "title": "Nouvelles traces",
+              "source": "../manuscript/magazine-n3/02-nouvelles-traces.md"
+            },
+            {
+              "title": "Le point de l'enquête",
+              "source": "../manuscript/magazine-n3/03-point-enquete.md"
+            },
+            {
+              "title": "Reality Case",
+              "source": "../manuscript/magazine-n3/04-reality-case-senatoriales.md"
+            },
+            {
+              "title": "Contrepoints",
+              "source": "../manuscript/magazine-n3/05-contrepoints.md"
+            },
+            {
+              "title": "Continuations",
+              "source": "../manuscript/magazine-n3/06-continuations.md"
+            }
+          ],
+          "legacy_monolith": "../manuscript/18-le-reel-repond-2026-09-28.md",
+          "legacy_role": "source snapshot; no longer the preferred reader-facing magazine surface"
+        },
+        "annexes": {
+          "role": "preuve exhaustive, navigation, œuvres intégrales, méthodes, hypothèses et appels contributifs",
+          "items": [
+            "../manuscript/09-test-invariance-echelle.md",
+            "../manuscript/10-stabilisateur-et-capacite-distribuee.md",
+            "../manuscript/11-impunite-par-obscurite.md",
+            "../manuscript/12-carnet-de-serendipite.md",
+            "../manuscript/08-hypotheses-non-resolues.md",
+            "../manuscript/14-le-dieu-de-leau-texte-integral.md",
+            "../manuscript/17-genealogie.md",
+            "../manuscript/chronologie.md",
+            "../manuscript/annuaire.md",
+            "../manuscript/questions-ouvertes.md",
+            "../manuscript/13-proverbes-epigraphes.md",
+            "../manuscript/16-continuations.md",
+            "../manuscript/appel-a-contribution.md",
+            "../manuscript/17-appel-a-temoignages.md",
+            "../manuscript/19-ours.md"
+          ]
+        }
+      },
+      "volume_audit_2026_09_28": {
+        "observation": "The corpus has enough material; hierarchy, not accumulation, is now the editorial bottleneck.",
+        "current_word_counts_approx": {
+          "ouverture": 891,
+          "marie_louise": 1825,
+          "parole_marie_louise": 1573,
+          "fermeture_possibles": 873,
+          "machine_empecher": 896,
+          "realiser_impossible": 1619,
+          "machine_rendre_capable": 1077,
+          "vivre_transmettre": 1302,
+          "corse_capacite_dormante": 1319,
+          "test_invariance": 1387,
+          "stabilisateur_capacite_distribuee": 1082,
+          "impunite_obscurite": 891,
+          "carnet_serendipite": 1377,
+          "hypotheses_non_resolues": 1549,
+          "magazine_modular_total": 1048,
+          "dieu_eau_integral": 1418,
+          "genealogie": 1035,
+          "chronologie": 1303,
+          "annuaire": 1799,
+          "questions_ouvertes": 1273,
+          "proverbes_epigraphes": 988,
+          "continuations": 1651,
+          "appel_contribution": 944,
+          "appel_temoignages": 1305,
+          "ours": 273
+        },
+        "primary_imbalance": "First corrected on 2026-09-28: opening reduced from ~1395 to 891 words; direct Marie-Louise chapter expanded from 184 to ~1825 words.",
+        "corrective_priority": [
+          "L2 first pass completed",
+          "L1 first pass completed",
+          "L6 merged into 04-realiser-impossible.md (~1619 words)",
+          "L7 merged into 06-vivre-transmettre.md (~1302 words)",
+          "Magazine modularized into six recurring rubrics (~1050 words first pass)",
+          "L8 reader-first conclusion created",
+          "continuous-reader audit completed on core Book",
+          "next: final projection validation and render-readiness decision"
+        ]
+      },
+      "chapters": [
+        "../manuscript/00-ouverture.md",
+        "../manuscript/01-marie-louise.md",
+        "../manuscript/15-la-parole-de-marie-louise.md",
+        "../manuscript/02-fermeture-des-possibles.md",
+        "../manuscript/03-machine-a-empecher.md",
+        "../manuscript/04-realiser-impossible.md",
+        "../manuscript/06-vivre-transmettre.md",
+        "../manuscript/07-pivot-rise-and-fall.md",
+        "../manuscript/conclusion-realiser-impossible.md",
+        "../manuscript/magazine-n3/00-magazine.md",
+        "../manuscript/magazine-n3/01-le-reel-repond.md",
+        "../manuscript/magazine-n3/02-nouvelles-traces.md",
+        "../manuscript/magazine-n3/03-point-enquete.md",
+        "../manuscript/magazine-n3/04-reality-case-senatoriales.md",
+        "../manuscript/magazine-n3/05-contrepoints.md",
+        "../manuscript/magazine-n3/06-continuations.md",
+        "../manuscript/annexes-introduction.md",
+        "../manuscript/09-test-invariance-echelle.md",
+        "../manuscript/10-stabilisateur-et-capacite-distribuee.md",
+        "../manuscript/11-impunite-par-obscurite.md",
+        "../manuscript/12-carnet-de-serendipite.md",
+        "../manuscript/08-hypotheses-non-resolues.md",
+        "../manuscript/14-le-dieu-de-leau-texte-integral.md",
+        "../manuscript/17-genealogie.md",
+        "../manuscript/chronologie.md",
+        "../manuscript/annuaire.md",
+        "../manuscript/questions-ouvertes.md",
+        "../manuscript/13-proverbes-epigraphes.md",
+        "../manuscript/16-continuations.md",
+        "../manuscript/appel-a-contribution.md",
+        "../manuscript/17-appel-a-temoignages.md",
+        "../manuscript/19-ours.md"
+      ],
+      "chapters_note": "Publication order now materializes the three reader-facing layers directly: Book, Magazine, then Annexes. Source chapters 05 and 07 remain in the Corpus as preserved inputs to the merged chapters but are no longer rendered as duplicate reader-facing chapters. Reader audit and Phase A verification passed; this projection is the final technical-freeze render candidate authorized in issue #91.\n",
+      "outputs": {
+        "required": [
+          "html",
+          "pdf",
+          "epub"
+        ],
+        "optional": [],
+        "status": "required final-edition outputs; verify exact bytes before promotion",
+        "masthead_required": true,
+        "masthead_rule": "Identify final human editorial responsibility and actual AI assistance; legal publisher/director fields must be verified before final render.",
+        "technical_manifest": "required",
+        "campaign_journal": "required",
+        "coverage_report": "required"
+      }
+    }
+  },
+  "source_manifest": {
+    "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/corpus.yml",
+    "sha256": "d7de85cb88c289ea65cb9399b1924184c6d1bb09842ba3a948d91aeb4517d39c"
+  },
+  "sources": [
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/procedures_2024_2026_reactivation_register.md",
+      "sha256": "c7993251a4815e9395c9580d311f720c025f807b2d60bac7c61b7ce31b184049",
+      "role": "procedural-reactivation-and-reparation-register",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/07-pivot-rise-and-fall.md",
+      "sha256": "5c577c28971623b071473a5669bf8b35d54298b7d35f762e2d635624fc9d4e53",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/architecture.md",
+      "sha256": "5a7b639a3fe031a074e812b4f6312ecbd40ec3b5b715e236c7ca1718a9547b12",
+      "role": "project-architecture",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/editorial-architecture.md",
+      "sha256": "ded9618f75857d9049a282360fb28ea2e3974edda474982cc6506b764c9122d9",
+      "role": "editorial-architecture",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/kudos.md",
+      "sha256": "e4f06255e65556fa20e1b3d036ca83d54a79273652d1d296712726ba8fa39341",
+      "role": "complementary-currency-and-counter-gift-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/stigmergie_sans_limite_haute.md",
+      "sha256": "ec9eda7a5a69da822d14ba0c7bfc82120b70ab3d5e328e1c6291ae1b00b27cf8",
+      "role": "stigmergic-method-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/README.md",
+      "sha256": "445b97dbc478e94039b2433f2c33b623b143851c10065fc344d048a497c6f541",
+      "role": "source-index",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/carte.md",
+      "sha256": "21601133afd36b39387a0ecdb7f982a2d502a2f7544cc27354c0298e3bf72cce",
+      "role": "documentary-map",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/possible_matrix.md",
+      "sha256": "6c4fae7a8e7044c4b5f968b59395d516d07e36a1e7c1bac48a6e4440e9f2e1ed",
+      "role": "research-matrix",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/possible_matrix.yaml",
+      "sha256": "982b2234b6fa40e46dfb024f84dfc4df5c64d9b07fa3f54129f980846293132a",
+      "role": "machine-readable-projection",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/2024_portes_et_controles_epistemiques.md",
+      "sha256": "e7df141fb398b458a4343c34e0935f98debe74863f3ef7004785d9593349486e",
+      "role": "research-matrix",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/formation/parcours_artistique_2016_2022.md",
+      "sha256": "bed42ed6332c3c13dc3d4ebf87f3d6a0e4e6c077d14f0fb5a41028d427749b6b",
+      "role": "source-collection",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/works/README.md",
+      "sha256": "8963f200d1b70a5e32861c52fb29a1f362c172b883553117419da2ad6fba5711",
+      "role": "source-index",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/elections/README.md",
+      "sha256": "ead8f54ca22138343a7af5b868dbc39ef6364c4eb42a5f231b7936e1054a4d4e",
+      "role": "source-index",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/elections/capability-matrix-2017-2024.md",
+      "sha256": "6bdc1c05a2cf99a9da89787f988288725f51cd2a48db2ffff9c0280c84d27b59",
+      "role": "longitudinal-capability-analysis",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/works/catalogue/entries-post-n2-2026-09-24.yml",
+      "sha256": "d04510b9c410f764cb847705022d16ab07afd2b9347ae4b2f3ba262e9f9f82ce",
+      "role": "post-n2-work-catalogue-supplement",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/identites.md",
+      "sha256": "68de113bb19bfe07da91483b7b6de3b7930e51c353d79f607835f194dbe30242",
+      "role": "identity-record",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/elections-2024-complaints.md",
+      "sha256": "5b4a04c47f0aca5573f7f04c2dc9247f346a4789feffa1023b6b2d21de99e76c",
+      "role": "longitudinal-electoral-and-remedy-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/chronology/README.md",
+      "sha256": "d0006de48a6c3b5f661723dc27dccf4b18978332e5bcff0b90bcd11828fc0751",
+      "role": "source-collection",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/witnesses/README.md",
+      "sha256": "5ba7809e326a4facdb97274bfb64d9b0da2ecf7a5e5c2c9d3f9ec4082e58c134",
+      "role": "inquiry-method-and-index",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/enquete-gendarmerie/README.md",
+      "sha256": "533f4f472b171835b36d1a559ff7293e5314a640b115ec07b93604b0a4c5bac5",
+      "role": "inquiry-collection",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/musee-mariani/casabianca/README.md",
+      "sha256": "57f257f183316d6662e1236b38d8c6d1ab29abaf0f4168e971c56bed13c04273",
+      "role": "family-source-collection",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/musee-mariani/mariani/README.md",
+      "sha256": "555dc09851319574bc7c5b645a3ab4736843671d8e3890f27122fca9cda5fb07",
+      "role": "family-source-collection",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/musee-mariani/dangelis/README.md",
+      "sha256": "3f83227e89db13575299262e91a8ee0e4f71870a313d3765eda879963510cabc",
+      "role": "family-source-collection",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/triangulation_du_reel.md",
+      "sha256": "e31c1575e119e17a3e63c4328532f8dd51b6e0b1ef8bc30a9b349c54eb5fb9db",
+      "role": "methodological-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/protection_responsable.md",
+      "sha256": "0aff979ec3968e14c97d853525e6ccb3f59cf11a18d6010373affce13e801bdd",
+      "role": "research-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/second_method.md",
+      "sha256": "f22b5fbc48d30a1f4f1bc4a53095cdf2c7ba18f9f853a85ab72d550829390027",
+      "role": "methodological-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/potentics.md",
+      "sha256": "5306d58af67acd5f4f7fa078ac98bc44da1f01194e334863e0534d6ecfc3ce0c",
+      "role": "methodological-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/noyau_doctrinal_rendre_capable.md",
+      "sha256": "0894363247983524ad2fe0163259045dbab6525e2b0f5402476cb9308dac632a",
+      "role": "doctrinal-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/democratie_capable.md",
+      "sha256": "cc0b1623acf6c511911d46aa90e7136bf0a62bdb30a6f295183d1429af126bb6",
+      "role": "doctrinal-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/responsabilite_effectivite.md",
+      "sha256": "228af366bd09e667c3c7bc991092b586acb151fc773b95bf93b47bea784af555",
+      "role": "doctrinal-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/capable/README.md",
+      "sha256": "b7905bb9c7486e655085e7f6714ae1a7ce3b296aeed19deda0d3c9847316f261",
+      "role": "public-political-projection",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/capable/public-claims.md",
+      "sha256": "419a8fdf1b9a33dc6cae65916817790745e4acc88d07fe83e6900eb8181e1b7d",
+      "role": "public-claims-register",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/capable/reality-tests/capable-2026-09-27-baseline.md",
+      "sha256": "faf128cf6a960cc7d206b5a7ed3600773315db4669708b59b18857b87e6a2004",
+      "role": "pre-outcome-reality-test",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/case_studies/capable_test_marie_louise_2024.md",
+      "sha256": "67ac9a364cece7ea4c0716fe95e9eec7d7592456741de54b15977fb86c7be585",
+      "role": "sensitive-derived-reality-case",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-27-pre-freeze-n3.md",
+      "sha256": "c8bb7a2898cdc86bbdfc02368b4d397f3910ef52a915b9e716d6bc8f38f219bd",
+      "role": "editorial-audit",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-28-reader-audit-n3.md",
+      "sha256": "2de62d39063119131bb6e902682af932f73cca5e7d68bc9792f37ccc7623cfe5",
+      "role": "reader-audit",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-29-special-senatoriales-late-close.md",
+      "sha256": "4990f042e0893e167f613db2aaa207a338933fba345f7acc27c9fd781686810f",
+      "role": "exceptional-late-close-audit",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-30-special-senatoriales-editorial-date.md",
+      "sha256": "b9573ef79fcd73bc06b5440915156281d48dc3bebdb5dea9de961dfa57dce8a1",
+      "role": "editorial-date-decision",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-30-special-senatoriales-content-close.md",
+      "sha256": "c701b93cb18ba7817500992f4d3a3dddffc7311ec80c30127800711770b7ca30",
+      "role": "editorial-content-close-decision",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/journals/2026-09-30-conservation-affichage-et-reprise.md",
+      "sha256": "2c43d4f8764a59e446d6db6f4c425a6520e4762729b2b5c66a2bc2badb93bc49",
+      "role": "conservation-record",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/journals/2026-10-01-conservation-reprise.md",
+      "sha256": "1ef1d8874cfc235aa524578d9203e79d64f51ec47b7a401d29d045d1fc181832",
+      "role": "conservation-record",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/uchronie_troisieme_candidat_matrice_probes_2026-09-29.md",
+      "sha256": "de510b4e26689ac47aa84d5d059f3766f824f0e640f37901a8537aab609b3c3b",
+      "role": "constrained-electoral-uchronia-probe-matrix",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/uchronie_troisieme_candidat_2026-09-29.md",
+      "sha256": "f49a78519dd7ef9a698d201ca11a857977ffa59b2c7b01e5a2cd6c52faccb12d",
+      "role": "constrained-electoral-uchronia",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/borne_contrefactuelle_offre_troisieme_candidature_2026-09-29.md",
+      "sha256": "e78c67a87e2dc8a04d302dfbdee1e41ef55830b8fefceddd3a067b8ead7cb882",
+      "role": "electoral-counterfactual-analysis",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-28-final-content-sweep-n3.md",
+      "sha256": "1b830480679b2973563fe957027f9282a06cd584de490f1b9d54a0678586f89b",
+      "role": "final-content-audit",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/trails/une_corse_capable.md",
+      "sha256": "e2d02db55a910a1cd24d0d0a9c57c361acf2824dd017d4d6cfe44dfe987c8d8b",
+      "role": "trail",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/declaration_continuite_electorale_2026-09-17.md",
+      "sha256": "19511bd32c5e8d5c7875ca41702b39dbd048f88a46b5bdb63ee28f96af13055b",
+      "role": "dated-declaration",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/README.md",
+      "sha256": "c963a474211a56c8b8ecfbe89849f6b7c3bafd09bb44254b31fbb815b51ecfc6",
+      "role": "inquiry-index",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/chronology.md",
+      "sha256": "34d9e9d6c2c134ace6d63f2231c1ce4635d1f8ff27cad6435bac724e7329efe9",
+      "role": "evidence-chronology",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/knowledge-matrix.md",
+      "sha256": "2184fe4ea2ae92a9b234cb850e2918f70555d4d2388ebafce5a052ad7920bfde",
+      "role": "knowledge-matrix",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/sources.md",
+      "sha256": "1b4826aa1d8a9318644c7edd24a2154e68153ff5bd798e131a4f06594aa1ad8b",
+      "role": "evidence-index",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/demande_consultation_pv_prefecture_2026-09-28.md",
+      "sha256": "30db2f1e617fc9312dadc8feb72d109e035fbeb2f959e28b83cb568a700bd169",
+      "role": "document-access-probe-with-response",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/demande_information_sous_prefecture_corte_2026-09-28.md",
+      "sha256": "0980634f390d7427ee168b92e67329a4630d5cb801e202e0d2f479c6aa4b1c9e",
+      "role": "sent-procedural-channel-probe",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/qpc/qpc-a-candidature-senatoriale-2026.md",
+      "sha256": "35ecfd88e02822ae3b1103a72983b4b9a0fdbec8fd5a7ae299ee649d80870639",
+      "role": "qpc-procedural-qualification",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/convergence_scrutin_requete_amendement_qpc_2026-09-29.md",
+      "sha256": "38de0371f8e4a046d96abdac2c078f76a849df4d8f6f83c9262a9ff4d5ca332d",
+      "role": "cross-track-convergence-checkpoint",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/requete-conseil-constitutionnel-projet-v0.2.md",
+      "sha256": "a544a397762766225a7df019b16df41f2e92adb9e8582df7987929670dd37535",
+      "role": "legal-draft",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/rational_odysseys_the_possible.md",
+      "sha256": "d325ee2a751c7d8572331f35220e716e2395df718f1efe1094ba595229841c2e",
+      "role": "conceptual-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/autonomia/grammaire_autonomie_de_capacite.md",
+      "sha256": "07b8ec21dedb2b3c4893a5b7b9da1f8d538ca77cbd4972fcd150ff4e4df7f86e",
+      "role": "political-method-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/autonomia/amendement_effectivite_article_72-5.md",
+      "sha256": "1162213f694b1234ff7c9059e7578d3877b2b89786637e2f7d4bee45527a546c",
+      "role": "constitutional-proposal-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/autonomia/potentique_territoriale.md",
+      "sha256": "6a4b11bcf5583cd57991c100c6ff1baf00becdeaa46c6c7b3740430f0d7f3b37",
+      "role": "research-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/autonomia/corse_laboratoire.md",
+      "sha256": "b51ecbf561891e1b6de575638271b67b332c8c0990244f108f7317a7e1aec292",
+      "role": "research-source",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/00-ouverture.md",
+      "sha256": "13183b06f68a125ac38c7d000f06a8e551b555902d91dbfd3d3137ef633ef7f9",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/01-marie-louise.md",
+      "sha256": "7715454d5b91e323dc0bf6e4f946924b98524bb36e8a3b1f099e88b01dd736e4",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
+      "sha256": "f91af3642a33a1047eae38a9987204dd730244e37d9635ef2bcc2d5231624bb7",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/02-fermeture-des-possibles.md",
+      "sha256": "2359ff06a77afd19e6419c39ce97424e8da273ee8aa3dd2ba912686efe2a2d48",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/03-machine-a-empecher.md",
+      "sha256": "98f90feed7f7e5508a8cbf91e3d5332cfe040366e9f45126119ce89d092ddb8f",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/04-realiser-impossible.md",
+      "sha256": "b3daf2b9fb1d670e48df76fff9ce6a5471670f864e8e5de079f1ec0797d150e0",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/06-vivre-transmettre.md",
+      "sha256": "56886b5ec10d00dcf15e26047494d6d877d7856dd68ceef8471429ae0ff43c5f",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/conclusion-realiser-impossible.md",
+      "sha256": "f27af35f70890ad53c6b903f57bbe5ed8b565d2f0c799c4619c73528217d2865",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/00-magazine.md",
+      "sha256": "17c8a4e338ea8502d589a4d1969f60361e6b576ee8d67bea64a277e8ae02b088",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/01-le-reel-repond.md",
+      "sha256": "054e42fcd44248e2ace4ad183c1d14af671b47001803d48f1143a29e75df1903",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/02-nouvelles-traces.md",
+      "sha256": "eb30f32af8c1ef6334e4bf22992e916684b47c61c255099d37c8f34fcecacb31",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/03-point-enquete.md",
+      "sha256": "a4f461c84055ab411ef9687297f3bc550e4f1539d80966999b372eac3bfed545",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/04-reality-case-senatoriales.md",
+      "sha256": "94bb4e90f84f0208c9b4f76ee1e3752c2690f177810ac831210bffef59db5154",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/05-contrepoints.md",
+      "sha256": "c5b04b138d7f9ae888ea9e8ca74daeab34c3376272077a08c3dc9be309ac3458",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/06-continuations.md",
+      "sha256": "7365adb7eb520b6e1e8e1684cda4834843ce01cbc017698fcbe8afe58f7db269",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/annexes-introduction.md",
+      "sha256": "1612fa03265e458c67b2232c5ec0a4ff821e55f09a1caf9b82cd8c69b3fd5f48",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
+      "sha256": "ecdd4614d12e827534dddd23542423fc9ea52a1eaa4bb9245344fc1105257932",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
+      "sha256": "805a73f1e5f50fbe9b68ab5f16ee2c63b270f938015fd8f78c28d8d3042033e4",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/11-impunite-par-obscurite.md",
+      "sha256": "13f98992fb4096eb1682ac126153cfba3c81b0dec7a673e3f739dfefcf379e66",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/12-carnet-de-serendipite.md",
+      "sha256": "cf46da33d1ae27bd9106049036024cbf0fd06fe40e54584394148ba47765d216",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/08-hypotheses-non-resolues.md",
+      "sha256": "530315ba5569d38f3494b1ed0f02fd65f25eef81f751a2bc2462830f5ac2198b",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/14-le-dieu-de-leau-texte-integral.md",
+      "sha256": "ce50814ff496b93a76cf90096daa53bc892aab651aecb88a2d31ba838cb8f1ee",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/17-genealogie.md",
+      "sha256": "a75b76208a71ae1238cd5ccb1d1670ba2ca5f196380c38bb266a56e96afc4b05",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/chronologie.md",
+      "sha256": "d3ca85d46a67969e8f9ee7e260ace7867f9b494f8dd8a8d89b9a2a9e44975271",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/annuaire.md",
+      "sha256": "cef3e08e3d87ef343a8740fea6c913afbbc30731664e86d8020cb69cc8f987c3",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/questions-ouvertes.md",
+      "sha256": "1e3bf9733e1274f32563b85f339fcad04a01fdeadfb26b3340e47646ad7e60f7",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/13-proverbes-epigraphes.md",
+      "sha256": "e1c7f24642982c42fd72581db3ce72975d1e960c50321b31fbf37d849d549339",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/16-continuations.md",
+      "sha256": "5725767dd0f0195f246f793198acda1b135c68786c1e066c7649c0aeedcd0255",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/appel-a-contribution.md",
+      "sha256": "6abbbcce3b4524b659093dd4a54385f8518f34043d876b84feee41a615ca0602",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+      "sha256": "d196eb7ae531963081dc22053760e5709500cbc513949966a8628e4f83c0cf5c",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/19-ours.md",
+      "sha256": "226a6741b44fca6385850d14a58f2a730179aa4d393872094ac6ed5c766e252a",
+      "role": "chapter",
+      "git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34"
+    }
+  ],
+  "source_git_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34",
+  "source_git_dirty": false,
+  "chapters": [
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/00-ouverture.md",
+      "frontmatter": {
+        "title": "Ouverture",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-28",
+        "last_modified_at": "2026-09-29",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/00-ouverture.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "editorial-recomposition",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "origin_date": "2026-09-28",
+          "derived_from": [
+            "memory/marie-louise/carte.md",
+            "memory/marie-louise/2024_portes_et_controles_epistemiques.md",
+            "projects/suicide-corse/projections/n3-editorial-architecture.md",
+            "projects/suicide-corse/manuscript/03-machine-a-empecher.md",
+            "projects/suicide-corse/manuscript/04-realiser-impossible.md",
+            "GitHub issue",
+            "GitHub issue",
+            "GitHub issue"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/01-marie-louise.md",
+      "frontmatter": {
+        "title": "Marie-Louise — une vie en mouvement",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-28",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/01-marie-louise.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "editorial-recomposition",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "origin_date": "2026-09-28",
+          "derived_from": [
+            "memory/marie-louise/carte.md",
+            "memory/marie-louise/formation/parcours_artistique_2016_2022.md",
+            "memory/marie-louise/elections/README.md",
+            "memory/marie-louise/works/atelier_etape_par_etape_2016_2017.md",
+            "memory/marie-louise/witnesses/README.md",
+            "projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
+            "projects/suicide-corse/projections/n3-editorial-architecture.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
+      "frontmatter": {
+        "title": "La parole de Marie-Louise",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-17",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-17",
+          "derived_from": [
+            "GitHub issue #75",
+            "memory/marie-louise/carte.md",
+            "memory/marie-louise/possible_matrix.md",
+            "memory/marie-louise/elections/2020-senatoriales.md",
+            "Gmail:1902138ea0abe20c",
+            "Gmail:16026417e4fe45c2",
+            "Gmail:160277c953cf0d69",
+            "Gmail:1873c717b09e0dc8",
+            "Gmail:16a2feb51857e1ed",
+            "registre-mariani twin: works/catalog.yml, relationships/artistic-relatogram.md, legacy.md, rights-patrimony-legacy.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/02-fermeture-des-possibles.md",
+      "frontmatter": {
+        "title": "Quand les possibles se ferment",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-09",
+        "last_modified_at": "2026-09-29",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/02-fermeture-des-possibles.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-07",
+          "derived_from": [
+            "research/potentics.md",
+            "research/rational_odysseys_the_possible.md",
+            "research/noyau_doctrinal_rendre_capable.md",
+            "memory/marie-louise/carte.md",
+            "GitHub issue #47"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/03-machine-a-empecher.md",
+      "frontmatter": {
+        "title": "La Machine à Empêcher",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-09",
+        "last_modified_at": "2026-09-29",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/03-machine-a-empecher.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-07",
+          "derived_from": [
+            "GitHub issue #47",
+            "research/protection_responsable.md",
+            "research/noyau_doctrinal_rendre_capable.md",
+            "JeanHuguesRobert/cogentia/patterns/revealer-stabilizer/PATTERN.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/04-realiser-impossible.md",
+      "frontmatter": {
+        "title": "De l'empêchement à la capacité",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-28",
+        "last_modified_at": "2026-09-29",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/04-realiser-impossible.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "editorial-recomposition",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "origin_date": "2026-09-28",
+          "derived_from": [
+            "research/second_method.md",
+            "research/potentics.md",
+            "research/noyau_doctrinal_rendre_capable.md",
+            "research/bien_vivre.md",
+            "projects/suicide-corse/manuscript/03-machine-a-empecher.md",
+            "projects/suicide-corse/manuscript/05-machine-a-rendre-capable-de-vivre.md",
+            "projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
+            "JeanHuguesRobert/cogentia/patterns/revealer-stabilizer/PATTERN.md",
+            "projects/suicide-corse/projections/n3-editorial-architecture.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/06-vivre-transmettre.md",
+      "frontmatter": {
+        "title": "Changer d'échelle : la Corse",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-28",
+        "last_modified_at": "2026-09-29",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/06-vivre-transmettre.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "editorial-recomposition",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "origin_date": "2026-09-28",
+          "derived_from": [
+            "projects/suicide-corse/manuscript/06-vivre-transmettre.md",
+            "projects/suicide-corse/manuscript/07-corse-capacite-dormante.md",
+            "projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
+            "projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
+            "research/autonomia/corse_laboratoire.md",
+            "research/autonomia/amendement_effectivite_article_72-5.md",
+            "JeanHuguesRobert/cogentia/patterns/revealer-stabilizer/PATTERN.md",
+            "projects/suicide-corse/projections/n3-editorial-architecture.md"
+          ],
+          "external_checks": [
+            "Insee Analyses Corse n°67, avril 2026 — bilan démographique 2025",
+            "Università di Corsica — historique et réouverture du 26 octobre 1981"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/07-pivot-rise-and-fall.md",
+      "frontmatter": {
+        "title": "Quand deux époques se répondent — 1863 ↔ 2026",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "working",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "book-chapter",
+        "document_kind": "cross-project-pivot",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "related_documents": [
+          "../../rise-and-fall/investigation/reality_cases/RC-01-1863-gavini.md",
+          "../../rise-and-fall/investigation/notes/2026-09-30-echo-electoral-1863-2026.md",
+          "magazine-n3/04-reality-case-senatoriales.md"
+        ]
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/conclusion-realiser-impossible.md",
+      "frontmatter": {
+        "title": "Réaliser l'impossible",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-28",
+        "last_modified_at": "2026-09-29",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-conclusion",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "editorial-recomposition",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "derived_from": [
+            "projects/suicide-corse/manuscript/03-machine-a-empecher.md",
+            "projects/suicide-corse/manuscript/04-realiser-impossible.md",
+            "projects/suicide-corse/manuscript/06-vivre-transmettre.md",
+            "projects/suicide-corse/projections/n3-editorial-architecture.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        }
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/00-magazine.md",
+      "frontmatter": {
+        "title": "Magazine — Spécial sénatoriales — 21 au 30 septembre 2026",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "magazine-introduction",
+        "visibility": "public",
+        "lifecycle_state": "working"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/01-le-reel-repond.md",
+      "frontmatter": {
+        "title": "Le Réel répond",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/02-nouvelles-traces.md",
+      "frontmatter": {
+        "title": "Nouvelles traces",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/03-point-enquete.md",
+      "frontmatter": {
+        "title": "Le point de l'enquête",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/04-reality-case-senatoriales.md",
+      "frontmatter": {
+        "title": "Reality Case — Sénatoriales 2026",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "source_documents": [
+          "../../../research/senatoriales-2026/data/resultats_officiels_scrutin_2026-09-27.md",
+          "../../../research/senatoriales-2026/investigation/borne_contrefactuelle_offre_troisieme_candidature_2026-09-29.md",
+          "../../../research/senatoriales-2026/investigation/uchronie_troisieme_candidat_2026-09-29.md",
+          "../../../research/senatoriales-2026/investigation/uchronie_troisieme_candidat_matrice_probes_2026-09-29.md",
+          "../../../research/senatoriales-2026/requete-conseil-constitutionnel-projet-v0.1.md",
+          "../../../research/senatoriales-2026/demande_consultation_pv_prefecture_2026-09-28.md"
+        ]
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/05-contrepoints.md",
+      "frontmatter": {
+        "title": "Contrepoints",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/06-continuations.md",
+      "frontmatter": {
+        "title": "Continuations",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/annexes-introduction.md",
+      "frontmatter": {
+        "title": "Annexes — vérifier, approfondir, contribuer",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "annex-introduction",
+        "visibility": "public",
+        "lifecycle_state": "working"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
+      "frontmatter": {
+        "title": "Test d'invariance : Marie-Louise et la Corse, une même grammaire ?",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-15",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-15",
+          "derived_from": [
+            "GitHub issue #75",
+            "projects/suicide-corse/architecture.md",
+            "memory/marie-louise/possible_matrix.md",
+            "memory/marie-louise/carte.md",
+            "research/agile.md",
+            "research/autonomia/corse_laboratoire.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
+      "frontmatter": {
+        "title": "Stabilisateur, capacité distribuée : deux invariants supplémentaires",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-15",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-15",
+          "derived_from": [
+            "GitHub issue #75",
+            "research/autonomia/grille_ubuesque_kafkaien_machine_a_empecher.md",
+            "research/autonomia/follow_the_power_premier_test.md",
+            "research/autonomia/act_1755_01_verification_manuscrit.md",
+            "projects/suicide-corse/architecture.md",
+            "memory/marie-louise/possible_matrix.md",
+            "memory/marie-louise/elections/README.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/11-impunite-par-obscurite.md",
+      "frontmatter": {
+        "title": "Impunité par obscurité : un mécanisme sans auteur, à deux échelles",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-15",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/11-impunite-par-obscurite.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-15",
+          "derived_from": [
+            "GitHub issue #75",
+            "research/autonomia/impunite_par_obscurite_cas_corse.md",
+            "memory/marie-louise/elections-2024-complaints.md",
+            "memory/marie-louise/carte.md",
+            "projects/suicide-corse/manuscript/03-machine-a-empecher.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/12-carnet-de-serendipite.md",
+      "frontmatter": {
+        "title": "Carnet de sérendipité",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-15",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/12-carnet-de-serendipite.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-15",
+          "derived_from": [
+            "GitHub issue #75",
+            "research/opheline_ophelia_pertitellu_genesis.md",
+            "research/bien_vivre.md",
+            "research/le_reel_le_virtuel_et_l_actuel.md",
+            "memory/marie-louise/carte.md",
+            "Matthieu 5, 4 ; 2 Corinthiens 6, 10"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/08-hypotheses-non-resolues.md",
+      "frontmatter": {
+        "title": "Hypothèses non résolues — état au 30 septembre 2026",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-15",
+        "last_modified_at": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/08-hypotheses-non-resolues.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-15",
+          "derived_from": [
+            "GitHub issue #75",
+            "projects/suicide-corse/corpus.yml",
+            "projects/suicide-corse/architecture.md",
+            "memory/marie-louise/2024_portes_et_controles_epistemiques.md",
+            "research/triangulation_du_reel.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/14-le-dieu-de-leau-texte-integral.md",
+      "frontmatter": {
+        "title": "Le dieu de l'eau (2008) — texte intégral et mail original",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-17",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/14-le-dieu-de-leau-texte-integral.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-17",
+          "derived_from": [
+            "memory/marie-louise/works/le_dieu_de_leau_2008.md",
+            "memory/marie-louise/works/sources/le_dieu_de_leau_2008_verbatim.txt",
+            "memory/marie-louise/works/sources/2008-12-03_jouyeux-Noel-de-lilou_original.eml",
+            "memory/marie-louise/carte.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/17-genealogie.md",
+      "frontmatter": {
+        "title": "Généalogie — Marie-Louise dans une histoire familiale plus longue",
+        "description": "Projection généalogique des dossiers Casabianca, Mariani et d’Angelis vers Suicide Corse.",
+        "author": "Jean Hugues Noël Robert",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica",
+        "date": "2026-09-18",
+        "status": "working-paper — edition snapshot",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "visibility": "public",
+        "document_role": "derived",
+        "document_kind": "genealogical-chapter",
+        "update_policy": "UP-DEFAULT-REVIEWED",
+        "provenance": {
+          "origin_type": "repository",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "unknown",
+          "derived_from": [
+            "musee-mariani/casabianca/",
+            "musee-mariani/mariani/",
+            "musee-mariani/dangelis/",
+            "musee-mariani/personnes/README.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        }
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/chronologie.md",
+      "frontmatter": {
+        "title": "Chronologie",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-21",
+        "last_modified_at": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "derived_from": [
+            "memory/marie-louise/chronology/README.md",
+            "memory/marie-louise/chronology/2017-03-24-cpes-marie-jeanne-tomasi.md",
+            "memory/marie-louise/chronology/2017-04-07-cpes-toni-casalonga.md",
+            "memory/marie-louise/chronology/2017-04-14-scenina-ajaccio.md",
+            "memory/marie-louise/carte.md",
+            "memory/marie-louise/possible_matrix.md",
+            "memory/marie-louise/2024_portes_et_controles_epistemiques.md",
+            "memory/marie-louise/formation/parcours_artistique_2016_2022.md",
+            "memory/marie-louise/witnesses/research-2009-2016.md"
+          ]
+        },
+        "review": {
+          "status": "human-authorized-for-n2-close",
+          "reviewed_by": [
+            "Jean Hugues Noël Robert"
+          ],
+          "previous_status": "agent-revised — pending human review"
+        },
+        "ai_assisted_by": [
+          "Claude Opus 5 (Anthropic) — dernière passe de lisibilité grand public, issue #82, 2026-09-21",
+          "ChatGPT — propagation documentaire et contrôle de cohérence au bouclage, 2026-09-21"
+        ]
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/annuaire.md",
+      "frontmatter": {
+        "title": "Annuaire",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-21",
+        "last_modified_at": "2026-09-28",
+        "status": "working",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "derived_from": [
+            "memory/marie-louise/witnesses/README.md",
+            "memory/marie-louise/witnesses/METHOD.md",
+            "memory/marie-louise/witnesses/MODEL.md",
+            "memory/marie-louise/witnesses/research-2009-2016.md",
+            "memory/marie-louise/witnesses/research-2017-transition-nantes.md",
+            "memory/marie-louise/witnesses/nantes_zad_tournage.md",
+            "memory/marie-louise/witnesses/coverage-matrix.md",
+            "memory/marie-louise/witnesses/campaign-01.md"
+          ]
+        },
+        "review": {
+          "status": "human-authorized-current-reprojection",
+          "reviewed_by": [
+            "Jean Hugues Noël Robert"
+          ],
+          "previous_status": "human-authorized-for-n2-close"
+        },
+        "ai_assisted_by": [
+          "Claude Opus 5 (Anthropic) — dernière passe de lisibilité grand public, issue #82, 2026-09-21",
+          "ChatGPT — propagation documentaire et contrôle de cohérence au bouclage, 2026-09-21"
+        ]
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/questions-ouvertes.md",
+      "frontmatter": {
+        "title": "Suicide Corse — questions ouvertes de l'enquête",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-18",
+        "last_modified_at": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "public-open-questions",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "derived_from": [
+            "projects/suicide-corse/manuscript/16-continuations.md",
+            "projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+            "projects/suicide-corse/manuscript/annuaire.md",
+            "projects/suicide-corse/manuscript/chronologie.md",
+            "memory/marie-louise/witnesses/research-2009-2016.md",
+            "memory/marie-louise/witnesses/nantes_zad_tournage.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        }
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/13-proverbes-epigraphes.md",
+      "frontmatter": {
+        "title": "Proverbes corses — appareil de sourcing des épigraphes",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-15",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-appendix",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/13-proverbes-epigraphes.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-15",
+          "derived_from": [
+            "GitHub issue #75"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/16-continuations.md",
+      "frontmatter": {
+        "title": "Continuations — chantiers ouverts au bouclage du numéro 3",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-17",
+        "last_modified_at": "2026-09-30",
+        "status": "content-closed-pending-verification",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/16-continuations.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "generated",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-17",
+          "derived_from": [
+            "GitHub issue #75",
+            "GitHub issue #76",
+            "projects/suicide-corse/architecture.md",
+            "projects/suicide-corse/README.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/appel-a-contribution.md",
+      "frontmatter": {
+        "title": "Une enquête qui appelle des compétences — appel ouvert à contribution",
+        "subtitle": "De l'appel à témoignages à l'appel ouvert à contribution : mobiliser les savoirs juridiques, statistiques, historiques et techniques",
+        "author": "Jean Hugues Noël Robert",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica",
+        "date": "2026-09-28",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "canonical-source",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/appel-a-contribution.md",
+        "update_policy": "UP-DEFAULT-REVIEWED",
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "provenance": {
+          "origin_type": "issue-specification",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "GitHub issue #87",
+          "origin_date": "2026-09-27"
+        }
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+      "frontmatter": {
+        "title": "Une nouvelle phase publique de l'enquête — appel à témoignages",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-09-17",
+        "status": "draft",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "manuscript-chapter",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "canonical_url": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+        "update_policy": "UP-DERIVED-SOURCE-LOCKED",
+        "provenance": {
+          "origin_type": "conversation",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "unknown",
+          "origin_date": "2026-09-17",
+          "derived_from": [
+            "projects/suicide-corse/manuscript/00-ouverture.md",
+            "projects/suicide-corse/manuscript/16-continuations.md",
+            "projects/suicide-corse/architecture.md",
+            "memory/marie-louise/carte.md"
+          ]
+        },
+        "review": {
+          "status": "unreviewed",
+          "reviewed_by": []
+        },
+        "classification_source": "cogentia.js",
+        "classification_version": "1",
+        "classification_rule": "explicit-metadata",
+        "classification_confidence": "strong",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+      }
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/19-ours.md",
+      "frontmatter": {
+        "title": "Ours — Suicide Corse n°3",
+        "author": "Jean Hugues Noël Robert",
+        "affiliation": "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica",
+        "date": "2026-09-30",
+        "status": "working-paper — freeze-render-candidate",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "source",
+        "document_kind": "masthead",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "update_policy": "UP-DEFAULT-REVIEWED",
+        "provenance": {
+          "origin_type": "repository",
+          "origin_repository": "JeanHuguesRobert/barons-Mariani",
+          "origin_ref": "main",
+          "origin_date": "2026-09-28",
+          "derived_from": [
+            "projects/suicide-corse/projections/book-n3-working.yml",
+            "projects/suicide-corse/projections/n3-editorial-architecture.md",
+            "projects/suicide-corse/audits/2026-09-28-reader-audit-n3.md",
+            "projects/suicide-corse/audits/2026-09-30-special-senatoriales-content-close.md",
+            "GitHub issue",
+            "GitHub issue"
+          ]
+        },
+        "review": {
+          "status": "human-freeze-authorized-pending-publication",
+          "reviewed_by": [
+            "Jean Hugues Noël Robert",
+            "GPT-5.6 Sol — editorial reader audit"
+          ]
+        }
+      }
+    }
+  ],
+  "missing_optional_sources": [],
+  "renderer": {
+    "name": "quarto",
+    "version": "1.10.18"
+  },
+  "generator": {
+    "name": "ubikia.reactive-products",
+    "version": "0"
+  },
+  "generated": [
+    {
+      "path": "_quarto.yml",
+      "sha256": "30c362484e425e590c07f1e088084e4bc93ff576c4c3f8957ce69f1695716d22"
+    },
+    {
+      "path": "cover.css",
+      "sha256": "6924c058a72283d722aefae381e5b18be995567f4015189e031e28540185825f"
+    },
+    {
+      "path": "index.qmd",
+      "sha256": "896eb7ffd96d979adb5648b0e4d4bf426f10e2c838e64ef359953ed4227e331a"
+    },
+    {
+      "path": "before-body.tex",
+      "sha256": "80293ac1a5211f58693ad4a18f956a976e5b684acae450821e1314953a424d0e"
+    },
+    {
+      "path": "drop-cover.lua",
+      "sha256": "c86097500ebab1eb55602dd649e85dea69c11cb610bf39117d4048387092df4b"
+    },
+    {
+      "path": "chapter-001.qmd",
+      "sha256": "c4e8b3146c7cc7908cbcbcd9926f2658c9af8493f1c12718f0a15882f59956e3"
+    },
+    {
+      "path": "chapter-002.qmd",
+      "sha256": "e2da32aba553d378b0e32058f92b3321f2fa2f1b5b9f829b6dd64499d7891ebb"
+    },
+    {
+      "path": "chapter-003.qmd",
+      "sha256": "97c68bd57ec373d566db40242ab754352cae82f5cb4128bfdbedda75cacd5471"
+    },
+    {
+      "path": "chapter-004.qmd",
+      "sha256": "8875f20bd51aa0fa73cf0fa4ec0ab54cdd62aca65c01f4c72a79dc4ced4d7b13"
+    },
+    {
+      "path": "chapter-005.qmd",
+      "sha256": "7992acb91bdf78f228bb779826ae3e9849b24b73f3739c2a2a4d5097c02cb586"
+    },
+    {
+      "path": "chapter-006.qmd",
+      "sha256": "d092de4824e591414360c8c1aedceee53f417470d188642f34882d50d2f21319"
+    },
+    {
+      "path": "chapter-007.qmd",
+      "sha256": "caf10d5656e30a1ff619be232076cb7c39fee6083dba0b44f711f2a44f41fc15"
+    },
+    {
+      "path": "chapter-008.qmd",
+      "sha256": "6adf60322132320504c467b9f7985547d4d799bc0ba917512c2beb8fa87cc658"
+    },
+    {
+      "path": "chapter-009.qmd",
+      "sha256": "9877a4a680a84d2f0ef4d4723589c6e125c7321c97c675a490193a9d63493038"
+    },
+    {
+      "path": "chapter-010.qmd",
+      "sha256": "757660f8ede4f6b7faa3b9520bf709ff21a1357af54e3d13f4e971000cef7c65"
+    },
+    {
+      "path": "chapter-011.qmd",
+      "sha256": "75633754b54d833d698f9d4b472ccf4939e7efee1ddf228be0790af6d79bd330"
+    },
+    {
+      "path": "chapter-012.qmd",
+      "sha256": "0f1a8297854f46c7940856a082280618a6a10f52276c16d1d71c5cc5e96b8ab3"
+    },
+    {
+      "path": "chapter-013.qmd",
+      "sha256": "b320034bf6f70b2bbdbf96a3858556589be19579778b07fd6c94d862fb03bc05"
+    },
+    {
+      "path": "chapter-014.qmd",
+      "sha256": "b2c142fe3a8e945e85453789d5ee1d18fba39905f301b5350b6db45ff1c148c9"
+    },
+    {
+      "path": "chapter-015.qmd",
+      "sha256": "19a31f3f2b7a8e6fc2e5e1068fb2479603a8968c90a30ec3a549a15f75d26ba9"
+    },
+    {
+      "path": "chapter-016.qmd",
+      "sha256": "ac60c89ef77a4f9e6c537f5ad913ca666179e9624136f5fff920f2044585f4f2"
+    },
+    {
+      "path": "chapter-017.qmd",
+      "sha256": "2a2595ff4c1234d5d069b3b75784264ffbb037d09e3e730bde7bc877b48d90f7"
+    },
+    {
+      "path": "chapter-018.qmd",
+      "sha256": "d3cd1be0c38b4d55c62b70779db11780cb85345d8774199ce6a665fe651c43a0"
+    },
+    {
+      "path": "chapter-019.qmd",
+      "sha256": "fdce93f100b984928cf5854c321d48f441354cb4520cfb60990d89fb760579ed"
+    },
+    {
+      "path": "chapter-020.qmd",
+      "sha256": "8d7a84e26f4cf300e9901d5b274608638b97db7e6a9f15587d1a9548dd224e18"
+    },
+    {
+      "path": "chapter-021.qmd",
+      "sha256": "b3b37edc3719ede8c82e3cd30be049cecfc61106886476bb3cd56430337edbe3"
+    },
+    {
+      "path": "chapter-022.qmd",
+      "sha256": "02ab365f58caf72ec5c10ad4b3f5bf2c7785d810ec0f271f2b0b1cf77f1e0ae5"
+    },
+    {
+      "path": "chapter-023.qmd",
+      "sha256": "af5d03e4b47d8c659ec42da0688ca3decf7f27fa65870ef8028e0a09791fa733"
+    },
+    {
+      "path": "chapter-024.qmd",
+      "sha256": "a63ca1cad144984c12daba650085b48fad2dc27c180c4135a47e8e67bd0b3fb2"
+    },
+    {
+      "path": "chapter-025.qmd",
+      "sha256": "7b82ce207d2128b099a42647eac42ecd16f0c57267824b551d2261b6a6f39c01"
+    },
+    {
+      "path": "chapter-026.qmd",
+      "sha256": "9eea5d466dbb4e9aa091eb47b041fc4ea927f3cfba7dfa02e978fb392cf7aa82"
+    },
+    {
+      "path": "chapter-027.qmd",
+      "sha256": "4319ec60a74944b9876b24abfadc7cc27a70102f8384f30f2a0b2618e6822f50"
+    },
+    {
+      "path": "chapter-028.qmd",
+      "sha256": "6a1fbde9246dfdf959f5f4ed6a0458ab02fdf5058f1502160dab8abc621b341c"
+    },
+    {
+      "path": "chapter-029.qmd",
+      "sha256": "906c37bb92bdeaf372905aef5381535541f06f8e4ea3e0f82acfce8b5b105564"
+    },
+    {
+      "path": "chapter-030.qmd",
+      "sha256": "5b55cc4f31767dcc2721dbc31ce419406c9a8821523eba7a26f56755337f21b6"
+    },
+    {
+      "path": "chapter-031.qmd",
+      "sha256": "aa3b1e5bbfa8b7e8fe0131d500bda1a35aa7e21731bd7b233f937900babba48e"
+    },
+    {
+      "path": "chapter-032.qmd",
+      "sha256": "f042cb43a2831b6c138fa5ec06dd91c6ebafceae80ee21e9c77cc53285c55965"
+    }
+  ],
+  "outputs": [
+    {
+      "format": "html",
+      "path": "_book/index.html",
+      "sha256": "fbcbd9bfcb2ecdc4bd9fbea0e56b63a1ff518d2f2194e9ae05fa1260be8a9703"
+    },
+    {
+      "format": "pdf",
+      "path": "_book/suicide-corse-edition-2026-09-30-n3.pdf",
+      "sha256": "186da420c222aff505b7ed330f6e968205863c463cc425e1dbde729ada43b9e1"
+    },
+    {
+      "format": "epub",
+      "path": "_book/suicide-corse-edition-2026-09-30-n3.epub",
+      "sha256": "83f31d1af86afa6cab39c22705370f405d13ffb79b2fb3e94da4961fa91babcc"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "_book/chapter-001.html",
+      "sha256": "f27f5687b56e4bfcc46abd05e52f7fcd26a04b66a12b7899c991acc812e95524"
+    },
+    {
+      "path": "_book/chapter-002.html",
+      "sha256": "3fffdfc52c3e3f84070badc3052f2b1deedd5414382c7721c7e9ce8fcded166d"
+    },
+    {
+      "path": "_book/chapter-003.html",
+      "sha256": "f3d2721ce67c9216c39e434cfe8b3e98682ca3b6e4f9b69566eee0bb3f25e1c0"
+    },
+    {
+      "path": "_book/chapter-004.html",
+      "sha256": "487ed71d3b8af99b24c16132e1748043713ef4abe555265b60561c7e9c49c4dd"
+    },
+    {
+      "path": "_book/chapter-005.html",
+      "sha256": "aa9aa2b56ef63b7b00f702e6e2fde04238fceb6c8b500f52c873f059acf2c3c8"
+    },
+    {
+      "path": "_book/chapter-006.html",
+      "sha256": "70412b68f9ba525925972ac0969cdbac3657196d7f726e6b6e9531bd664afb8b"
+    },
+    {
+      "path": "_book/chapter-007.html",
+      "sha256": "42a7c3e77873ebbf4eebcf1e690d370636b1d30d39cab824c2dd60e47714fd55"
+    },
+    {
+      "path": "_book/chapter-008.html",
+      "sha256": "f4cf979232b6e8428cd200a867d7e64ac2e648c5b75a9c35f60af1e01c4a9016"
+    },
+    {
+      "path": "_book/chapter-009.html",
+      "sha256": "341bad859639a1367fdc03116b6df9e419eead9a78896b74ec1536b715ade6a7"
+    },
+    {
+      "path": "_book/chapter-010.html",
+      "sha256": "96d265b76fa53b25f4d9c3af8210f921540eff4ab39a410493ae6a8cfc1b9786"
+    },
+    {
+      "path": "_book/chapter-011.html",
+      "sha256": "18c93dbf738be07c483923c1f8743b8141b1d7d5ab79ad8cb863f4d030b21970"
+    },
+    {
+      "path": "_book/chapter-012.html",
+      "sha256": "6f9ce17ceae1674cc7813be04136dc97736926dad9560475cae2d2b39922a33e"
+    },
+    {
+      "path": "_book/chapter-013.html",
+      "sha256": "54ddb487ba5e7c2ffd2a51e1e61c3ed271859778520505ea5f1a5985a3cb4ab5"
+    },
+    {
+      "path": "_book/chapter-014.html",
+      "sha256": "5797ff0981f12bc284835863bfd70f94bd4678e0ef458f605fe2dcc7606ebab4"
+    },
+    {
+      "path": "_book/chapter-015.html",
+      "sha256": "f41b0c62ef7377c70e8cbf1546e898f15f019f2302702dcc5d303a0f2ecb70ff"
+    },
+    {
+      "path": "_book/chapter-016.html",
+      "sha256": "b372b721e43de93bdf85c8836b134ca883a39af99157fc9e68f27bd0510b7582"
+    },
+    {
+      "path": "_book/chapter-017.html",
+      "sha256": "8d56d94dfc1f619b2d86ad7a32d02c0f37639c6988b5b190113b90aa99e7a9e8"
+    },
+    {
+      "path": "_book/chapter-018.html",
+      "sha256": "fb45372f9df3ec02693cb423fc38a34c77f733418642512530e0b283c5a0eb2e"
+    },
+    {
+      "path": "_book/chapter-019.html",
+      "sha256": "192af444b6fa14f15ea2e2a0ad6a7c0cabfa1c0c84185601572ca870c838fc87"
+    },
+    {
+      "path": "_book/chapter-020.html",
+      "sha256": "5462cee3d46524310be85fe6efdca0ebadfaa41728312f4e100a0cafd46f37b3"
+    },
+    {
+      "path": "_book/chapter-021.html",
+      "sha256": "35d5e64c83aef635afb112644cc011e05ed611475a865bbce991bb2506b7d1ff"
+    },
+    {
+      "path": "_book/chapter-022.html",
+      "sha256": "c2de7ce2674d73fe3f8707d138570cda12dc63184ea8e7eb9071549878eecb7b"
+    },
+    {
+      "path": "_book/chapter-023.html",
+      "sha256": "2a953967e6a595fa7288b0fcea1bd977f321ade38d181ea6a2af996a2e923feb"
+    },
+    {
+      "path": "_book/chapter-024.html",
+      "sha256": "f37bd5cf6fed5da70530122c25175e60c47781178f225695772abe06b90373d7"
+    },
+    {
+      "path": "_book/chapter-025.html",
+      "sha256": "8d352e3c835821ea3625593315428bef842f6261a60989435197ab9541a85358"
+    },
+    {
+      "path": "_book/chapter-026.html",
+      "sha256": "350497c7162cbdadd48c4fcd5515cb0b7c21a49a77bc9040e8353681de4ee9e9"
+    },
+    {
+      "path": "_book/chapter-027.html",
+      "sha256": "b7ad3ae95f960851cb84283eeca99dbdcd028667115e84f48152973c5aa581df"
+    },
+    {
+      "path": "_book/chapter-028.html",
+      "sha256": "a1ce007a484082df6912fd6dab5a4d4eb1c35f3539f9d1c8bf441db4514d6b33"
+    },
+    {
+      "path": "_book/chapter-029.html",
+      "sha256": "07ed48b34fc5855dd356f8ad8bbcf2fa261233e090cb7aa3f178c99d0bb877e1"
+    },
+    {
+      "path": "_book/chapter-030.html",
+      "sha256": "3d8cc7bd4b3fa5c89d1329540d88228d4893b2678545587e746e970d5bcd3859"
+    },
+    {
+      "path": "_book/chapter-031.html",
+      "sha256": "a0cbc5072510a6d796fd8de3f7045c92bbe25acc3676f9e4f3d4d81f4d5b99bd"
+    },
+    {
+      "path": "_book/chapter-032.html",
+      "sha256": "1ab7a3f486066f0a89668f791ca2d25d9e95dbbfe0c2dbd2dd01a11818d9d043"
+    },
+    {
+      "path": "_book/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+      "sha256": "1ae63f73b2929081356f26b8e108beab72060b88f0611b6a11d90924244e090f"
+    },
+    {
+      "path": "_book/cover.css",
+      "sha256": "6924c058a72283d722aefae381e5b18be995567f4015189e031e28540185825f"
+    },
+    {
+      "path": "_book/index.html",
+      "sha256": "fbcbd9bfcb2ecdc4bd9fbea0e56b63a1ff518d2f2194e9ae05fa1260be8a9703"
+    },
+    {
+      "path": "_book/search.json",
+      "sha256": "02f86acc7cf611648f24b47d8cf56f9e330cdd1592066c1bae9def4beb8dd57e"
+    },
+    {
+      "path": "_book/site_libs/bootstrap/bootstrap-b35e3a6fcfb459ecd5b05c8a009cc594.min.css",
+      "sha256": "3cb5a67cac3e1da857ee59e0a32595d9be8c8025ec0f04e9b6ade6e2b532ed79"
+    },
+    {
+      "path": "_book/site_libs/bootstrap/bootstrap-icons.css",
+      "sha256": "01253947f506e030589e4f33fc7ec7ccdfb9505e2e596dedf16445f12e243c0a"
+    },
+    {
+      "path": "_book/site_libs/bootstrap/bootstrap-icons.woff",
+      "sha256": "f55513b7b591cb84a3b87ff0e34ea24d4831d6fedc22e54b911ca64b5b544a15"
+    },
+    {
+      "path": "_book/site_libs/bootstrap/bootstrap.min.js",
+      "sha256": "d2ea6c1e0cabca20d18e924b25a1cd0187c38ba7c33f60ab06e1b0402b9bcdb5"
+    },
+    {
+      "path": "_book/site_libs/clipboard/clipboard.min.js",
+      "sha256": "e17a1d816e13c0826e0ed7febfabc3277f45571234bde0bf9120829a7169edc9"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/anchor.min.js",
+      "sha256": "69098e105d990f834cff1b7886d873444228ff63c590e5ff834d568f1115ed8b"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/popper.min.js",
+      "sha256": "4d50586b184724d39ddfe0f6582861664eddd5e806e5a79e0dbaa832361414d0"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css",
+      "sha256": "4973a76eb0de3b99bc67687ab2ecea249e552bae328dd8a952dad89732e9ec18"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/quarto.js",
+      "sha256": "4ecb60f215d96b2af0fe9d985c71e32863b1c993a64725a416ac18b5991c59c6"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/tabsets/tabsets.js",
+      "sha256": "a9c226bf70e82eaf5476f619cecfb70b4446b87ce4d1634d6404b0b2ba006d15"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/tippy.css",
+      "sha256": "5969f497d9158d7682f8219c6f13fa67269cdf5bf50a3931d95327151dee5678"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/tippy.umd.min.js",
+      "sha256": "41181eeec6d7ba64cb9165f0e95563e34e026bde79e7c13aeec83270429b6fae"
+    },
+    {
+      "path": "_book/site_libs/quarto-nav/headroom.min.js",
+      "sha256": "5b80cc4165a661a3f2060d6bdb5ccff591f04c4f8e39a06c12d3c2544587cb17"
+    },
+    {
+      "path": "_book/site_libs/quarto-nav/quarto-nav.js",
+      "sha256": "a209dafb198d7c8e77cb398912b7225806e7b998211afa1fb269a4ef54ff56f6"
+    },
+    {
+      "path": "_book/site_libs/quarto-search/autocomplete.umd.js",
+      "sha256": "cd9db3b7d812139a4679a2566ea8f01b2a80159490a60b9e9e813e81b5e00a05"
+    },
+    {
+      "path": "_book/site_libs/quarto-search/fuse.min.js",
+      "sha256": "c57339c3fa16b1d69d9a6b46749a8139ef8d4fc9bbfe48144ff897aa7d4222ec"
+    },
+    {
+      "path": "_book/site_libs/quarto-search/quarto-search.js",
+      "sha256": "1a23221f499b3993dc66ca5c8913e4e6602dfa4652337e9fbf75139ded5ece68"
+    },
+    {
+      "path": "_book/suicide-corse-edition-2026-09-30-n3.epub",
+      "sha256": "83f31d1af86afa6cab39c22705370f405d13ffb79b2fb3e94da4961fa91babcc"
+    },
+    {
+      "path": "_book/suicide-corse-edition-2026-09-30-n3.pdf",
+      "sha256": "186da420c222aff505b7ed330f6e968205863c463cc425e1dbde729ada43b9e1"
+    }
+  ]
+}

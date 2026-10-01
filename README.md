@@ -1,6 +1,6 @@
 # Suicide Corse — dépôt de publication
 
-Ce dépôt héberge les **éditions publiées** (HTML + PDF) de *Suicide Corse, ou comment réaliser l'impossible*, par Jean Hugues Noël Robert.
+Ce dépôt héberge les **éditions publiées** (HTML, PDF et EPUB) de *Suicide Corse, ou comment réaliser l'impossible*, par Jean Hugues Noël Robert.
 
 - **Site public :** https://suicidecorse.baronsmariani.org
 - **Manuscrit source, corpus et doctrine éditoriale :** [`JeanHuguesRobert/barons-Mariani/projects/suicide-corse`](https://github.com/JeanHuguesRobert/barons-Mariani/tree/main/projects/suicide-corse)
@@ -15,6 +15,9 @@ Ce dépôt ne contient jamais de source éditoriale originale — seulement des 
 ```
 editions/
   2026-09-17/          # Numéro 1, édition gelée
+  2026-09-20-n2/       # Numéro 2, édition gelée
+  2026-09-30-n3-preview/ # Numéro 3, prévisualisation historique conservée
+  2026-09-30-n3/       # Numéro 3, édition gelée
     index.html
     chapter-XXX.html
     *.pdf
@@ -22,6 +25,8 @@ editions/
 index.html              # Landing page and edition-status navigation
 CNAME                   # suicidecorse.baronsmariani.org
 ```
+
+Le `manifest.json` identifie le snapshot source et les empreintes des formats rendus. Pour le n°3, `edition-status.json` distingue explicitement le gel éditorial de `publication_status: draft` dans le manifeste : ce dernier ne prétend pas qu'une revue contradictoire indépendante a été achevée. La prévisualisation reste accessible comme trace mais n'est plus l'édition courante.
 
 ## Ce dépôt N'EST PAS ce qui sert le site public
 

@@ -1,0 +1,20 @@
+{
+  "schema": "suicide-corse.edition-status.v1",
+  "edition": "Suicide Corse n°3 — Spécial sénatoriales — 30 septembre 2026",
+  "status": "edition-close",
+  "frozen": true,
+  "editorial_date": "2026-09-30",
+  "freeze_authorization": "https://github.com/JeanHuguesRobert/barons-Mariani/issues/91#issuecomment-5929165072",
+  "source_repository": "JeanHuguesRobert/barons-Mariani",
+  "source_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34",
+  "source_git_dirty": false,
+  "projection": "projects/suicide-corse/projections/book-n3-working.yml",
+  "renderer_repository": "JeanHuguesRobert/ubikia",
+  "renderer_commit": "86697e4717e7815d39a072a7a273e54745db34cc",
+  "render_manifest": "manifest.json",
+  "manifest_publication_status": "draft",
+  "independent_review_complete": false,
+  "preview_checkpoint": "../2026-09-30-n3-preview/",
+  "next_edition_issue": "https://github.com/JeanHuguesRobert/barons-Mariani/issues/90",
+  "post_freeze_rule": "New facts and corrections belong to a dated erratum, the current Corpus, or n°4; never silently rewrite this edition."
+}
