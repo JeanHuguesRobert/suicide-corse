@@ -11,19 +11,26 @@
     "edition": "Spécial sénatoriales — 30 septembre 2026",
     "author": "Jean Hugues Noël Robert",
     "author_title": "baron Mariani",
+    "print_pdf": {
+      "source": {
+        "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/assets/cover/suicide-corse-n3-cover-composition.pdf",
+        "sha256": "39734108fe653291bddb87fc5a95b7aa8cb102f1209f94f1da145312b27cc7c9"
+      },
+      "output_path": "cover/suicide-corse-n3-cover-composition.pdf"
+    },
     "image_role": "élément graphique central",
     "preserve_source_image": true,
     "source": {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/assets/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/assets/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
       "sha256": "1ae63f73b2929081356f26b8e108beab72060b88f0611b6a11d90924244e090f"
     },
     "output_path": "cover/bulletin_senatoriales_2026_baron_mariani_retenu.png"
   },
-  "built_at": "2026-09-30T17:58:00.724Z",
+  "built_at": "2026-10-01T09:19:51.501Z",
   "publication_status": "draft",
   "projection": {
-    "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/projections/book-n3-working.yml",
-    "sha256": "3cb90bf325d3a75a81607bb5db9a4b21c3d672dd436631c2c2f33d0858f78069",
+    "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/projections/book-n3-working.yml",
+    "sha256": "dff0ca098fe27b6d48429b28da61cb25868cc63825d79b0bde1a32a62e69d3ec",
     "schema": "suicide-corse.projection.book.v0",
     "contract": {
       "schema": "suicide-corse.projection.book.v0",
@@ -43,6 +50,7 @@
         "author": "Jean Hugues Noël Robert",
         "author_title": "baron Mariani",
         "image": "../assets/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+        "print_pdf": "../assets/cover/suicide-corse-n3-cover-composition.pdf",
         "image_role": "élément graphique central",
         "preserve_source_image": true
       },
@@ -748,562 +756,574 @@
     }
   },
   "source_manifest": {
-    "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/corpus.yml",
-    "sha256": "5c9f26d3e3c26db093e780877c1222fa8dc654df2ba4c88c072d97a01389317f"
+    "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/corpus.yml",
+    "sha256": "d7de85cb88c289ea65cb9399b1924184c6d1bb09842ba3a948d91aeb4517d39c"
   },
   "sources": [
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/procedures_2024_2026_reactivation_register.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/procedures_2024_2026_reactivation_register.md",
       "sha256": "c7993251a4815e9395c9580d311f720c025f807b2d60bac7c61b7ce31b184049",
       "role": "procedural-reactivation-and-reparation-register",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/07-pivot-rise-and-fall.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/07-pivot-rise-and-fall.md",
       "sha256": "5c577c28971623b071473a5669bf8b35d54298b7d35f762e2d635624fc9d4e53",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/architecture.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/architecture.md",
       "sha256": "5a7b639a3fe031a074e812b4f6312ecbd40ec3b5b715e236c7ca1718a9547b12",
       "role": "project-architecture",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/editorial-architecture.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/editorial-architecture.md",
       "sha256": "ded9618f75857d9049a282360fb28ea2e3974edda474982cc6506b764c9122d9",
       "role": "editorial-architecture",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/kudos.md",
-      "sha256": "86fff51e98375a6ec1c0b80e9ce4f1789c3f8ea4f4f059b661bf5a12979da840",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/kudos.md",
+      "sha256": "e4f06255e65556fa20e1b3d036ca83d54a79273652d1d296712726ba8fa39341",
       "role": "complementary-currency-and-counter-gift-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/stigmergie_sans_limite_haute.md",
-      "sha256": "0048b618df349132b6d8742bfb977c73cc22825b38255024cee011aabca4b135",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/stigmergie_sans_limite_haute.md",
+      "sha256": "ec9eda7a5a69da822d14ba0c7bfc82120b70ab3d5e328e1c6291ae1b00b27cf8",
       "role": "stigmergic-method-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/README.md",
       "sha256": "445b97dbc478e94039b2433f2c33b623b143851c10065fc344d048a497c6f541",
       "role": "source-index",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/carte.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/carte.md",
       "sha256": "21601133afd36b39387a0ecdb7f982a2d502a2f7544cc27354c0298e3bf72cce",
       "role": "documentary-map",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/possible_matrix.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/possible_matrix.md",
       "sha256": "6c4fae7a8e7044c4b5f968b59395d516d07e36a1e7c1bac48a6e4440e9f2e1ed",
       "role": "research-matrix",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/possible_matrix.yaml",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/possible_matrix.yaml",
       "sha256": "982b2234b6fa40e46dfb024f84dfc4df5c64d9b07fa3f54129f980846293132a",
       "role": "machine-readable-projection",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/2024_portes_et_controles_epistemiques.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/2024_portes_et_controles_epistemiques.md",
       "sha256": "e7df141fb398b458a4343c34e0935f98debe74863f3ef7004785d9593349486e",
       "role": "research-matrix",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/formation/parcours_artistique_2016_2022.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/formation/parcours_artistique_2016_2022.md",
       "sha256": "bed42ed6332c3c13dc3d4ebf87f3d6a0e4e6c077d14f0fb5a41028d427749b6b",
       "role": "source-collection",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/works/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/works/README.md",
       "sha256": "8963f200d1b70a5e32861c52fb29a1f362c172b883553117419da2ad6fba5711",
       "role": "source-index",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/elections/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/elections/README.md",
       "sha256": "ead8f54ca22138343a7af5b868dbc39ef6364c4eb42a5f231b7936e1054a4d4e",
       "role": "source-index",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/elections/capability-matrix-2017-2024.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/elections/capability-matrix-2017-2024.md",
       "sha256": "6bdc1c05a2cf99a9da89787f988288725f51cd2a48db2ffff9c0280c84d27b59",
       "role": "longitudinal-capability-analysis",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/works/catalogue/entries-post-n2-2026-09-24.yml",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/works/catalogue/entries-post-n2-2026-09-24.yml",
       "sha256": "d04510b9c410f764cb847705022d16ab07afd2b9347ae4b2f3ba262e9f9f82ce",
       "role": "post-n2-work-catalogue-supplement",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/identites.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/identites.md",
       "sha256": "68de113bb19bfe07da91483b7b6de3b7930e51c353d79f607835f194dbe30242",
       "role": "identity-record",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/elections-2024-complaints.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/elections-2024-complaints.md",
       "sha256": "5b4a04c47f0aca5573f7f04c2dc9247f346a4789feffa1023b6b2d21de99e76c",
       "role": "longitudinal-electoral-and-remedy-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/chronology/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/chronology/README.md",
       "sha256": "d0006de48a6c3b5f661723dc27dccf4b18978332e5bcff0b90bcd11828fc0751",
       "role": "source-collection",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/witnesses/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/witnesses/README.md",
       "sha256": "5ba7809e326a4facdb97274bfb64d9b0da2ecf7a5e5c2c9d3f9ec4082e58c134",
       "role": "inquiry-method-and-index",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/memory/marie-louise/enquete-gendarmerie/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/memory/marie-louise/enquete-gendarmerie/README.md",
       "sha256": "533f4f472b171835b36d1a559ff7293e5314a640b115ec07b93604b0a4c5bac5",
       "role": "inquiry-collection",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/musee-mariani/casabianca/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/musee-mariani/casabianca/README.md",
       "sha256": "57f257f183316d6662e1236b38d8c6d1ab29abaf0f4168e971c56bed13c04273",
       "role": "family-source-collection",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/musee-mariani/mariani/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/musee-mariani/mariani/README.md",
       "sha256": "555dc09851319574bc7c5b645a3ab4736843671d8e3890f27122fca9cda5fb07",
       "role": "family-source-collection",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/musee-mariani/dangelis/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/musee-mariani/dangelis/README.md",
       "sha256": "3f83227e89db13575299262e91a8ee0e4f71870a313d3765eda879963510cabc",
       "role": "family-source-collection",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/triangulation_du_reel.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/triangulation_du_reel.md",
       "sha256": "e31c1575e119e17a3e63c4328532f8dd51b6e0b1ef8bc30a9b349c54eb5fb9db",
       "role": "methodological-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/protection_responsable.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/protection_responsable.md",
       "sha256": "0aff979ec3968e14c97d853525e6ccb3f59cf11a18d6010373affce13e801bdd",
       "role": "research-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/second_method.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/second_method.md",
       "sha256": "f22b5fbc48d30a1f4f1bc4a53095cdf2c7ba18f9f853a85ab72d550829390027",
       "role": "methodological-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/potentics.md",
-      "sha256": "57e7cc248021d7b45561aa7e3e74ff422a7260ac24d72612d9a884cc5a07ced4",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/potentics.md",
+      "sha256": "5306d58af67acd5f4f7fa078ac98bc44da1f01194e334863e0534d6ecfc3ce0c",
       "role": "methodological-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/noyau_doctrinal_rendre_capable.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/noyau_doctrinal_rendre_capable.md",
       "sha256": "0894363247983524ad2fe0163259045dbab6525e2b0f5402476cb9308dac632a",
       "role": "doctrinal-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/democratie_capable.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/democratie_capable.md",
       "sha256": "cc0b1623acf6c511911d46aa90e7136bf0a62bdb30a6f295183d1429af126bb6",
       "role": "doctrinal-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/responsabilite_effectivite.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/responsabilite_effectivite.md",
       "sha256": "228af366bd09e667c3c7bc991092b586acb151fc773b95bf93b47bea784af555",
       "role": "doctrinal-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/capable/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/capable/README.md",
       "sha256": "b7905bb9c7486e655085e7f6714ae1a7ce3b296aeed19deda0d3c9847316f261",
       "role": "public-political-projection",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/capable/public-claims.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/capable/public-claims.md",
       "sha256": "419a8fdf1b9a33dc6cae65916817790745e4acc88d07fe83e6900eb8181e1b7d",
       "role": "public-claims-register",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/capable/reality-tests/capable-2026-09-27-baseline.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/capable/reality-tests/capable-2026-09-27-baseline.md",
       "sha256": "faf128cf6a960cc7d206b5a7ed3600773315db4669708b59b18857b87e6a2004",
       "role": "pre-outcome-reality-test",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/case_studies/capable_test_marie_louise_2024.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/case_studies/capable_test_marie_louise_2024.md",
       "sha256": "67ac9a364cece7ea4c0716fe95e9eec7d7592456741de54b15977fb86c7be585",
       "role": "sensitive-derived-reality-case",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/audits/2026-09-27-pre-freeze-n3.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-27-pre-freeze-n3.md",
       "sha256": "c8bb7a2898cdc86bbdfc02368b4d397f3910ef52a915b9e716d6bc8f38f219bd",
       "role": "editorial-audit",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/audits/2026-09-28-reader-audit-n3.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-28-reader-audit-n3.md",
       "sha256": "2de62d39063119131bb6e902682af932f73cca5e7d68bc9792f37ccc7623cfe5",
       "role": "reader-audit",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/audits/2026-09-29-special-senatoriales-late-close.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-29-special-senatoriales-late-close.md",
       "sha256": "4990f042e0893e167f613db2aaa207a338933fba345f7acc27c9fd781686810f",
       "role": "exceptional-late-close-audit",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/audits/2026-09-30-special-senatoriales-editorial-date.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-30-special-senatoriales-editorial-date.md",
       "sha256": "b9573ef79fcd73bc06b5440915156281d48dc3bebdb5dea9de961dfa57dce8a1",
       "role": "editorial-date-decision",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/audits/2026-09-30-special-senatoriales-content-close.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-30-special-senatoriales-content-close.md",
       "sha256": "c701b93cb18ba7817500992f4d3a3dddffc7311ec80c30127800711770b7ca30",
       "role": "editorial-content-close-decision",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/investigation/uchronie_troisieme_candidat_matrice_probes_2026-09-29.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/journals/2026-09-30-conservation-affichage-et-reprise.md",
+      "sha256": "2c43d4f8764a59e446d6db6f4c425a6520e4762729b2b5c66a2bc2badb93bc49",
+      "role": "conservation-record",
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/journals/2026-10-01-conservation-reprise.md",
+      "sha256": "1ef1d8874cfc235aa524578d9203e79d64f51ec47b7a401d29d045d1fc181832",
+      "role": "conservation-record",
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
+    },
+    {
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/uchronie_troisieme_candidat_matrice_probes_2026-09-29.md",
       "sha256": "de510b4e26689ac47aa84d5d059f3766f824f0e640f37901a8537aab609b3c3b",
       "role": "constrained-electoral-uchronia-probe-matrix",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/investigation/uchronie_troisieme_candidat_2026-09-29.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/uchronie_troisieme_candidat_2026-09-29.md",
       "sha256": "f49a78519dd7ef9a698d201ca11a857977ffa59b2c7b01e5a2cd6c52faccb12d",
       "role": "constrained-electoral-uchronia",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/investigation/borne_contrefactuelle_offre_troisieme_candidature_2026-09-29.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/borne_contrefactuelle_offre_troisieme_candidature_2026-09-29.md",
       "sha256": "e78c67a87e2dc8a04d302dfbdee1e41ef55830b8fefceddd3a067b8ead7cb882",
       "role": "electoral-counterfactual-analysis",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/audits/2026-09-28-final-content-sweep-n3.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/audits/2026-09-28-final-content-sweep-n3.md",
       "sha256": "1b830480679b2973563fe957027f9282a06cd584de490f1b9d54a0678586f89b",
       "role": "final-content-audit",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/trails/une_corse_capable.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/trails/une_corse_capable.md",
       "sha256": "e2d02db55a910a1cd24d0d0a9c57c361acf2824dd017d4d6cfe44dfe987c8d8b",
       "role": "trail",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/declaration_continuite_electorale_2026-09-17.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/declaration_continuite_electorale_2026-09-17.md",
       "sha256": "19511bd32c5e8d5c7875ca41702b39dbd048f88a46b5bdb63ee28f96af13055b",
       "role": "dated-declaration",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/README.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/README.md",
       "sha256": "c963a474211a56c8b8ecfbe89849f6b7c3bafd09bb44254b31fbb815b51ecfc6",
       "role": "inquiry-index",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/investigation/chronology.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/chronology.md",
       "sha256": "34d9e9d6c2c134ace6d63f2231c1ce4635d1f8ff27cad6435bac724e7329efe9",
       "role": "evidence-chronology",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/investigation/knowledge-matrix.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/knowledge-matrix.md",
       "sha256": "2184fe4ea2ae92a9b234cb850e2918f70555d4d2388ebafce5a052ad7920bfde",
       "role": "knowledge-matrix",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/investigation/sources.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/sources.md",
       "sha256": "1b4826aa1d8a9318644c7edd24a2154e68153ff5bd798e131a4f06594aa1ad8b",
       "role": "evidence-index",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/demande_consultation_pv_prefecture_2026-09-28.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/demande_consultation_pv_prefecture_2026-09-28.md",
       "sha256": "30db2f1e617fc9312dadc8feb72d109e035fbeb2f959e28b83cb568a700bd169",
       "role": "document-access-probe-with-response",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/demande_information_sous_prefecture_corte_2026-09-28.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/demande_information_sous_prefecture_corte_2026-09-28.md",
       "sha256": "0980634f390d7427ee168b92e67329a4630d5cb801e202e0d2f479c6aa4b1c9e",
       "role": "sent-procedural-channel-probe",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/qpc/qpc-a-candidature-senatoriale-2026.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/qpc/qpc-a-candidature-senatoriale-2026.md",
       "sha256": "35ecfd88e02822ae3b1103a72983b4b9a0fdbec8fd5a7ae299ee649d80870639",
       "role": "qpc-procedural-qualification",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/investigation/convergence_scrutin_requete_amendement_qpc_2026-09-29.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/investigation/convergence_scrutin_requete_amendement_qpc_2026-09-29.md",
       "sha256": "38de0371f8e4a046d96abdac2c078f76a849df4d8f6f83c9262a9ff4d5ca332d",
       "role": "cross-track-convergence-checkpoint",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/senatoriales-2026/requete-conseil-constitutionnel-projet-v0.2.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/senatoriales-2026/requete-conseil-constitutionnel-projet-v0.2.md",
       "sha256": "a544a397762766225a7df019b16df41f2e92adb9e8582df7987929670dd37535",
       "role": "legal-draft",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/rational_odysseys_the_possible.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/rational_odysseys_the_possible.md",
       "sha256": "d325ee2a751c7d8572331f35220e716e2395df718f1efe1094ba595229841c2e",
       "role": "conceptual-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/autonomia/grammaire_autonomie_de_capacite.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/autonomia/grammaire_autonomie_de_capacite.md",
       "sha256": "07b8ec21dedb2b3c4893a5b7b9da1f8d538ca77cbd4972fcd150ff4e4df7f86e",
       "role": "political-method-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/autonomia/amendement_effectivite_article_72-5.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/autonomia/amendement_effectivite_article_72-5.md",
       "sha256": "1162213f694b1234ff7c9059e7578d3877b2b89786637e2f7d4bee45527a546c",
       "role": "constitutional-proposal-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/autonomia/potentique_territoriale.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/autonomia/potentique_territoriale.md",
       "sha256": "6a4b11bcf5583cd57991c100c6ff1baf00becdeaa46c6c7b3740430f0d7f3b37",
       "role": "research-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/research/autonomia/corse_laboratoire.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/research/autonomia/corse_laboratoire.md",
       "sha256": "b51ecbf561891e1b6de575638271b67b332c8c0990244f108f7317a7e1aec292",
       "role": "research-source",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/00-ouverture.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/00-ouverture.md",
       "sha256": "13183b06f68a125ac38c7d000f06a8e551b555902d91dbfd3d3137ef633ef7f9",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/01-marie-louise.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/01-marie-louise.md",
       "sha256": "7715454d5b91e323dc0bf6e4f946924b98524bb36e8a3b1f099e88b01dd736e4",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
       "sha256": "f91af3642a33a1047eae38a9987204dd730244e37d9635ef2bcc2d5231624bb7",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/02-fermeture-des-possibles.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/02-fermeture-des-possibles.md",
       "sha256": "2359ff06a77afd19e6419c39ce97424e8da273ee8aa3dd2ba912686efe2a2d48",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/03-machine-a-empecher.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/03-machine-a-empecher.md",
       "sha256": "98f90feed7f7e5508a8cbf91e3d5332cfe040366e9f45126119ce89d092ddb8f",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/04-realiser-impossible.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/04-realiser-impossible.md",
       "sha256": "b3daf2b9fb1d670e48df76fff9ce6a5471670f864e8e5de079f1ec0797d150e0",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/06-vivre-transmettre.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/06-vivre-transmettre.md",
       "sha256": "56886b5ec10d00dcf15e26047494d6d877d7856dd68ceef8471429ae0ff43c5f",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/conclusion-realiser-impossible.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/conclusion-realiser-impossible.md",
       "sha256": "f27af35f70890ad53c6b903f57bbe5ed8b565d2f0c799c4619c73528217d2865",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/00-magazine.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/00-magazine.md",
       "sha256": "fadb3785be4900e4e6593fdf06ca6c5274891dab044b1feb98aeb63c4ab62cbd",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/01-le-reel-repond.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/01-le-reel-repond.md",
       "sha256": "054e42fcd44248e2ace4ad183c1d14af671b47001803d48f1143a29e75df1903",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/02-nouvelles-traces.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/02-nouvelles-traces.md",
       "sha256": "eb30f32af8c1ef6334e4bf22992e916684b47c61c255099d37c8f34fcecacb31",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/03-point-enquete.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/03-point-enquete.md",
       "sha256": "a4f461c84055ab411ef9687297f3bc550e4f1539d80966999b372eac3bfed545",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/04-reality-case-senatoriales.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/04-reality-case-senatoriales.md",
       "sha256": "94bb4e90f84f0208c9b4f76ee1e3752c2690f177810ac831210bffef59db5154",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/05-contrepoints.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/05-contrepoints.md",
       "sha256": "c5b04b138d7f9ae888ea9e8ca74daeab34c3376272077a08c3dc9be309ac3458",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/06-continuations.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/06-continuations.md",
       "sha256": "7365adb7eb520b6e1e8e1684cda4834843ce01cbc017698fcbe8afe58f7db269",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/annexes-introduction.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/annexes-introduction.md",
       "sha256": "1612fa03265e458c67b2232c5ec0a4ff821e55f09a1caf9b82cd8c69b3fd5f48",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
       "sha256": "ecdd4614d12e827534dddd23542423fc9ea52a1eaa4bb9245344fc1105257932",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
       "sha256": "805a73f1e5f50fbe9b68ab5f16ee2c63b270f938015fd8f78c28d8d3042033e4",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/11-impunite-par-obscurite.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/11-impunite-par-obscurite.md",
       "sha256": "13f98992fb4096eb1682ac126153cfba3c81b0dec7a673e3f739dfefcf379e66",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/12-carnet-de-serendipite.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/12-carnet-de-serendipite.md",
       "sha256": "cf46da33d1ae27bd9106049036024cbf0fd06fe40e54584394148ba47765d216",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/08-hypotheses-non-resolues.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/08-hypotheses-non-resolues.md",
       "sha256": "530315ba5569d38f3494b1ed0f02fd65f25eef81f751a2bc2462830f5ac2198b",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/14-le-dieu-de-leau-texte-integral.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/14-le-dieu-de-leau-texte-integral.md",
       "sha256": "ce50814ff496b93a76cf90096daa53bc892aab651aecb88a2d31ba838cb8f1ee",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/17-genealogie.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/17-genealogie.md",
       "sha256": "a4df73f2e1f986ee5fb110270f97609c51578bf9912d1aaf2de2a6a7b0fd7e9e",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/chronologie.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/chronologie.md",
       "sha256": "d3ca85d46a67969e8f9ee7e260ace7867f9b494f8dd8a8d89b9a2a9e44975271",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/annuaire.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/annuaire.md",
       "sha256": "cef3e08e3d87ef343a8740fea6c913afbbc30731664e86d8020cb69cc8f987c3",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/questions-ouvertes.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/questions-ouvertes.md",
       "sha256": "1e3bf9733e1274f32563b85f339fcad04a01fdeadfb26b3340e47646ad7e60f7",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/13-proverbes-epigraphes.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/13-proverbes-epigraphes.md",
       "sha256": "e1c7f24642982c42fd72581db3ce72975d1e960c50321b31fbf37d849d549339",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/16-continuations.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/16-continuations.md",
       "sha256": "fb88e224b38437a90f2ede5b4b2f542af6c1d583622e637f8031dd7f53c601b0",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/appel-a-contribution.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/appel-a-contribution.md",
       "sha256": "6abbbcce3b4524b659093dd4a54385f8518f34043d876b84feee41a615ca0602",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
       "sha256": "d196eb7ae531963081dc22053760e5709500cbc513949966a8628e4f83c0cf5c",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/19-ours.md",
-      "sha256": "35d26d5371166e2edcc06d30b8305987e0546a2b254b25d13abf6778247453ac",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/19-ours.md",
+      "sha256": "a787d0082ea2fbf32afa70f665ba6af5d3ad36ec5ae4f1b2baa0f963a0a08e5e",
       "role": "chapter",
-      "git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7"
+      "git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69"
     }
   ],
-  "source_git_commit": "9db0774be21643b2e3b3cd8c29a251f61e66a7b7",
+  "source_git_commit": "6946c6786c51b04a12edacbfd258e4c34f4f4c69",
   "source_git_dirty": false,
   "chapters": [
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/00-ouverture.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/00-ouverture.md",
       "frontmatter": {
         "title": "Ouverture",
         "author": "Jean Hugues Noël Robert",
@@ -1346,7 +1366,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/01-marie-louise.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/01-marie-louise.md",
       "frontmatter": {
         "title": "Marie-Louise — une vie en mouvement",
         "author": "Jean Hugues Noël Robert",
@@ -1387,7 +1407,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/15-la-parole-de-marie-louise.md",
       "frontmatter": {
         "title": "La parole de Marie-Louise",
         "author": "Jean Hugues Noël Robert",
@@ -1431,7 +1451,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/02-fermeture-des-possibles.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/02-fermeture-des-possibles.md",
       "frontmatter": {
         "title": "Quand les possibles se ferment",
         "author": "Jean Hugues Noël Robert",
@@ -1471,7 +1491,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/03-machine-a-empecher.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/03-machine-a-empecher.md",
       "frontmatter": {
         "title": "La Machine à Empêcher",
         "author": "Jean Hugues Noël Robert",
@@ -1510,7 +1530,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/04-realiser-impossible.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/04-realiser-impossible.md",
       "frontmatter": {
         "title": "De l'empêchement à la capacité",
         "author": "Jean Hugues Noël Robert",
@@ -1554,7 +1574,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/06-vivre-transmettre.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/06-vivre-transmettre.md",
       "frontmatter": {
         "title": "Changer d'échelle : la Corse",
         "author": "Jean Hugues Noël Robert",
@@ -1601,7 +1621,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/07-pivot-rise-and-fall.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/07-pivot-rise-and-fall.md",
       "frontmatter": {
         "title": "Quand deux époques se répondent — 1863 ↔ 2026",
         "author": "Jean Hugues Noël Robert",
@@ -1621,7 +1641,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/conclusion-realiser-impossible.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/conclusion-realiser-impossible.md",
       "frontmatter": {
         "title": "Réaliser l'impossible",
         "author": "Jean Hugues Noël Robert",
@@ -1653,7 +1673,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/00-magazine.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/00-magazine.md",
       "frontmatter": {
         "title": "Magazine — Spécial sénatoriales — 21 au 30 septembre 2026",
         "author": "Jean Hugues Noël Robert",
@@ -1668,7 +1688,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/01-le-reel-repond.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/01-le-reel-repond.md",
       "frontmatter": {
         "title": "Le Réel répond",
         "author": "Jean Hugues Noël Robert",
@@ -1682,7 +1702,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/02-nouvelles-traces.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/02-nouvelles-traces.md",
       "frontmatter": {
         "title": "Nouvelles traces",
         "author": "Jean Hugues Noël Robert",
@@ -1696,7 +1716,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/03-point-enquete.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/03-point-enquete.md",
       "frontmatter": {
         "title": "Le point de l'enquête",
         "author": "Jean Hugues Noël Robert",
@@ -1710,7 +1730,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/04-reality-case-senatoriales.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/04-reality-case-senatoriales.md",
       "frontmatter": {
         "title": "Reality Case — Sénatoriales 2026",
         "author": "Jean Hugues Noël Robert",
@@ -1732,7 +1752,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/05-contrepoints.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/05-contrepoints.md",
       "frontmatter": {
         "title": "Contrepoints",
         "author": "Jean Hugues Noël Robert",
@@ -1746,7 +1766,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/magazine-n3/06-continuations.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/magazine-n3/06-continuations.md",
       "frontmatter": {
         "title": "Continuations",
         "author": "Jean Hugues Noël Robert",
@@ -1760,7 +1780,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/annexes-introduction.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/annexes-introduction.md",
       "frontmatter": {
         "title": "Annexes — vérifier, approfondir, contribuer",
         "author": "Jean Hugues Noël Robert",
@@ -1775,7 +1795,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/09-test-invariance-echelle.md",
       "frontmatter": {
         "title": "Test d'invariance : Marie-Louise et la Corse, une même grammaire ?",
         "author": "Jean Hugues Noël Robert",
@@ -1815,7 +1835,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/10-stabilisateur-et-capacite-distribuee.md",
       "frontmatter": {
         "title": "Stabilisateur, capacité distribuée : deux invariants supplémentaires",
         "author": "Jean Hugues Noël Robert",
@@ -1856,7 +1876,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/11-impunite-par-obscurite.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/11-impunite-par-obscurite.md",
       "frontmatter": {
         "title": "Impunité par obscurité : un mécanisme sans auteur, à deux échelles",
         "author": "Jean Hugues Noël Robert",
@@ -1895,7 +1915,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/12-carnet-de-serendipite.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/12-carnet-de-serendipite.md",
       "frontmatter": {
         "title": "Carnet de sérendipité",
         "author": "Jean Hugues Noël Robert",
@@ -1935,7 +1955,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/08-hypotheses-non-resolues.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/08-hypotheses-non-resolues.md",
       "frontmatter": {
         "title": "Hypothèses non résolues — état au 30 septembre 2026",
         "author": "Jean Hugues Noël Robert",
@@ -1975,7 +1995,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/14-le-dieu-de-leau-texte-integral.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/14-le-dieu-de-leau-texte-integral.md",
       "frontmatter": {
         "title": "Le dieu de l'eau (2008) — texte intégral et mail original",
         "author": "Jean Hugues Noël Robert",
@@ -2013,7 +2033,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/17-genealogie.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/17-genealogie.md",
       "frontmatter": {
         "title": "Généalogie — Marie-Louise dans une histoire familiale plus longue",
         "description": "Projection généalogique des dossiers Casabianca, Mariani et d’Angelis vers Suicide Corse.",
@@ -2034,7 +2054,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/chronologie.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/chronologie.md",
       "frontmatter": {
         "title": "Chronologie",
         "author": "Jean Hugues Noël Robert",
@@ -2078,7 +2098,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/annuaire.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/annuaire.md",
       "frontmatter": {
         "title": "Annuaire",
         "author": "Jean Hugues Noël Robert",
@@ -2121,7 +2141,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/questions-ouvertes.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/questions-ouvertes.md",
       "frontmatter": {
         "title": "Suicide Corse — questions ouvertes de l'enquête",
         "author": "Jean Hugues Noël Robert",
@@ -2155,7 +2175,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/13-proverbes-epigraphes.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/13-proverbes-epigraphes.md",
       "frontmatter": {
         "title": "Proverbes corses — appareil de sourcing des épigraphes",
         "author": "Jean Hugues Noël Robert",
@@ -2190,7 +2210,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/16-continuations.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/16-continuations.md",
       "frontmatter": {
         "title": "Continuations — chantiers ouverts au bouclage du numéro 3",
         "author": "Jean Hugues Noël Robert",
@@ -2229,7 +2249,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/appel-a-contribution.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/appel-a-contribution.md",
       "frontmatter": {
         "title": "Une enquête qui appelle des compétences — appel ouvert à contribution",
         "subtitle": "De l'appel à témoignages à l'appel ouvert à contribution : mobiliser les savoirs juridiques, statistiques, historiques et techniques",
@@ -2258,7 +2278,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/17-appel-a-temoignages.md",
       "frontmatter": {
         "title": "Une nouvelle phase publique de l'enquête — appel à témoignages",
         "author": "Jean Hugues Noël Robert",
@@ -2296,7 +2316,7 @@
       }
     },
     {
-      "path": "/tmp/sc-n3-phase-a.b6fBIV/barons-published/projects/suicide-corse/manuscript/19-ours.md",
+      "path": "/tmp/sc-n3-prepub.vyDKLI/source-clean/projects/suicide-corse/manuscript/19-ours.md",
       "frontmatter": {
         "title": "Ours — Suicide Corse n°3",
         "author": "Jean Hugues Noël Robert",
@@ -2345,7 +2365,7 @@
   "generated": [
     {
       "path": "_quarto.yml",
-      "sha256": "b55ffe1bf9b36a6df743c72d4ac971e2bcb52155e7c5308962b440d80c5a9ca6"
+      "sha256": "bb79082562e2e1dd99607465b62e2ec478f4b399ce31e966d2594c4af0e3b0a9"
     },
     {
       "path": "cover.css",
@@ -2353,135 +2373,143 @@
     },
     {
       "path": "index.qmd",
-      "sha256": "08cf20bfad15217f00e3d6bd584d689043905b645957d9c857826d9960c5bad8"
+      "sha256": "896eb7ffd96d979adb5648b0e4d4bf426f10e2c838e64ef359953ed4227e331a"
+    },
+    {
+      "path": "before-body.tex",
+      "sha256": "80293ac1a5211f58693ad4a18f956a976e5b684acae450821e1314953a424d0e"
+    },
+    {
+      "path": "drop-cover.lua",
+      "sha256": "c86097500ebab1eb55602dd649e85dea69c11cb610bf39117d4048387092df4b"
     },
     {
       "path": "chapter-001.qmd",
-      "sha256": "20364b3231670c86fc22924588891add342a95d232b31b34d623f0106a23547c"
+      "sha256": "c4e8b3146c7cc7908cbcbcd9926f2658c9af8493f1c12718f0a15882f59956e3"
     },
     {
       "path": "chapter-002.qmd",
-      "sha256": "d09cb4d9232a6da7715b57c1c1379c57c2ce5ef43e2536751988cb124cae1e67"
+      "sha256": "e2da32aba553d378b0e32058f92b3321f2fa2f1b5b9f829b6dd64499d7891ebb"
     },
     {
       "path": "chapter-003.qmd",
-      "sha256": "0a020a84069e6493426784a3bb0050c803bea254ce50e969c99948e3771cbdda"
+      "sha256": "97c68bd57ec373d566db40242ab754352cae82f5cb4128bfdbedda75cacd5471"
     },
     {
       "path": "chapter-004.qmd",
-      "sha256": "de49f200a3aac0fee36c61de786c4596b565272a2f404ce49875361b83d905e0"
+      "sha256": "8875f20bd51aa0fa73cf0fa4ec0ab54cdd62aca65c01f4c72a79dc4ced4d7b13"
     },
     {
       "path": "chapter-005.qmd",
-      "sha256": "3eda98cf9a1f7c697315a71c614eca5688f9b4b5aae138b0629d4385f071f4da"
+      "sha256": "7992acb91bdf78f228bb779826ae3e9849b24b73f3739c2a2a4d5097c02cb586"
     },
     {
       "path": "chapter-006.qmd",
-      "sha256": "810b22499111481ef898819ea85733cec925e24799cf1ea7beae8c7216adaae4"
+      "sha256": "d092de4824e591414360c8c1aedceee53f417470d188642f34882d50d2f21319"
     },
     {
       "path": "chapter-007.qmd",
-      "sha256": "ee16fc602831377fbadf82f95eaffc30c0cda110a2804a04d49e88af910b7bf8"
+      "sha256": "caf10d5656e30a1ff619be232076cb7c39fee6083dba0b44f711f2a44f41fc15"
     },
     {
       "path": "chapter-008.qmd",
-      "sha256": "1b300bb71b78d125dddc0fc224f8b65a5874116b48aeef71a02cda77f755810b"
+      "sha256": "6adf60322132320504c467b9f7985547d4d799bc0ba917512c2beb8fa87cc658"
     },
     {
       "path": "chapter-009.qmd",
-      "sha256": "b34dc494657d14893ae6c0a2eaf4960cd7d78bd0ef26b02f2163120d74988b56"
+      "sha256": "9877a4a680a84d2f0ef4d4723589c6e125c7321c97c675a490193a9d63493038"
     },
     {
       "path": "chapter-010.qmd",
-      "sha256": "9422471c0f8b5b956fc84387ba25eb59cb04e1d594cc642aa4f5380b4967e728"
+      "sha256": "cbd5d0bd21dbcd331b048f8f6cd43924f30c25c7707375360324ded83677a39a"
     },
     {
       "path": "chapter-011.qmd",
-      "sha256": "45acf6846bc816fd58b809abcb69bacc1aa6618094db272e173425287d9b7fa8"
+      "sha256": "75633754b54d833d698f9d4b472ccf4939e7efee1ddf228be0790af6d79bd330"
     },
     {
       "path": "chapter-012.qmd",
-      "sha256": "53da0de2c3adb8d90232824d35850f7e59983e103c306b78c83a4f370fb8f7b9"
+      "sha256": "0f1a8297854f46c7940856a082280618a6a10f52276c16d1d71c5cc5e96b8ab3"
     },
     {
       "path": "chapter-013.qmd",
-      "sha256": "a15a968f4071b19473b294210085f8208ba137531ae5d021d0318a7c3a396cd6"
+      "sha256": "b320034bf6f70b2bbdbf96a3858556589be19579778b07fd6c94d862fb03bc05"
     },
     {
       "path": "chapter-014.qmd",
-      "sha256": "e43a69c1b1cb95140592487882ac07d1a3e7e1cb6049a83524e523bb35aa6151"
+      "sha256": "b2c142fe3a8e945e85453789d5ee1d18fba39905f301b5350b6db45ff1c148c9"
     },
     {
       "path": "chapter-015.qmd",
-      "sha256": "b8ad048b2de70d1e88e054c4216ab933658c8c4d60426e827c1d20e08e982c52"
+      "sha256": "19a31f3f2b7a8e6fc2e5e1068fb2479603a8968c90a30ec3a549a15f75d26ba9"
     },
     {
       "path": "chapter-016.qmd",
-      "sha256": "3176300d6ea331091d63d5f299bd05106a1ea8767e28bd8871aea06561b45f7b"
+      "sha256": "ac60c89ef77a4f9e6c537f5ad913ca666179e9624136f5fff920f2044585f4f2"
     },
     {
       "path": "chapter-017.qmd",
-      "sha256": "99eabd6a545732d2337de07f44a25d21d84acba7a56a0ccb3e72a5d046e6145a"
+      "sha256": "2a2595ff4c1234d5d069b3b75784264ffbb037d09e3e730bde7bc877b48d90f7"
     },
     {
       "path": "chapter-018.qmd",
-      "sha256": "4ce241b85b6cbebeb752ed4471c4decdbc14c90ef10030aa8799c2240afcd53b"
+      "sha256": "d3cd1be0c38b4d55c62b70779db11780cb85345d8774199ce6a665fe651c43a0"
     },
     {
       "path": "chapter-019.qmd",
-      "sha256": "1a20286e7e1424fc3897e9b5a4bab64c06c48c995b81e52a206148cff55cacf3"
+      "sha256": "fdce93f100b984928cf5854c321d48f441354cb4520cfb60990d89fb760579ed"
     },
     {
       "path": "chapter-020.qmd",
-      "sha256": "8dc12c84a02d01bb177ecc881b21587c779c13bff5c5100332076c171f191b05"
+      "sha256": "8d7a84e26f4cf300e9901d5b274608638b97db7e6a9f15587d1a9548dd224e18"
     },
     {
       "path": "chapter-021.qmd",
-      "sha256": "b833f7d7957ad962d52ec83deafa516768a1bb4b80725922015750840ed6972b"
+      "sha256": "b3b37edc3719ede8c82e3cd30be049cecfc61106886476bb3cd56430337edbe3"
     },
     {
       "path": "chapter-022.qmd",
-      "sha256": "e800880c4199e662ca5710c2daffd868e4263f6b8e29c9afd0c0db839e1bc7f5"
+      "sha256": "02ab365f58caf72ec5c10ad4b3f5bf2c7785d810ec0f271f2b0b1cf77f1e0ae5"
     },
     {
       "path": "chapter-023.qmd",
-      "sha256": "01235d841915a5cc365d9dc23b0188842b5d9f0bba962e4130dfce49d4be865e"
+      "sha256": "af5d03e4b47d8c659ec42da0688ca3decf7f27fa65870ef8028e0a09791fa733"
     },
     {
       "path": "chapter-024.qmd",
-      "sha256": "2a23746ddc3c07bc5967de01c270ecff61a62097c432c99ad801944be9f4e710"
+      "sha256": "95946c399ca6b35f730b8daa9085629c09390b7bd48c09b542f860862a5f2c1f"
     },
     {
       "path": "chapter-025.qmd",
-      "sha256": "9bb661a264f4111385682814aa9810bfd3d6eb0abee45ec720b0c07d1a184041"
+      "sha256": "7b82ce207d2128b099a42647eac42ecd16f0c57267824b551d2261b6a6f39c01"
     },
     {
       "path": "chapter-026.qmd",
-      "sha256": "bfb685b88c5881eff3813f56594d870a0c0f066f2f87ca2a343a4d0fa11653c6"
+      "sha256": "9eea5d466dbb4e9aa091eb47b041fc4ea927f3cfba7dfa02e978fb392cf7aa82"
     },
     {
       "path": "chapter-027.qmd",
-      "sha256": "4fc83db487f746681c285a4d7ef014610feb8ee011756b6f6ef7048dd452c3ae"
+      "sha256": "4319ec60a74944b9876b24abfadc7cc27a70102f8384f30f2a0b2618e6822f50"
     },
     {
       "path": "chapter-028.qmd",
-      "sha256": "1ba37f2bc81f13fd7cbed0468da65b8924ef7c44752d55907150b653582ed5af"
+      "sha256": "6a1fbde9246dfdf959f5f4ed6a0458ab02fdf5058f1502160dab8abc621b341c"
     },
     {
       "path": "chapter-029.qmd",
-      "sha256": "84c6e9deb9f20e37d4e4f12ba408d9bcb720c406c64c6c8559b55bd7b824726b"
+      "sha256": "11912fa190d5e60871aa0a1fbbfaf7fdca8999f0b73451c12dc7d591876170dd"
     },
     {
       "path": "chapter-030.qmd",
-      "sha256": "148454761f952cb87be37a8f5c3c61f9003f93b23424b85e46aec4083f21e748"
+      "sha256": "5b55cc4f31767dcc2721dbc31ce419406c9a8821523eba7a26f56755337f21b6"
     },
     {
       "path": "chapter-031.qmd",
-      "sha256": "c08f2743344b30b685bdb4b53ff5e9a10a66e5e7a0f9cae2552f62ab2649a513"
+      "sha256": "aa3b1e5bbfa8b7e8fe0131d500bda1a35aa7e21731bd7b233f937900babba48e"
     },
     {
       "path": "chapter-032.qmd",
-      "sha256": "a2ed5343bf2c7964b53b1b6a12374bc096521feee5a4a12cd35ad0ba33fa4f1c"
+      "sha256": "7c05df206495c0b5f901f4b2c2d3537da769bed1fa9563f91453704f99ecd0f4"
     }
   ],
   "outputs": [
@@ -2493,12 +2521,12 @@
     {
       "format": "pdf",
       "path": "_book/suicide-corse-n3-working.pdf",
-      "sha256": "766900792bded9e46c1ad7cea35188dcd44a94808f0d6a5a1360f2a7e4650665"
+      "sha256": "cd6710a2b5406a4073dbe97e9e7580aa4ebc6a7c4b21342e871c77b57b792c63"
     },
     {
       "format": "epub",
       "path": "_book/suicide-corse-n3-working.epub",
-      "sha256": "a12e29fb8adde34633a4f0b2868c2789e6ad2f042ecb82c0af99e93bf6a40fbd"
+      "sha256": "61ae1bf1bdde703b6ce4854e020b871422237086e68c33e7e85ce997daa4d948"
     }
   ],
   "artifacts": [
@@ -2628,7 +2656,7 @@
     },
     {
       "path": "_book/chapter-032.html",
-      "sha256": "e439e202a6ddcc780dda8070b9007bb26e1d6d1b8f95bf8f0d32de84e7f9c8a2"
+      "sha256": "9ca2f8e7040f581c374b6d0ac4df4f477de4c155a8b5083bd210c625d39bbc81"
     },
     {
       "path": "_book/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
@@ -2644,7 +2672,7 @@
     },
     {
       "path": "_book/search.json",
-      "sha256": "a3514ca48462e329baa22887278d65bbc976ba6ba047156f4b5771201d870caa"
+      "sha256": "f3fe98f66614f4b6047f961f5b868eda1ff68856b6e4cd4571332dc1f4b7f06d"
     },
     {
       "path": "_book/site_libs/bootstrap/bootstrap-b35e3a6fcfb459ecd5b05c8a009cc594.min.css",
@@ -2716,11 +2744,11 @@
     },
     {
       "path": "_book/suicide-corse-n3-working.epub",
-      "sha256": "a12e29fb8adde34633a4f0b2868c2789e6ad2f042ecb82c0af99e93bf6a40fbd"
+      "sha256": "61ae1bf1bdde703b6ce4854e020b871422237086e68c33e7e85ce997daa4d948"
     },
     {
       "path": "_book/suicide-corse-n3-working.pdf",
-      "sha256": "766900792bded9e46c1ad7cea35188dcd44a94808f0d6a5a1360f2a7e4650665"
+      "sha256": "cd6710a2b5406a4073dbe97e9e7580aa4ebc6a7c4b21342e871c77b57b792c63"
     }
   ]
 }
