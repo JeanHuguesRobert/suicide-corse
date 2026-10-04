@@ -1,0 +1,744 @@
+{
+  "schema": "ubikia.reactive-build.v0",
+  "edition_id": "suicide-corse-n4-preparation",
+  "medium": "book",
+  "previous_edition_id": null,
+  "parent_edition_id": null,
+  "cover": {
+    "title": "Suicide Corse",
+    "subtitle": "ou comment réaliser l'impossible",
+    "issue": "N° 4",
+    "edition": "En préparation — non gelée",
+    "author": "Jean Hugues Noël Robert",
+    "author_title": "baron Mariani",
+    "image_role": "élément graphique central",
+    "preserve_source_image": true,
+    "source": {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/assets/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+      "sha256": "1ae63f73b2929081356f26b8e108beab72060b88f0611b6a11d90924244e090f"
+    },
+    "output_path": "cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+    "print_pdf": null
+  },
+  "built_at": "2026-10-04T15:57:23.234Z",
+  "publication_status": "draft",
+  "projection": {
+    "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/projections/book-n4-preparation.yml",
+    "sha256": "6f6998398ffd3fa3bd48bf263a523bc2ccaa3049a6426c6e8f23d92858fd068e",
+    "schema": "suicide-corse.projection.book.v0",
+    "contract": {
+      "schema": "suicide-corse.projection.book.v0",
+      "id": "suicide-corse-n4-preparation",
+      "status": "preparation",
+      "render_ready": true,
+      "language": "fr",
+      "title": "Suicide Corse",
+      "subtitle": "ou comment réaliser l'impossible",
+      "author": "Jean Hugues Noël Robert",
+      "edition_label": "Numéro 4 — en préparation",
+      "cover": {
+        "title": "Suicide Corse",
+        "subtitle": "ou comment réaliser l'impossible",
+        "issue": "N° 4",
+        "edition": "En préparation — non gelée",
+        "author": "Jean Hugues Noël Robert",
+        "author_title": "baron Mariani",
+        "image": "../assets/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+        "image_role": "élément graphique central",
+        "preserve_source_image": true
+      },
+      "source_manifest": "../corpus.yml",
+      "related_issue": 90,
+      "predecessor_freeze": {
+        "source_commit": "a20919f95be54c8226bcd3df08b21f731d1d2e34",
+        "artifact_commit": "fc3de4a1c2d2738dee915a35c0922b25353edbd2",
+        "declaration": "../editions/2026-09-30-n3-freeze.md"
+      },
+      "edition": {
+        "number": 4,
+        "editorial_date": null,
+        "publication_date": null,
+        "date_is_intentionally_unset": true,
+        "label": "en préparation",
+        "rule": "This render is replaceable. It is not a freeze. The final table of contents remains open."
+      },
+      "preparation": {
+        "state": "public-preview",
+        "frozen": false,
+        "living_view": "../suivi.md",
+        "constat": "../../../research/senatoriales-2026/investigation/constat-consultation-2026-10-01-rp-sen-08-c.md",
+        "petition_draft": "../../../research/senatoriales-2026/requete-conseil-constitutionnel-projet-v0.4.md",
+        "petition_status": "working draft, not filed, content not fixed",
+        "note": "Magazine of the known post-n3 delta. The Book is not recomposed. Unknowns stay visible."
+      },
+      "chapters": [
+        "../manuscript/magazine-n4/00-en-preparation.md",
+        "../manuscript/magazine-n4/01-rendez-vous-1er-octobre.md",
+        "../manuscript/magazine-n4/02-influence-et-comparaison.md",
+        "../manuscript/magazine-n4/03-ce-qui-reste-ouvert.md"
+      ],
+      "outputs": {
+        "required": [
+          "html",
+          "pdf",
+          "epub"
+        ],
+        "optional": [],
+        "status": "preparation render; publication_status remains draft; not a freeze",
+        "technical_manifest": "required"
+      }
+    }
+  },
+  "source_manifest": {
+    "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/corpus.yml",
+    "sha256": "2f06be5fa23167ffbb1912b0e1165746ab4f9a37d768d545863ae0345918862d"
+  },
+  "sources": [
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/investigation/analyse_statistique_comparee_2A_2B_2020_2026.md",
+      "sha256": "f9f46e5ef765b997cd1a1b0951b5beef761f6df557ec57ef6ebcbc8bab2c7673",
+      "role": "comparative-electoral-statistical-analysis",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/procedures_2024_2026_reactivation_register.md",
+      "sha256": "c7993251a4815e9395c9580d311f720c025f807b2d60bac7c61b7ce31b184049",
+      "role": "procedural-reactivation-and-reparation-register",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/07-pivot-rise-and-fall.md",
+      "sha256": "5c577c28971623b071473a5669bf8b35d54298b7d35f762e2d635624fc9d4e53",
+      "role": "cross-project-book-pivot",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/architecture.md",
+      "sha256": "ab9347572eb02022739612f3b3cf11e63cb21e3c4840b6c252b012e9e7fa5212",
+      "role": "project-architecture",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/editorial-architecture.md",
+      "sha256": "ded9618f75857d9049a282360fb28ea2e3974edda474982cc6506b764c9122d9",
+      "role": "editorial-architecture",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/kudos.md",
+      "sha256": "e4f06255e65556fa20e1b3d036ca83d54a79273652d1d296712726ba8fa39341",
+      "role": "complementary-currency-and-counter-gift-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/stigmergie_sans_limite_haute.md",
+      "sha256": "ec9eda7a5a69da822d14ba0c7bfc82120b70ab3d5e328e1c6291ae1b00b27cf8",
+      "role": "stigmergic-method-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/README.md",
+      "sha256": "445b97dbc478e94039b2433f2c33b623b143851c10065fc344d048a497c6f541",
+      "role": "source-index",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/carte.md",
+      "sha256": "21601133afd36b39387a0ecdb7f982a2d502a2f7544cc27354c0298e3bf72cce",
+      "role": "documentary-map",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/possible_matrix.md",
+      "sha256": "6c4fae7a8e7044c4b5f968b59395d516d07e36a1e7c1bac48a6e4440e9f2e1ed",
+      "role": "research-matrix",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/possible_matrix.yaml",
+      "sha256": "982b2234b6fa40e46dfb024f84dfc4df5c64d9b07fa3f54129f980846293132a",
+      "role": "machine-readable-projection",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/2024_portes_et_controles_epistemiques.md",
+      "sha256": "e7df141fb398b458a4343c34e0935f98debe74863f3ef7004785d9593349486e",
+      "role": "research-matrix",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/formation/parcours_artistique_2016_2022.md",
+      "sha256": "bed42ed6332c3c13dc3d4ebf87f3d6a0e4e6c077d14f0fb5a41028d427749b6b",
+      "role": "source-collection",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/README.md",
+      "sha256": "8963f200d1b70a5e32861c52fb29a1f362c172b883553117419da2ad6fba5711",
+      "role": "source-index",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/elections/README.md",
+      "sha256": "ead8f54ca22138343a7af5b868dbc39ef6364c4eb42a5f231b7936e1054a4d4e",
+      "role": "source-index",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/elections/capability-matrix-2017-2024.md",
+      "sha256": "6bdc1c05a2cf99a9da89787f988288725f51cd2a48db2ffff9c0280c84d27b59",
+      "role": "longitudinal-capability-analysis",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/works/catalogue/entries-post-n2-2026-09-24.yml",
+      "sha256": "d04510b9c410f764cb847705022d16ab07afd2b9347ae4b2f3ba262e9f9f82ce",
+      "role": "post-n2-work-catalogue-supplement",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/identites.md",
+      "sha256": "68de113bb19bfe07da91483b7b6de3b7930e51c353d79f607835f194dbe30242",
+      "role": "identity-record",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/elections-2024-complaints.md",
+      "sha256": "5b4a04c47f0aca5573f7f04c2dc9247f346a4789feffa1023b6b2d21de99e76c",
+      "role": "longitudinal-electoral-and-remedy-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/chronology/README.md",
+      "sha256": "d0006de48a6c3b5f661723dc27dccf4b18978332e5bcff0b90bcd11828fc0751",
+      "role": "source-collection",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/witnesses/README.md",
+      "sha256": "5ba7809e326a4facdb97274bfb64d9b0da2ecf7a5e5c2c9d3f9ec4082e58c134",
+      "role": "inquiry-method-and-index",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/memory/marie-louise/enquete-gendarmerie/README.md",
+      "sha256": "533f4f472b171835b36d1a559ff7293e5314a640b115ec07b93604b0a4c5bac5",
+      "role": "inquiry-collection",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/musee-mariani/casabianca/README.md",
+      "sha256": "57f257f183316d6662e1236b38d8c6d1ab29abaf0f4168e971c56bed13c04273",
+      "role": "family-source-collection",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/musee-mariani/mariani/README.md",
+      "sha256": "555dc09851319574bc7c5b645a3ab4736843671d8e3890f27122fca9cda5fb07",
+      "role": "family-source-collection",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/musee-mariani/dangelis/README.md",
+      "sha256": "3f83227e89db13575299262e91a8ee0e4f71870a313d3765eda879963510cabc",
+      "role": "family-source-collection",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/triangulation_du_reel.md",
+      "sha256": "e31c1575e119e17a3e63c4328532f8dd51b6e0b1ef8bc30a9b349c54eb5fb9db",
+      "role": "methodological-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/protection_responsable.md",
+      "sha256": "0aff979ec3968e14c97d853525e6ccb3f59cf11a18d6010373affce13e801bdd",
+      "role": "research-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/second_method.md",
+      "sha256": "f22b5fbc48d30a1f4f1bc4a53095cdf2c7ba18f9f853a85ab72d550829390027",
+      "role": "methodological-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/potentics.md",
+      "sha256": "bebf9485f6e08fa870cc4cf5f0fa2b6e617d21d57183e0b16f82539437dc5da1",
+      "role": "methodological-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/noyau_doctrinal_rendre_capable.md",
+      "sha256": "0894363247983524ad2fe0163259045dbab6525e2b0f5402476cb9308dac632a",
+      "role": "doctrinal-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/democratie_capable.md",
+      "sha256": "cc0b1623acf6c511911d46aa90e7136bf0a62bdb30a6f295183d1429af126bb6",
+      "role": "doctrinal-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/responsabilite_effectivite.md",
+      "sha256": "228af366bd09e667c3c7bc991092b586acb151fc773b95bf93b47bea784af555",
+      "role": "doctrinal-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/capable/README.md",
+      "sha256": "94a07c2173e406385d58f325ad69e99ec6ea7ededcd2bf9f05a756b7c0f2a157",
+      "role": "public-political-projection",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/capable/public-claims.md",
+      "sha256": "419a8fdf1b9a33dc6cae65916817790745e4acc88d07fe83e6900eb8181e1b7d",
+      "role": "public-claims-register",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/capable/reality-tests/capable-2026-09-27-baseline.md",
+      "sha256": "faf128cf6a960cc7d206b5a7ed3600773315db4669708b59b18857b87e6a2004",
+      "role": "pre-outcome-reality-test",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/case_studies/capable_test_marie_louise_2024.md",
+      "sha256": "67ac9a364cece7ea4c0716fe95e9eec7d7592456741de54b15977fb86c7be585",
+      "role": "sensitive-derived-reality-case",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/audits/2026-09-27-pre-freeze-n3.md",
+      "sha256": "c8bb7a2898cdc86bbdfc02368b4d397f3910ef52a915b9e716d6bc8f38f219bd",
+      "role": "editorial-audit",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/audits/2026-09-28-reader-audit-n3.md",
+      "sha256": "2de62d39063119131bb6e902682af932f73cca5e7d68bc9792f37ccc7623cfe5",
+      "role": "reader-audit",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/audits/2026-09-29-special-senatoriales-late-close.md",
+      "sha256": "4990f042e0893e167f613db2aaa207a338933fba345f7acc27c9fd781686810f",
+      "role": "exceptional-late-close-audit",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/audits/2026-09-30-special-senatoriales-editorial-date.md",
+      "sha256": "b9573ef79fcd73bc06b5440915156281d48dc3bebdb5dea9de961dfa57dce8a1",
+      "role": "editorial-date-decision",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/audits/2026-09-30-special-senatoriales-content-close.md",
+      "sha256": "c701b93cb18ba7817500992f4d3a3dddffc7311ec80c30127800711770b7ca30",
+      "role": "editorial-content-close-decision",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/journals/2026-09-30-conservation-affichage-et-reprise.md",
+      "sha256": "2c43d4f8764a59e446d6db6f4c425a6520e4762729b2b5c66a2bc2badb93bc49",
+      "role": "conservation-record",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/journals/2026-10-01-conservation-reprise.md",
+      "sha256": "1ef1d8874cfc235aa524578d9203e79d64f51ec47b7a401d29d045d1fc181832",
+      "role": "conservation-record",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/investigation/uchronie_troisieme_candidat_matrice_probes_2026-09-29.md",
+      "sha256": "372edb63db235cf82c0f6c276d9537a8123dbbc5c6e959f30ebbf879e5bff746",
+      "role": "constrained-electoral-uchronia-probe-matrix",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/investigation/uchronie_troisieme_candidat_2026-09-29.md",
+      "sha256": "f49a78519dd7ef9a698d201ca11a857977ffa59b2c7b01e5a2cd6c52faccb12d",
+      "role": "constrained-electoral-uchronia",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/investigation/borne_contrefactuelle_offre_troisieme_candidature_2026-09-29.md",
+      "sha256": "e78c67a87e2dc8a04d302dfbdee1e41ef55830b8fefceddd3a067b8ead7cb882",
+      "role": "electoral-counterfactual-analysis",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/audits/2026-09-28-final-content-sweep-n3.md",
+      "sha256": "1b830480679b2973563fe957027f9282a06cd584de490f1b9d54a0678586f89b",
+      "role": "final-content-audit",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/trails/une_corse_capable.md",
+      "sha256": "e2d02db55a910a1cd24d0d0a9c57c361acf2824dd017d4d6cfe44dfe987c8d8b",
+      "role": "trail",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/declaration_continuite_electorale_2026-09-17.md",
+      "sha256": "19511bd32c5e8d5c7875ca41702b39dbd048f88a46b5bdb63ee28f96af13055b",
+      "role": "dated-declaration",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/README.md",
+      "sha256": "8b3344dcfa701d9c576c3c38ec6c04ee5391f965c796982da49f97f1b171157d",
+      "role": "inquiry-index",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/investigation/chronology.md",
+      "sha256": "98c99fd52f7ea2313f133bd6580c17d909a8352ba3a1468c0bc231635fad24ed",
+      "role": "evidence-chronology",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/investigation/knowledge-matrix.md",
+      "sha256": "2184fe4ea2ae92a9b234cb850e2918f70555d4d2388ebafce5a052ad7920bfde",
+      "role": "knowledge-matrix",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/investigation/sources.md",
+      "sha256": "20a2e81ab01220beac5194a1afdca42cc642b08a127697216445aa64ec291f34",
+      "role": "evidence-index",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/demande_consultation_pv_prefecture_2026-09-28.md",
+      "sha256": "30db2f1e617fc9312dadc8feb72d109e035fbeb2f959e28b83cb568a700bd169",
+      "role": "document-access-probe-with-response",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/demande_information_sous_prefecture_corte_2026-09-28.md",
+      "sha256": "0980634f390d7427ee168b92e67329a4630d5cb801e202e0d2f479c6aa4b1c9e",
+      "role": "sent-procedural-channel-probe",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/qpc/qpc-a-candidature-senatoriale-2026.md",
+      "sha256": "35ecfd88e02822ae3b1103a72983b4b9a0fdbec8fd5a7ae299ee649d80870639",
+      "role": "qpc-procedural-qualification",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/investigation/convergence_scrutin_requete_amendement_qpc_2026-09-29.md",
+      "sha256": "38de0371f8e4a046d96abdac2c078f76a849df4d8f6f83c9262a9ff4d5ca332d",
+      "role": "cross-track-convergence-checkpoint",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/senatoriales-2026/requete-conseil-constitutionnel-projet-v0.2.md",
+      "sha256": "5368275b4b8cfc980e863158174c0e108263a537cf901be7d48a42a25284da16",
+      "role": "legal-draft",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/rational_odysseys_the_possible.md",
+      "sha256": "d325ee2a751c7d8572331f35220e716e2395df718f1efe1094ba595229841c2e",
+      "role": "conceptual-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/autonomia/grammaire_autonomie_de_capacite.md",
+      "sha256": "07b8ec21dedb2b3c4893a5b7b9da1f8d538ca77cbd4972fcd150ff4e4df7f86e",
+      "role": "political-method-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/autonomia/amendement_effectivite_article_72-5.md",
+      "sha256": "1162213f694b1234ff7c9059e7578d3877b2b89786637e2f7d4bee45527a546c",
+      "role": "constitutional-proposal-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/autonomia/potentique_territoriale.md",
+      "sha256": "6a4b11bcf5583cd57991c100c6ff1baf00becdeaa46c6c7b3740430f0d7f3b37",
+      "role": "research-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/research/autonomia/corse_laboratoire.md",
+      "sha256": "b51ecbf561891e1b6de575638271b67b332c8c0990244f108f7317a7e1aec292",
+      "role": "research-source",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/magazine-n4/00-en-preparation.md",
+      "sha256": "4142e7d859206bd5396ada1e347ab94197b9fbea8f8aa28502eac2fb89fc5c7e",
+      "role": "chapter",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/magazine-n4/01-rendez-vous-1er-octobre.md",
+      "sha256": "580972fbfd395c23c78745701efbd54b3011b9aec129565ef2335f09b218a690",
+      "role": "chapter",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/magazine-n4/02-influence-et-comparaison.md",
+      "sha256": "6fa11539e2be48960765d8c06690fb2a1a6bb106a44080c2413a76d9cc12114b",
+      "role": "chapter",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/magazine-n4/03-ce-qui-reste-ouvert.md",
+      "sha256": "350c55234c4b6156e96673217d1bee2f3427f81cf3de3c54dc1ec14b6e0a17ac",
+      "role": "chapter",
+      "git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7"
+    }
+  ],
+  "source_git_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7",
+  "source_git_dirty": false,
+  "chapters": [
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/magazine-n4/00-en-preparation.md",
+      "frontmatter": {
+        "title": "Numéro 4 — en préparation",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-10-04",
+        "status": "preparation",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "magazine-introduction",
+        "visibility": "public",
+        "lifecycle_state": "working"
+      }
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/magazine-n4/01-rendez-vous-1er-octobre.md",
+      "frontmatter": {
+        "title": "Le rendez-vous du 1er octobre",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-10-04",
+        "status": "preparation",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "source_documents": [
+          "../../../research/senatoriales-2026/investigation/constat-consultation-2026-10-01-rp-sen-08-c.md",
+          "../../../research/senatoriales-2026/investigation/sources/bulletin-nul-baron-mariani-2026-10-01.md",
+          "../../../research/senatoriales-2026/investigation/sources/courriel-prefecture-adresse-rendez-vous-2026-10-01.md",
+          "../../../research/senatoriales-2026/investigation/sources/courriel-reponse-adresse-rendez-vous-2026-10-01.md"
+        ]
+      }
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/magazine-n4/02-influence-et-comparaison.md",
+      "frontmatter": {
+        "title": "Deux analyses, pas une prédiction",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-10-04",
+        "status": "preparation",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "source_documents": [
+          "../../../research/senatoriales-2026/investigation/contre_cela_naurait_rien_change_2026-10-02.md",
+          "../../../research/senatoriales-2026/investigation/analyse_statistique_comparee_2A_2B_2020_2026.md"
+        ]
+      }
+    },
+    {
+      "path": "/home/ubuntu/barons-Mariani/projects/suicide-corse/manuscript/magazine-n4/03-ce-qui-reste-ouvert.md",
+      "frontmatter": {
+        "title": "Ce qui reste ouvert",
+        "author": "Jean Hugues Noël Robert",
+        "date": "2026-10-04",
+        "status": "preparation",
+        "language": "fr",
+        "license": "CC BY-SA 4.0",
+        "document_role": "derived",
+        "document_kind": "magazine-rubric",
+        "visibility": "public",
+        "lifecycle_state": "working",
+        "source_documents": [
+          "../../../research/senatoriales-2026/requete-conseil-constitutionnel-projet-v0.4.md",
+          "../../../research/senatoriales-2026/investigation/sources/courriel-greffe-ta-reponse-2026-10-01.md"
+        ]
+      }
+    }
+  ],
+  "missing_optional_sources": [],
+  "renderer": {
+    "name": "quarto",
+    "version": "1.10.18"
+  },
+  "generator": {
+    "name": "ubikia.reactive-products",
+    "version": "0"
+  },
+  "generated": [
+    {
+      "path": "_quarto.yml",
+      "sha256": "b5555430f3859e00824f5749d964d32609980a01dd258145d83966b10fe7fd7a"
+    },
+    {
+      "path": "cover.css",
+      "sha256": "6924c058a72283d722aefae381e5b18be995567f4015189e031e28540185825f"
+    },
+    {
+      "path": "index.qmd",
+      "sha256": "c418389e7fc4e3af2f9c50fa189d10bec76e1523bd2a23c6abcdfdbb8981576c"
+    },
+    {
+      "path": "chapter-001.qmd",
+      "sha256": "bcd8f11a8b186d8b7a8baf51eeaf0710794f7e39ee15213c23d4fd35eaa3da6a"
+    },
+    {
+      "path": "chapter-002.qmd",
+      "sha256": "973f63a36a985a290f7fe887b614863a8ae60be5fb5bcbca8027dc6a0fc2bfec"
+    },
+    {
+      "path": "chapter-003.qmd",
+      "sha256": "a3fea238a215298c35d6f14f3478ea78b0379f673b606e6e662d096efb9c44e1"
+    },
+    {
+      "path": "chapter-004.qmd",
+      "sha256": "4dc27e5ad9ecd7672b9ba3585537eb7e9d8eb6c51fd927c06b8571a8ddcde923"
+    }
+  ],
+  "outputs": [
+    {
+      "format": "html",
+      "path": "_book/index.html",
+      "sha256": "82040e66988a66007ccde105d63cd6f82fff58b46c6a33560840e9b4657d1bb6"
+    },
+    {
+      "format": "pdf",
+      "path": "_book/suicide-corse-n4-preparation.pdf",
+      "sha256": "429ac9dde839084197054c9c0ef872befb4751c34c67ea9dbc168eb1b4074c62"
+    },
+    {
+      "format": "epub",
+      "path": "_book/suicide-corse-n4-preparation.epub",
+      "sha256": "c5d7e1de66cf508216ef043010570208dd75164e330eb5bcc07cc5dbf6fc3ed5"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "_book/chapter-001.html",
+      "sha256": "3e0d1884a7dff816909c80b6f18bc956c9cab9516c5e20437c4d6fa7a65f0d16"
+    },
+    {
+      "path": "_book/chapter-002.html",
+      "sha256": "46a4c2e62d58552de2bb297298b51c3af33e5d9e2c27387f186d79fe708bfebc"
+    },
+    {
+      "path": "_book/chapter-003.html",
+      "sha256": "e74b6496c16443b6e530549169c0a587c8cd1ec22a55ab4f9c92e4cd1c6792a5"
+    },
+    {
+      "path": "_book/chapter-004.html",
+      "sha256": "2b72e008573206d035b8f9f5274c105c9a97f702c4d418f75fcb32087087a440"
+    },
+    {
+      "path": "_book/cover/bulletin_senatoriales_2026_baron_mariani_retenu.png",
+      "sha256": "1ae63f73b2929081356f26b8e108beab72060b88f0611b6a11d90924244e090f"
+    },
+    {
+      "path": "_book/cover.css",
+      "sha256": "6924c058a72283d722aefae381e5b18be995567f4015189e031e28540185825f"
+    },
+    {
+      "path": "_book/index.html",
+      "sha256": "82040e66988a66007ccde105d63cd6f82fff58b46c6a33560840e9b4657d1bb6"
+    },
+    {
+      "path": "_book/search.json",
+      "sha256": "4db9824cb800d31cad564a36400a019676c0072a68b364b5aaaaa35f24a0dc53"
+    },
+    {
+      "path": "_book/site_libs/bootstrap/bootstrap-b35e3a6fcfb459ecd5b05c8a009cc594.min.css",
+      "sha256": "3cb5a67cac3e1da857ee59e0a32595d9be8c8025ec0f04e9b6ade6e2b532ed79"
+    },
+    {
+      "path": "_book/site_libs/bootstrap/bootstrap-icons.css",
+      "sha256": "01253947f506e030589e4f33fc7ec7ccdfb9505e2e596dedf16445f12e243c0a"
+    },
+    {
+      "path": "_book/site_libs/bootstrap/bootstrap-icons.woff",
+      "sha256": "f55513b7b591cb84a3b87ff0e34ea24d4831d6fedc22e54b911ca64b5b544a15"
+    },
+    {
+      "path": "_book/site_libs/bootstrap/bootstrap.min.js",
+      "sha256": "d2ea6c1e0cabca20d18e924b25a1cd0187c38ba7c33f60ab06e1b0402b9bcdb5"
+    },
+    {
+      "path": "_book/site_libs/clipboard/clipboard.min.js",
+      "sha256": "e17a1d816e13c0826e0ed7febfabc3277f45571234bde0bf9120829a7169edc9"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/anchor.min.js",
+      "sha256": "69098e105d990f834cff1b7886d873444228ff63c590e5ff834d568f1115ed8b"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/popper.min.js",
+      "sha256": "4d50586b184724d39ddfe0f6582861664eddd5e806e5a79e0dbaa832361414d0"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css",
+      "sha256": "4973a76eb0de3b99bc67687ab2ecea249e552bae328dd8a952dad89732e9ec18"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/quarto.js",
+      "sha256": "4ecb60f215d96b2af0fe9d985c71e32863b1c993a64725a416ac18b5991c59c6"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/tabsets/tabsets.js",
+      "sha256": "a9c226bf70e82eaf5476f619cecfb70b4446b87ce4d1634d6404b0b2ba006d15"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/tippy.css",
+      "sha256": "5969f497d9158d7682f8219c6f13fa67269cdf5bf50a3931d95327151dee5678"
+    },
+    {
+      "path": "_book/site_libs/quarto-html/tippy.umd.min.js",
+      "sha256": "41181eeec6d7ba64cb9165f0e95563e34e026bde79e7c13aeec83270429b6fae"
+    },
+    {
+      "path": "_book/site_libs/quarto-nav/headroom.min.js",
+      "sha256": "5b80cc4165a661a3f2060d6bdb5ccff591f04c4f8e39a06c12d3c2544587cb17"
+    },
+    {
+      "path": "_book/site_libs/quarto-nav/quarto-nav.js",
+      "sha256": "a209dafb198d7c8e77cb398912b7225806e7b998211afa1fb269a4ef54ff56f6"
+    },
+    {
+      "path": "_book/site_libs/quarto-search/autocomplete.umd.js",
+      "sha256": "cd9db3b7d812139a4679a2566ea8f01b2a80159490a60b9e9e813e81b5e00a05"
+    },
+    {
+      "path": "_book/site_libs/quarto-search/fuse.min.js",
+      "sha256": "c57339c3fa16b1d69d9a6b46749a8139ef8d4fc9bbfe48144ff897aa7d4222ec"
+    },
+    {
+      "path": "_book/site_libs/quarto-search/quarto-search.js",
+      "sha256": "1a23221f499b3993dc66ca5c8913e4e6602dfa4652337e9fbf75139ded5ece68"
+    },
+    {
+      "path": "_book/suicide-corse-n4-preparation.epub",
+      "sha256": "c5d7e1de66cf508216ef043010570208dd75164e330eb5bcc07cc5dbf6fc3ed5"
+    },
+    {
+      "path": "_book/suicide-corse-n4-preparation.pdf",
+      "sha256": "429ac9dde839084197054c9c0ef872befb4751c34c67ea9dbc168eb1b4074c62"
+    }
+  ]
+}
