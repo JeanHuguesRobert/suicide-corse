@@ -1,0 +1,20 @@
+{
+  "schema": "suicide-corse.edition-status.v1",
+  "edition": "Suicide Corse n°4 — en préparation",
+  "status": "preparation",
+  "frozen": false,
+  "editorial_date": null,
+  "source_repository": "JeanHuguesRobert/barons-Mariani",
+  "source_commit": "405b2233fc0ee3fe63b3cddacaa9dbe1419ee1e7",
+  "projection": "projects/suicide-corse/projections/book-n4-preparation.yml",
+  "renderer_repository": "JeanHuguesRobert/ubikia",
+  "renderer_commit": "86697e4717e7815d39a072a7a273e54745db34cc",
+  "render_manifest": "manifest.json",
+  "manifest_publication_status": "draft",
+  "artifact_commit": "e4c91f1c61b2d7ca1b6ca129c0d99ced874f5d76",
+  "replaceable": true,
+  "final_table_of_contents_fixed": false,
+  "predecessor_frozen_edition": "../2026-09-30-n3/",
+  "living_view": "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/projects/suicide-corse/suivi.md",
+  "rule": "This preparation render may be replaced. It does not freeze n°4 and it does not rewrite frozen n°3."
+}
